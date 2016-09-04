@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2706A0EC1D7C579E0031F76A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0EB1D7C579E0031F76A /* DataManager.swift */; };
+		2706A0EE1D7C58DB0031F76A /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0ED1D7C58DB0031F76A /* Style.swift */; };
 		271929E71D776E42004383E3 /* picData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 271929E61D776E42004383E3 /* picData.plist */; };
 		271929E91D7774F9004383E3 /* WordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */; };
 		2735629C1D7A1AD700302289 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735629B1D7A1AD700302289 /* Helper.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		2706A0EB1D7C579E0031F76A /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		2706A0ED1D7C58DB0031F76A /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		271929E61D776E42004383E3 /* picData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = picData.plist; sourceTree = "<group>"; };
 		271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCollectionViewCell.swift; sourceTree = "<group>"; };
 		2735629B1D7A1AD700302289 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				273562A61D7AFB1200302289 /* WordCollectionView.swift */,
 				271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */,
+				2706A0ED1D7C58DB0031F76A /* Style.swift */,
 			);
 			name = Words;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				277FD8971D76379F009FE0BA /* ContextCollectionViewCell.swift in Sources */,
 				271929E91D7774F9004383E3 /* WordCollectionViewCell.swift in Sources */,
 				2706A0EC1D7C579E0031F76A /* DataManager.swift in Sources */,
+				2706A0EE1D7C58DB0031F76A /* Style.swift in Sources */,
 				27B9579B1D7B149100731148 /* SelectionViewController.swift in Sources */,
 				2735629F1D7A25A300302289 /* KDDragAndDropManager.swift in Sources */,
 				276284F41D74D282001F8039 /* MainViewController.swift in Sources */,

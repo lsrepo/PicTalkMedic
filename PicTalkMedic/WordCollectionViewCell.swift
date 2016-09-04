@@ -28,13 +28,10 @@ class WordCollectionViewCell: UICollectionViewCell {
         
         self.layer.borderWidth = self.borderWidth
         self.layer.cornerRadius = self.borderRadius
+        self.backgroundColor = Style.wordCellBackgroundColor
         
     }
     
 }
 
 
-struct Style{
-    static let borderRadius:CGFloat = 5
-    static let borderWidth:CGFloat  = 1
-}

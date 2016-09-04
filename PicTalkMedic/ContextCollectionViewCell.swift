@@ -14,6 +14,7 @@ class ContextCollectionViewCell: UICollectionViewCell {
     
     @IBInspectable var borderRadius: CGFloat = Style.borderRadius
     @IBInspectable var borderWidth: CGFloat = Style.borderWidth
+   
     
     override func drawRect(rect: CGRect) {
         super.drawRect(rect)
@@ -21,7 +22,7 @@ class ContextCollectionViewCell: UICollectionViewCell {
         
         self.layer.borderWidth = self.borderWidth
         self.layer.cornerRadius = self.borderRadius
-        
+        self.backgroundColor = Style.contextCellBackgroundColor
     }
     
     
