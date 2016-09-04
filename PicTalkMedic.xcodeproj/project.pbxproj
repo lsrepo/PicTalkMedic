@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		2706A0EC1D7C579E0031F76A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0EB1D7C579E0031F76A /* DataManager.swift */; };
 		2706A0EE1D7C58DB0031F76A /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0ED1D7C58DB0031F76A /* Style.swift */; };
-		271929E71D776E42004383E3 /* picData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 271929E61D776E42004383E3 /* picData.plist */; };
+		2706A0F01D7C5A6A0031F76A /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2706A0EF1D7C5A6A0031F76A /* test.plist */; };
+		2706A0F21D7C5B450031F76A /* picData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2706A0F11D7C5B450031F76A /* picData.plist */; };
 		271929E91D7774F9004383E3 /* WordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */; };
 		2735629C1D7A1AD700302289 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735629B1D7A1AD700302289 /* Helper.swift */; };
 		2735629F1D7A25A300302289 /* KDDragAndDropManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735629E1D7A25A300302289 /* KDDragAndDropManager.swift */; };
@@ -43,7 +44,8 @@
 /* Begin PBXFileReference section */
 		2706A0EB1D7C579E0031F76A /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		2706A0ED1D7C58DB0031F76A /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
-		271929E61D776E42004383E3 /* picData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = picData.plist; sourceTree = "<group>"; };
+		2706A0EF1D7C5A6A0031F76A /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
+		2706A0F11D7C5B450031F76A /* picData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = picData.plist; sourceTree = "<group>"; };
 		271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCollectionViewCell.swift; sourceTree = "<group>"; };
 		2735629B1D7A1AD700302289 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		2735629E1D7A25A300302289 /* KDDragAndDropManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDDragAndDropManager.swift; sourceTree = "<group>"; };
@@ -120,7 +122,6 @@
 			children = (
 				273562AB1D7B03D600302289 /* ContextCollectionView.swift */,
 				277FD8961D76379F009FE0BA /* ContextCollectionViewCell.swift */,
-				2706A0EB1D7C579E0031F76A /* DataManager.swift */,
 			);
 			name = Context;
 			sourceTree = "<group>";
@@ -128,7 +129,6 @@
 		276284E51D74D282001F8039 = {
 			isa = PBXGroup;
 			children = (
-				271929E61D776E42004383E3 /* picData.plist */,
 				276284F01D74D282001F8039 /* PicTalkMedic */,
 				276285081D74D282001F8039 /* PicTalkMedicTests */,
 				276284EF1D74D282001F8039 /* Products */,
@@ -150,8 +150,9 @@
 				2735629D1D7A259800302289 /* Extension */,
 				276284F51D74D282001F8039 /* Main.storyboard */,
 				27B957A01D7B3A2800731148 /* SelectionView.xib */,
-				27B9579A1D7B149100731148 /* SelectionViewController.swift */,
 				276284F31D74D282001F8039 /* MainViewController.swift */,
+				27B9579A1D7B149100731148 /* SelectionViewController.swift */,
+				2706A0EB1D7C579E0031F76A /* DataManager.swift */,
 				273562AA1D7B034700302289 /* Context */,
 				273562A91D7AFCDB00302289 /* Words */,
 				273562A81D7AFCCB00302289 /* Message */,
@@ -172,6 +173,8 @@
 		278A97A11D7B115900617A5D /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				2706A0F11D7C5B450031F76A /* picData.plist */,
+				2706A0EF1D7C5A6A0031F76A /* test.plist */,
 				276284FD1D74D282001F8039 /* LaunchScreen.storyboard */,
 				276284F11D74D282001F8039 /* AppDelegate.swift */,
 				2735629B1D7A1AD700302289 /* Helper.swift */,
@@ -262,9 +265,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2706A0F01D7C5A6A0031F76A /* test.plist in Resources */,
 				276284FF1D74D282001F8039 /* LaunchScreen.storyboard in Resources */,
-				271929E71D776E42004383E3 /* picData.plist in Resources */,
 				27B957A11D7B3A2800731148 /* SelectionView.xib in Resources */,
+				2706A0F21D7C5B450031F76A /* picData.plist in Resources */,
 				276284FC1D74D282001F8039 /* Assets.xcassets in Resources */,
 				276284F71D74D282001F8039 /* Main.storyboard in Resources */,
 			);

@@ -31,7 +31,7 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
                 castedCell.switchGender()
             }
         }
-
+        
     }
     @IBAction func switchLang(sender: UIButton) {
     }
@@ -40,14 +40,15 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
     @IBOutlet weak var messageCollectionView: MessageColelctionView!
     @IBOutlet weak var contextCollectionView: ContextCollectionView!
     @IBOutlet weak var wordCollectionView: WordCollectionView!
-
+    
     
     //MARK: Variables
-   
+    
     var dragAndDropManager : KDDragAndDropManager?
     var selectedSub = 0
     var data = [[DataItem]]()
     let selectedLang = "en-UK"
+    let categorizedData = DataManager().importData("test")
     
     
     //Message Area
@@ -55,9 +56,6 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
         var dataItem = [DataItem]()
         return dataItem
     }()
-    
-    
-    
     
     
     // MARK: VidedidLoad
@@ -87,17 +85,10 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
         self.dragAndDropManager = KDDragAndDropManager(canvas: self.view, collectionViews: [messageCollectionView, wordCollectionView, contextCollectionView])
         
         
-        // Data Management
-        var myDict: NSDictionary?
-        if let path = NSBundle.mainBundle().pathForResource("test", ofType: "plist") {
-            myDict = NSDictionary(contentsOfFile: path)
-        }
-        if let dict = myDict {
-            // Use your dict here
-            
-            print( dict)
-        }
-
+        //data
+        
+        print(data)
+        
     }
     
     func collectionViewConfig(collv:UICollectionView){
@@ -170,7 +161,7 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
         return cell
     }
     
-    
+    var mainCategoryIsSelected = true
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         let selectedCell = collectionView.cellForItemAtIndexPath(indexPath)!
         print("didSelectItemAtIndexPath")
@@ -181,9 +172,54 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
                 //appearance
                 selectedHeadCell.backgroundColor = UIColor.blackColor()
                 selectedHeadCell.text.textColor = UIColor.whiteColor()
-                
+                //utter
                 selectedSub = indexPath.item
-                wordCollectionView.reloadData()
+                //switch
+                
+                let tappedIndex = indexPath.item
+                let tappedItem = data[collectionView.tag][tappedIndex]
+                
+                //Distinguish the level we are at : main or sub
+                if (mainCategoryIsSelected){
+                    // the tabbed item belongs to main category
+                    let selectedMainCategory = tappedItem.swedish
+                    // 1. populate the data in word collection
+                    if let index = categorizedData.indexForKey(selectedMainCategory){
+                        data[2] = categorizedData[index].1
+                        wordCollectionView.reloadData()
+                    }
+                    // 2. change the items in context view to sub
+                    if let subCategoryDataItems = Category.subCategories[selectedMainCategory]{
+                        data[1] = subCategoryDataItems
+                        let backButton = DataItem(swedish: "back", arabic: "back", picName: "back")
+                        data[1].insert(backButton, atIndex: 0)
+                        contextCollectionView.reloadData()
+                    }
+                    
+                    // 3. set mainCIS to false
+                    mainCategoryIsSelected = false
+                    
+                }else{
+                    // the tabbed item belongs to sub category
+                    let selectedSubCategory = tappedItem.swedish
+                    
+                    if (tappedIndex == 0){
+                        // the back button?
+                    }else{
+                        // not the back button?
+                        
+                    }
+                    
+                }
+                
+                //Test if this category exists in the chosen category
+                //                if (Category.categories.indexOf() != nil) {
+                //                    if let values = categorizedData.indexForKey(tappedItem.swedish){
+                //
+                //                    }
+                //                }
+                
+                
             }
         //Sub
         case 2:
@@ -197,7 +233,7 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
         default:
             break
         }
-
+        
     }
     
     

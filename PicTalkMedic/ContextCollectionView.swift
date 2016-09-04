@@ -14,8 +14,10 @@ class ContextCollectionView:UICollectionView
     
     let dataItems:[DataItem]  = {
         var dataItem = [DataItem]()
-        dataItem.append( DataItem(swedish: "left", arabic: "arr1", picName: "waiting_room") )
-        dataItem.append( DataItem(swedish: "elevator", arabic: "arr2", picName: "elevator") )
+        // not likely to change
+        dataItem.append( DataItem(swedish: "Waiting Room", arabic: "arr1", picName: "waiting_room") )
+        dataItem.append( DataItem(swedish: "reception", arabic: "arr2", picName: "reception") )
+        dataItem.append( DataItem(swedish: "Concultation", arabic: "arr2", picName: "reception") )
         
         return dataItem
     }()
