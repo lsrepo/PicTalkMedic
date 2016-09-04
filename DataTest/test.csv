@@ -1,0 +1,10 @@
+category,subcategory,english,swedish,arabic
+reception,identify,ID,legitimation,بطاقة هوية
+reception,identify,personal identity number,personnummer,رقم الهوية
+reception,identify,What is your personal identification number?,Vad har du för personnummer?,ما هو رقم هويتك؟
+reception,identify,Do you have an LMA card?,Har du ett LMA-kort?,هل عندك بـطاقة ل م أ؟
+reception,identify,Which health center are you enrolled in?,Vilken vårdcentral tillhör du?,أي مركز الرعاية الصحية أنت تسجيلك في؟
+reception,payment,free pass,frikort,بطاقة الخدمات الطبية المجانية
+reception,payment,bill,räkning,فاتورة
+reception,payment,receipt,kvitto,إيصال
+reception,payment,We do not accept cash. Can you pay with a credit card?,"Vi kan inte ta emot kontanter, har du möjlighet att betala med kort?",نحن لا نقبل النقد. يمكنك الدفع ببطاقة الائتمان؟

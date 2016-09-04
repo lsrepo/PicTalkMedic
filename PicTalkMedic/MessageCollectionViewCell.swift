@@ -8,9 +8,22 @@
 
 import UIKit
 
+@IBDesignable
+
+
 class MessageCollectionViewCell: UICollectionViewCell {
     
 
     @IBOutlet weak var imageView: UIImageView!
+    @IBInspectable var borderRadius: CGFloat = 5
+    @IBInspectable var borderWidth: CGFloat = 1
     
+    override func drawRect(rect: CGRect) {
+        super.drawRect(rect)
+        // draw the layout
+        
+        self.layer.borderWidth = self.borderWidth
+        self.layer.cornerRadius = self.borderRadius
+        
+    }
 }

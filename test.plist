@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>arabic</key>
+		<string>بطاقة هوية</string>
+		<key>category</key>
+		<string>reception</string>
+		<key>english</key>
+		<string>ID</string>
+		<key>subcategory</key>
+		<string>identify</string>
+		<key>swedish</key>
+		<string>legitimation</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>رقم الهوية</string>
+		<key>category</key>
+		<string>reception</string>
+		<key>english</key>
+		<string>personal identity number</string>
+		<key>subcategory</key>
+		<string>identify</string>
+		<key>swedish</key>
+		<string>personnummer</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ما هو رقم هويتك؟</string>
+		<key>category</key>
+		<string>reception</string>
+		<key>english</key>
+		<string>What is your personal identification number?</string>
+		<key>subcategory</key>
+		<string>identify</string>
+		<key>swedish</key>
+		<string>Vad har du för personnummer?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هل عندك بـطاقة ل م أ؟</string>
+		<key>category</key>
+		<string>reception</string>
+		<key>english</key>
+		<string>Do you have an LMA card?</string>
+		<key>subcategory</key>
+		<string>identify</string>
+		<key>swedish</key>
+		<string>Har du ett LMA-kort?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أي مركز الرعاية الصحية أنت تسجيلك في؟</string>
+		<key>category</key>
+		<string>reception</string>
+		<key>english</key>
+		<string>Which health center are you enrolled in?</string>
+		<key>subcategory</key>
+		<string>identify</string>
+		<key>swedish</key>
+		<string>Vilken vårdcentral tillhör du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بطاقة الخدمات الطبية المجانية</string>
+		<key>category</key>
+		<string>reception</string>
+		<key>english</key>
+		<string>free pass</string>
+		<key>subcategory</key>
+		<string>payment</string>
+		<key>swedish</key>
+		<string>frikort</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فاتورة</string>
+		<key>category</key>
+		<string>reception</string>
+		<key>english</key>
+		<string>bill</string>
+		<key>subcategory</key>
+		<string>payment</string>
+		<key>swedish</key>
+		<string>räkning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>إيصال</string>
+		<key>category</key>
+		<string>reception</string>
+		<key>english</key>
+		<string>receipt</string>
+		<key>subcategory</key>
+		<string>payment</string>
+		<key>swedish</key>
+		<string>kvitto</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>نحن لا نقبل النقد. يمكنك الدفع ببطاقة الائتمان؟</string>
+		<key>category</key>
+		<string>reception</string>
+		<key>english</key>
+		<string>We do not accept cash. Can you pay with a credit card?</string>
+		<key>subcategory</key>
+		<string>payment</string>
+		<key>swedish</key>
+		<string>Vi kan inte ta emot kontanter, har du möjlighet att betala med kort?</string>
+	</dict>
+</array>
+</plist>
