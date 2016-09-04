@@ -10,23 +10,31 @@ import Foundation
 
 
 struct Category{
-   static let identify = DataItem(swedish: "identify", arabic: "arr", picName: "identify")
-     static let pay = DataItem(swedish: "pay", arabic: "arr", picName: "pay")
+    //main
+    static let reception = DataItem(swedish: "reception", arabic: "arr", picName: "reception")
+    static let consultation = DataItem(swedish: "consultation", arabic: "arr", picName: "consultation")
     
-    static let categories = ["reception","consultation"]
+    
+    //sub
+    static let identify = DataItem(swedish: "identify", arabic: "arr", picName: "identify")
+    static let pay = DataItem(swedish: "pay", arabic: "arr", picName: "pay")
+    
+    static let mainCategories = ["reception","consultation"]
+    static let mainCategoryDataItems = [reception,consultation]
     static let subCategories = ["reception":[identify,pay]]
     
     
 }
-
+typealias MainSubDict = (main:[String:[DataItem]],sub:[String:[DataItem]])
 
 class DataManager{
     
     
     
-    func importData(fileName:String) ->[String:[DataItem]]{
+    func importData(fileName:String) ->MainSubDict{
         
-        var categorizedData = [String:[DataItem]]()
+        var categorizedData:MainSubDict?
+        
         var myDict: NSArray?
         if let path = NSBundle.mainBundle().pathForResource(fileName, ofType: "plist") {
             //myDict = NSDictionary(contentsOfFile: path)
@@ -37,20 +45,22 @@ class DataManager{
             categorizedData = getCategorizedData("reception", dict: dict)
             
         }
-        return categorizedData
+        return categorizedData!
     }
     
    
     
     
-    func getCategorizedData(categoryName:String, dict:NSArray) ->  [String:[DataItem]] {
+    func getCategorizedData(categoryName:String, dict:NSArray) ->  MainSubDict {
         var categorizedDataItems = [String:[DataItem]]()
+        var subCategorizedDataItems = [String:[DataItem]]()
         for item in dict{
             if let category = item["category"] as? String{
                 
                 // Check if there's such category
                 let newItem = parseOneDataItem(item)
                 
+                //add items to categorizedDataItems
                     if let a  = categorizedDataItems.indexForKey(category){
                         // the pair already exists
                         // get the old value
@@ -62,10 +72,27 @@ class DataManager{
                     }else{
                         // the pair did not exist
                        categorizedDataItems.updateValue([newItem], forKey: category)
+                        
+                        
+                }
+                
+                 //add items to subCategorizedDataItems
+                if let a  = subCategorizedDataItems.indexForKey(category){
+                    // the pair already exists
+                    // get the old value
+                    var array = subCategorizedDataItems[a].1
+                    
+                    array.append(newItem)
+                    subCategorizedDataItems.updateValue(array, forKey: category)
+                    print("already exist")
+                }else{
+                    // the pair did not exist
+                    subCategorizedDataItems.updateValue([newItem], forKey: category)
+                    
                 }
             }
         }
-        return categorizedDataItems
+        return (categorizedDataItems,categorizedDataItems)
     }
     
     func parseOneDataItem(item:AnyObject)  -> DataItem{
