@@ -85,6 +85,18 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
         
         // Drag and drop
         self.dragAndDropManager = KDDragAndDropManager(canvas: self.view, collectionViews: [messageCollectionView, wordCollectionView, contextCollectionView])
+        
+        
+        // Data Management
+        var myDict: NSDictionary?
+        if let path = NSBundle.mainBundle().pathForResource("test", ofType: "plist") {
+            myDict = NSDictionary(contentsOfFile: path)
+        }
+        if let dict = myDict {
+            // Use your dict here
+            
+            print( dict)
+        }
 
     }
     

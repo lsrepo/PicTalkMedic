@@ -7,9 +7,22 @@
 //
 
 import UIKit
-
+@IBDesignable
 class ContextCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var text: UILabel!
+    
+    @IBInspectable var borderRadius: CGFloat = Style.borderRadius
+    @IBInspectable var borderWidth: CGFloat = Style.borderWidth
+    
+    override func drawRect(rect: CGRect) {
+        super.drawRect(rect)
+        // draw the layout
+        
+        self.layer.borderWidth = self.borderWidth
+        self.layer.cornerRadius = self.borderRadius
+        
+    }
+    
     
 }

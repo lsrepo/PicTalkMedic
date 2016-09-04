@@ -15,8 +15,8 @@ class MessageCollectionViewCell: UICollectionViewCell {
     
 
     @IBOutlet weak var imageView: UIImageView!
-    @IBInspectable var borderRadius: CGFloat = 5
-    @IBInspectable var borderWidth: CGFloat = 1
+    @IBInspectable var borderRadius: CGFloat = Style.borderRadius
+    @IBInspectable var borderWidth: CGFloat = Style.borderWidth
     
     override func drawRect(rect: CGRect) {
         super.drawRect(rect)

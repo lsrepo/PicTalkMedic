@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+@IBDesignable
 class WordCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var text: UILabel!
@@ -19,5 +19,22 @@ class WordCollectionViewCell: UICollectionViewCell {
         
     }
     
+    @IBInspectable var borderRadius: CGFloat = Style.borderRadius
+    @IBInspectable var borderWidth: CGFloat = Style.borderWidth
     
+    override func drawRect(rect: CGRect) {
+        super.drawRect(rect)
+        // draw the layout
+        
+        self.layer.borderWidth = self.borderWidth
+        self.layer.cornerRadius = self.borderRadius
+        
+    }
+    
+}
+
+
+struct Style{
+    static let borderRadius:CGFloat = 5
+    static let borderWidth:CGFloat  = 1
 }
