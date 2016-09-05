@@ -219,23 +219,21 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
                         
                     }else{
                         // not the back button?
-                        //if let firstItem = categorizedData[selectedSubCategory]?.first{
-                        // 1. change the items in word view to selected items
-                        if let subCategoryItem = Category.subCategories[selectedSubCategory]{
-                           let dataItems = subCategoryItem[indexPath.item-1]
-                             
-                            
+                        
+                        print(subCategorizedData)
+                        let selectedSubSubCategory = tappedItem.swedish
+                        // 1. populate the data in word collection
+                        if let index = subCategorizedData.indexForKey(selectedSubSubCategory){
+                            data[2] = subCategorizedData[index].1
                             wordCollectionView.reloadData()
                         }
+                    
+                        // TODO: 2. change the items in context view to sub
                         
-                        
-
                     }
                 }
             }
-            
-            
-
+  
         //Sub
         case 2:
             if let selectedCell = selectedCell as? WordCollectionViewCell{

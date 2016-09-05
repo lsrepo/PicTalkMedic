@@ -17,7 +17,7 @@ struct Category{
     
     //sub
     static let identify = DataItem(swedish: "identify", arabic: "arr", picName: "identify")
-    static let pay = DataItem(swedish: "pay", arabic: "arr", picName: "pay")
+    static let pay = DataItem(swedish: "payment", arabic: "arr", picName: "payment")
     
     static let mainCategories = ["reception","consultation"]
     static let mainCategoryDataItems = [reception,consultation]
@@ -54,6 +54,7 @@ class DataManager{
     func getCategorizedData(categoryName:String, dict:NSArray) ->  MainSubDict {
         var categorizedDataItems = [String:[DataItem]]()
         var subCategorizedDataItems = [String:[DataItem]]()
+        
         for item in dict{
             if let category = item["category"] as? String{
                 
@@ -76,23 +77,26 @@ class DataManager{
                         
                 }
                 
-                 //add items to subCategorizedDataItems
-                if let a  = subCategorizedDataItems.indexForKey(category){
-                    // the pair already exists
-                    // get the old value
-                    var array = subCategorizedDataItems[a].1
-                    
-                    array.append(newItem)
-                    subCategorizedDataItems.updateValue(array, forKey: category)
-                    print("already exist")
-                }else{
-                    // the pair did not exist
-                    subCategorizedDataItems.updateValue([newItem], forKey: category)
-                    
+                //add items to subCategorizedDataItems
+                if let subCategory = item["subcategory"] as? String{
+                    print("subcategory recognised" ,subCategory)
+                    if let a  = subCategorizedDataItems.indexForKey(subCategory){
+                        // the pair already exists
+                        // get the old value
+                        var array = subCategorizedDataItems[a].1
+                        
+                        array.append(newItem)
+                        subCategorizedDataItems.updateValue(array, forKey: subCategory)
+                        print("already exist")
+                    }else{
+                        // the pair did not exist
+                        subCategorizedDataItems.updateValue([newItem], forKey: subCategory)
+                        
+                    }
                 }
             }
         }
-        return (categorizedDataItems,categorizedDataItems)
+        return (categorizedDataItems,subCategorizedDataItems)
     }
     
     func parseOneDataItem(item:AnyObject)  -> DataItem{
