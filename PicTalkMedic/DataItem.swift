@@ -14,12 +14,17 @@ class DataItem :Equatable {
     var swedish : String = ""
     var arabic : String = ""
     var picName: String = ""
+    var category: String = ""
+    var subcategory: String?
+    
     var pic:UIImage
   
-    init(swedish:String, arabic:String,picName:String) {
+    init(swedish:String, arabic:String,picName:String,category:String,subcategory:String?) {
         self.swedish = swedish
         self.arabic = arabic
         self.picName = picName
+        self.category = category
+        self.subcategory = subcategory
         
         if let pic = UIImage(named: self.picName){
             self.pic = pic

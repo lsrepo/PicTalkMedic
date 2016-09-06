@@ -8,26 +8,29 @@
 
 import Foundation
 
+//
+//struct Category{
+//    //main
+//    static let reception = DataItem(swedish: "reception", arabic: "arr", picName: "reception")
+//    static let consultation = DataItem(swedish: "consultation", arabic: "arr", picName: "consultation")
+//    
+//    
+//    //sub
+//    static let identify = DataItem(swedish: "identify", arabic: "arr", picName: "identify")
+//    static let pay = DataItem(swedish: "payment", arabic: "arr", picName: "payment")
+//    
+//    static let mainCategories = ["reception","consultation"]
+//    static let mainCategoryDataItems = [reception,consultation]
+//    static let subCategories = ["reception":[identify,pay]]
+//    
+//    
+//}
 
-struct Category{
-    //main
-    static let reception = DataItem(swedish: "reception", arabic: "arr", picName: "reception")
-    static let consultation = DataItem(swedish: "consultation", arabic: "arr", picName: "consultation")
-    
-    
-    //sub
-    static let identify = DataItem(swedish: "identify", arabic: "arr", picName: "identify")
-    static let pay = DataItem(swedish: "payment", arabic: "arr", picName: "payment")
-    
-    static let mainCategories = ["reception","consultation"]
-    static let mainCategoryDataItems = [reception,consultation]
-    static let subCategories = ["reception":[identify,pay]]
-    
-    
-}
+
 typealias MainSubDict = (main:[String:[DataItem]],sub:[String:[DataItem]])
 
 class DataManager{
+    
     
     
     
@@ -43,7 +46,6 @@ class DataManager{
         if let dict = myDict {
             //Get all elements from a category
             categorizedData = getCategorizedData("reception", dict: dict)
-            
         }
         return categorizedData!
     }
@@ -104,8 +106,10 @@ class DataManager{
         let swedish = item["swedish"] as! String
         let arabic = item["arabic"] as! String
         let english = item["english"]  as! String
+        let category = item["category"]  as! String
+        let subcategory = item["subcategory"] as? String
         
-        let dataItem = DataItem(swedish: swedish, arabic: arabic, picName: english)
+        let dataItem = DataItem(swedish: swedish, arabic: arabic, picName: english, category: category, subcategory: subcategory)
         return dataItem
     }
 
