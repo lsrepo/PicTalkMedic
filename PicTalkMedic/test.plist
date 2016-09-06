@@ -6,6 +6,30 @@
 		<key>arabic</key>
 		<string>بطاقة هوية</string>
 		<key>category</key>
+		<string>context</string>
+		<key>english</key>
+		<string>reception</string>
+		<key>subcategory</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>reception</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بطاقة هوية</string>
+		<key>category</key>
+		<string>context</string>
+		<key>english</key>
+		<string>consulation</string>
+		<key>subcategory</key>
+		<string>consulation</string>
+		<key>swedish</key>
+		<string>consulation</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بطاقة هوية</string>
+		<key>category</key>
 		<string>reception</string>
 		<key>english</key>
 		<string>ID</string>
@@ -70,7 +94,7 @@
 		<key>english</key>
 		<string>free pass</string>
 		<key>subcategory</key>
-		<string>payment</string>
+		<string>pay</string>
 		<key>swedish</key>
 		<string>frikort</string>
 	</dict>
@@ -82,7 +106,7 @@
 		<key>english</key>
 		<string>bill</string>
 		<key>subcategory</key>
-		<string>payment</string>
+		<string>pay</string>
 		<key>swedish</key>
 		<string>räkning</string>
 	</dict>
@@ -94,7 +118,7 @@
 		<key>english</key>
 		<string>receipt</string>
 		<key>subcategory</key>
-		<string>payment</string>
+		<string>pay</string>
 		<key>swedish</key>
 		<string>kvitto</string>
 	</dict>
@@ -106,7 +130,7 @@
 		<key>english</key>
 		<string>We do not accept cash. Can you pay with a credit card?</string>
 		<key>subcategory</key>
-		<string>payment</string>
+		<string>pay</string>
 		<key>swedish</key>
 		<string>Vi kan inte ta emot kontanter, har du möjlighet att betala med kort?</string>
 	</dict>

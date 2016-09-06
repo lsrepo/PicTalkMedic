@@ -188,7 +188,7 @@ class KDDragAndDropManager: NSObject, UIGestureRecognizerDelegate {
                 
                 if bundl.sourceDraggableView != bundl.overDroppableView { // if we are actually dropping over a new view.
                     
-                   // print("\(bundl.overDroppableView?.tag)")
+
                     
                     if let droppable = bundl.overDroppableView as? KDDroppable {
                         
