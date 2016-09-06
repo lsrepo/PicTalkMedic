@@ -171,11 +171,11 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
     }
     
     var mainCategoryIsSelected = true
-    
+    var selectedMainContext = ""
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        var selectedMainContext = ""
-        var selectedSubContext = ""
+        
+      
         
         let selectedCell = collectionView.cellForItemAtIndexPath(indexPath)!
         print("didSelectItemAtIndexPath")
@@ -197,7 +197,7 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
                 // 1. Distinguish the level we are at : main or sub
                 if (mainCategoryIsSelected){
                     // the tabbed item belongs to main category
-                     selectedMainContext = tappedItem.category
+                     selectedMainContext = tappedItem.parent
                     
                     // A. populate data in context collection with..
                     //-----------------------------------------------
@@ -207,7 +207,7 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
                         // B. populate data in word collection with..
                         //--------------------------------------------
                         // expectation: identify , pay  ( subcontext of reception )
-                        if let firstSubContext = mainContextItems.first?.subcategory{
+                        if let firstSubContext = mainContextItems.first?.category{
                             
                             // expectation: words
                             if let firstSubContextWords = categorizedData[firstSubContext] {
@@ -221,15 +221,18 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
 
                     // 2. Change the items in context view - no need to preselect anything
                     
-                    if let subContextItems = categorizedData[selectedMainContext]{
-                        
+                    if let selectedSubContext = tappedItem.category{
+                   
                         // A. Populate context view data with the sub contexts
                         //----------------------------------------------------
-                        data[1] = subContextItems
-                        
+                        print("selectedSubContext:",selectedSubContext)
+                        if let selectedSubContextItems = categorizedData[selectedSubContext]{
+                            data[1] = selectedSubContextItems
+                        }
+
                         // B. Insert backButton
                         //----------------------------------------------------
-                        let backButton = DataItem(swedish: "back", arabic: "back", picName: "back", category: "system", subcategory: nil)
+                        let backButton = DataItem(swedish: "back", arabic: "back", picName: "back", parent: "system", category: nil)
                         data[1].insert(backButton, atIndex: 0)
                         
                         contextCollectionView.reloadData()
@@ -240,37 +243,52 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
                     //----------------------------------------------------
                     mainCategoryIsSelected = false
                  
-                    
+                    // 4. select first
+                    //----------------------------------------------------
 
                     
                 }else{
-//                    // the tabbed item belongs to sub category
-//                    selectedSubContext = tappedItem.english
-//                    
-//                    if (tappedIndex == 0){
-//                        // the back button?
-//                        
-//                        // 1. change the items in context view to main
-//                        data[1] = Category.mainCategoryDataItems
-//                        contextCollectionView.reloadData()
-//                        
-//                        // 2. set mainCIS to true
-//                        mainCategoryIsSelected = true
-//                        
-//                    }else{
-//                        // not the back button?
-//                        
-//                        print(subCategorizedData)
-//                        let selectedSubSubCategory = tappedItem.swedish
-//                        // 1. populate the data in word collection
-//                        if let index = subCategorizedData.indexForKey(selectedSubSubCategory){
-//                            data[2] = subCategorizedData[index].1
-//                            wordCollectionView.reloadData()
-//                        }
-//                    
-//                        // TODO: 2. change the items in context view to sub
-//                        
-//                    }
+
+                    print("tappedIndex: ",tappedIndex)
+            
+                    // guard: if the back button is not tapped
+                    //----------------------------------------------------
+                    guard (tappedIndex != 0)else{
+                        print(" in guard else")
+                        // 1. change the items in context view to main
+                        
+                        
+                        if let contextItems = categorizedData["context"]{
+                            print("contextItems:",contextItems)
+                            data[1] = contextItems
+                        }
+                        contextCollectionView.reloadData()
+                        // TODO: 1.5  copy previous code
+                        
+                        // 2. set mainCIS to true
+                        mainCategoryIsSelected = true
+                        break;
+                    }
+                    
+                    
+                    // Tapped is not the back button
+                    //----------------------------------------------------
+                    
+                    // 1. populate the data in word collection
+                    //----------------------------------------------------
+                    if let selectedSubContext = tappedItem.category{
+                        if let words = categorizedData[selectedSubContext]{
+                            data[2] = words
+                            wordCollectionView.reloadData()
+                        }
+                    }
+                    
+                    
+
+                    
+                    // TODO: 2. change the items in context view to sub
+                    
+                    
                 }
             }
   

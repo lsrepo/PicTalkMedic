@@ -1,13 +1,13 @@
 parent,category,english,swedish,arabic
-context,reception,,,
-context,consultation,,,
-reception,identify,identify,identify,identify
+context,reception,reception,reception,arabic
+context,consultation,consultation,consultation,arabic
+reception,identify,identify,identify,arabic
 identify,,ID,legitimation,بطاقة هوية
 identify,,personal identity number,personnummer,رقم الهوية
 identify,,What is your personal identification number?,Vad har du för personnummer?,ما هو رقم هويتك؟
 identify,,Do you have an LMA card?,Har du ett LMA-kort?,هل عندك بـطاقة ل م أ؟
 identify,,Which health center are you enrolled in?,Vilken vårdcentral tillhör du?,أي مركز الرعاية الصحية أنت تسجيلك في؟
-reception,payment,,,
+reception,payment,payment,payment,payment
 payment,,free pass,frikort,بطاقة الخدمات الطبية المجانية
 payment,,bill,räkning,فاتورة
 payment,,receipt,kvitto,إيصال

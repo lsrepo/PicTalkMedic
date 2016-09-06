@@ -3,32 +3,20 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>arabic</key>
-		<string>arabic</string>
 		<key>category</key>
-		<string>reception</string>
-		<key>english</key>
 		<string>reception</string>
 		<key>parent</key>
 		<string>context</string>
-		<key>swedish</key>
-		<string>reception</string>
 	</dict>
 	<dict>
-		<key>arabic</key>
-		<string>arabic</string>
 		<key>category</key>
-		<string>consultation</string>
-		<key>english</key>
 		<string>consultation</string>
 		<key>parent</key>
 		<string>context</string>
-		<key>swedish</key>
-		<string>consultation</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>arabic</string>
+		<string>identify</string>
 		<key>category</key>
 		<string>identify</string>
 		<key>english</key>
@@ -89,16 +77,10 @@
 		<string>Vilken vårdcentral tillhör du?</string>
 	</dict>
 	<dict>
-		<key>arabic</key>
-		<string>payment</string>
 		<key>category</key>
-		<string>payment</string>
-		<key>english</key>
 		<string>payment</string>
 		<key>parent</key>
 		<string>reception</string>
-		<key>swedish</key>
-		<string>payment</string>
 	</dict>
 	<dict>
 		<key>arabic</key>

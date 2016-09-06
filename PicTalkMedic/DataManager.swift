@@ -41,7 +41,7 @@ class DataManager{
         var categorizedDataItems = [String:[DataItem]]()
         
         for item in dict{
-            if let category = item["category"] as? String{
+            if let category = item["parent"] as? String{
                 
                 // Check if there's such category
                 let newItem = parseOneDataItem(item)
@@ -72,10 +72,10 @@ class DataManager{
         let swedish = item["swedish"] as! String
         let arabic = item["arabic"] as! String
         let english = item["english"]  as! String
-        let category = item["category"]  as! String
-        let subcategory = item["subcategory"] as? String
+        let parent = item["parent"]  as! String
+        let category = item["category"] as? String
         
-        let dataItem = DataItem(swedish: swedish, arabic: arabic, picName: english, category: category, subcategory: subcategory)
+        let dataItem = DataItem(swedish: swedish, arabic: arabic, picName: english, parent: parent, category: category)
         return dataItem
     }
     
