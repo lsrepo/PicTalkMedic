@@ -207,7 +207,7 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
                         // B. populate data in word collection with..
                         //--------------------------------------------
                         // expectation: identify , pay  ( subcontext of reception )
-                        if let firstSubContext = mainContextItems.first?.category{
+                        if let firstSubContext = mainContextItems.first?.contain{
                             
                             // expectation: words
                             if let firstSubContextWords = categorizedData[firstSubContext] {
@@ -221,8 +221,11 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
 
                     // 2. Change the items in context view - no need to preselect anything
                     
-                    if let selectedSubContext = tappedItem.category{
-                   
+                    if let selectedSubContext = tappedItem.contain{
+                        
+                        //Debug, clean data[1]
+                        data[1].removeAll()
+                        
                         // A. Populate context view data with the sub contexts
                         //----------------------------------------------------
                         print("selectedSubContext:",selectedSubContext)
@@ -232,7 +235,7 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
 
                         // B. Insert backButton
                         //----------------------------------------------------
-                        let backButton = DataItem(swedish: "back", arabic: "back", picName: "back", parent: "system", category: nil)
+                        let backButton = DataItem(swedish: "back", arabic: "back", picName: "back", parent: "system", contain: nil)
                         data[1].insert(backButton, atIndex: 0)
                         
                         contextCollectionView.reloadData()
@@ -276,7 +279,7 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
                     
                     // 1. populate the data in word collection
                     //----------------------------------------------------
-                    if let selectedSubContext = tappedItem.category{
+                    if let selectedSubContext = tappedItem.contain{
                         if let words = categorizedData[selectedSubContext]{
                             data[2] = words
                             wordCollectionView.reloadData()

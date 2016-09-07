@@ -41,23 +41,23 @@ class DataManager{
         var categorizedDataItems = [String:[DataItem]]()
         
         for item in dict{
-            if let category = item["parent"] as? String{
+            if let parent = item["parent"] as? String{
                 
-                // Check if there's such category
+                // Check if there's such parent
                 let newItem = parseOneDataItem(item)
                 
                 //add items to categorizedDataItems
-                if let a  = categorizedDataItems.indexForKey(category){
+                if let a  = categorizedDataItems.indexForKey(parent){
                     // the pair already exists
                     // get the old value
                     var array = categorizedDataItems[a].1
                     
                     array.append(newItem)
-                    categorizedDataItems.updateValue(array, forKey: category)
+                    categorizedDataItems.updateValue(array, forKey: parent)
                    
                 }else{
                     // the pair did not exist
-                    categorizedDataItems.updateValue([newItem], forKey: category)
+                    categorizedDataItems.updateValue([newItem], forKey: parent)
                     
                     
                 }
@@ -73,9 +73,9 @@ class DataManager{
         let arabic = item["arabic"] as! String
         let english = item["english"]  as! String
         let parent = item["parent"]  as! String
-        let category = item["category"] as? String
+        let contain = item["contain"] as? String
         
-        let dataItem = DataItem(swedish: swedish, arabic: arabic, picName: english, parent: parent, category: category)
+        let dataItem = DataItem(swedish: swedish, arabic: arabic, picName: english, parent: parent, contain: contain)
         return dataItem
     }
     

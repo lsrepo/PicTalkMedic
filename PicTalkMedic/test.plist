@@ -5,7 +5,7 @@
 	<dict>
 		<key>arabic</key>
 		<string>arabic</string>
-		<key>category</key>
+		<key>contain</key>
 		<string>reception</string>
 		<key>english</key>
 		<string>reception</string>
@@ -17,7 +17,7 @@
 	<dict>
 		<key>arabic</key>
 		<string>arabic</string>
-		<key>category</key>
+		<key>contain</key>
 		<string>consultation</string>
 		<key>english</key>
 		<string>consultation</string>
@@ -29,7 +29,7 @@
 	<dict>
 		<key>arabic</key>
 		<string>arabic</string>
-		<key>category</key>
+		<key>contain</key>
 		<string>identify</string>
 		<key>english</key>
 		<string>identify</string>
@@ -91,8 +91,8 @@
 	<dict>
 		<key>arabic</key>
 		<string>payment</string>
-		<key>category</key>
-		<string>payment</string>
+		<key>contain</key>
+		<string>pay</string>
 		<key>english</key>
 		<string>payment</string>
 		<key>parent</key>
@@ -106,7 +106,7 @@
 		<key>english</key>
 		<string>free pass</string>
 		<key>parent</key>
-		<string>payment</string>
+		<string>pay</string>
 		<key>swedish</key>
 		<string>frikort</string>
 	</dict>
@@ -116,7 +116,7 @@
 		<key>english</key>
 		<string>bill</string>
 		<key>parent</key>
-		<string>payment</string>
+		<string>pay</string>
 		<key>swedish</key>
 		<string>räkning</string>
 	</dict>
@@ -126,7 +126,7 @@
 		<key>english</key>
 		<string>receipt</string>
 		<key>parent</key>
-		<string>payment</string>
+		<string>pay</string>
 		<key>swedish</key>
 		<string>kvitto</string>
 	</dict>
@@ -136,7 +136,7 @@
 		<key>english</key>
 		<string>We do not accept cash. Can you pay with a credit card?</string>
 		<key>parent</key>
-		<string>payment</string>
+		<string>pay</string>
 		<key>swedish</key>
 		<string>Vi kan inte ta emot kontanter, har du möjlighet att betala med kort?</string>
 	</dict>
