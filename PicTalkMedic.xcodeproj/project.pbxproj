@@ -31,6 +31,7 @@
 		27B23FB91D80B72F00A11F95 /* PicTalkCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */; };
 		27B9579B1D7B149100731148 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9579A1D7B149100731148 /* SelectionViewController.swift */; };
 		27B957A11D7B3A2800731148 /* SelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B957A01D7B3A2800731148 /* SelectionView.xib */; };
+		27FF4D781D80C461005A54F7 /* PicTalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FF4D771D80C461005A54F7 /* PicTalkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicTalkCollectionView.swift; sourceTree = "<group>"; };
 		27B9579A1D7B149100731148 /* SelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 		27B957A01D7B3A2800731148 /* SelectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionView.xib; sourceTree = "<group>"; };
+		27FF4D771D80C461005A54F7 /* PicTalkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicTalkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			children = (
 				2735629D1D7A259800302289 /* Extension */,
 				276284F51D74D282001F8039 /* Main.storyboard */,
+				27FF4D771D80C461005A54F7 /* PicTalkViewController.swift */,
 				27B957A01D7B3A2800731148 /* SelectionView.xib */,
 				276284F31D74D282001F8039 /* MainViewController.swift */,
 				27A367C11D7F4F9C0015A4BB /* Category.swift */,
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				273562A71D7AFB1200302289 /* WordCollectionView.swift in Sources */,
+				27FF4D781D80C461005A54F7 /* PicTalkViewController.swift in Sources */,
 				277FD8971D76379F009FE0BA /* ContextCollectionViewCell.swift in Sources */,
 				271929E91D7774F9004383E3 /* WordCollectionViewCell.swift in Sources */,
 				2706A0EC1D7C579E0031F76A /* DataManager.swift in Sources */,
