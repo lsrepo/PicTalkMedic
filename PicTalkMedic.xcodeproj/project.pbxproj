@@ -28,6 +28,7 @@
 		2762850A1D74D282001F8039 /* PicTalkMedicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276285091D74D282001F8039 /* PicTalkMedicTests.swift */; };
 		277FD8971D76379F009FE0BA /* ContextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277FD8961D76379F009FE0BA /* ContextCollectionViewCell.swift */; };
 		27A367C21D7F4F9C0015A4BB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A367C11D7F4F9C0015A4BB /* Category.swift */; };
+		27B23FB91D80B72F00A11F95 /* PicTalkCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */; };
 		27B9579B1D7B149100731148 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9579A1D7B149100731148 /* SelectionViewController.swift */; };
 		27B957A11D7B3A2800731148 /* SelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B957A01D7B3A2800731148 /* SelectionView.xib */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,7 @@
 		2762850B1D74D282001F8039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		277FD8961D76379F009FE0BA /* ContextCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextCollectionViewCell.swift; sourceTree = "<group>"; };
 		27A367C11D7F4F9C0015A4BB /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicTalkCollectionView.swift; sourceTree = "<group>"; };
 		27B9579A1D7B149100731148 /* SelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 		27B957A01D7B3A2800731148 /* SelectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,6 +159,7 @@
 				27B9579A1D7B149100731148 /* SelectionViewController.swift */,
 				2706A0EB1D7C579E0031F76A /* DataManager.swift */,
 				2735629B1D7A1AD700302289 /* DataItem.swift */,
+				27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */,
 				273562AA1D7B034700302289 /* Context */,
 				273562A91D7AFCDB00302289 /* Words */,
 				273562A81D7AFCCB00302289 /* Message */,
@@ -302,6 +305,7 @@
 				276284F41D74D282001F8039 /* MainViewController.swift in Sources */,
 				273562A31D7A282E00302289 /* KDDragAndDropCollectionView.swift in Sources */,
 				273562AC1D7B03D600302289 /* ContextCollectionView.swift in Sources */,
+				27B23FB91D80B72F00A11F95 /* PicTalkCollectionView.swift in Sources */,
 				276284FA1D74D282001F8039 /* PicTalkMedic.xcdatamodeld in Sources */,
 				273562A51D7AD47E00302289 /* MessageCollectionViewCell.swift in Sources */,
 				276284F21D74D282001F8039 /* AppDelegate.swift in Sources */,

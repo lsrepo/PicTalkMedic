@@ -9,29 +9,9 @@
 import Foundation
 import UIKit
 
-class ContextCollectionView:UICollectionView
+class ContextCollectionView:PicTalkCollectionView
 {
-    
-    var dataItems:[DataItem]  = {
-        print("ContextCollectionView")
-        return [DataItem]()
-        }()
-    
-    
-//        var dataItem = [DataItem]()
-//        // not likely to change
-//        dataItem.append( DataItem(swedish: "Waiting Room", arabic: "arr1", picName: "waiting_room") )
-//        dataItem.append( DataItem(swedish: "reception", arabic: "arr2", picName: "reception") )
-//        dataItem.append( DataItem(swedish: "Concultation", arabic: "arr2", picName: "reception") )
-//        
-//        return dataItem
-//    }()
-    
-    //[["Red","Blue","Yellow"],["Greet","Intend","Identify","Pay"]]
-   
-    
-    
 
-    
+
 
 }
