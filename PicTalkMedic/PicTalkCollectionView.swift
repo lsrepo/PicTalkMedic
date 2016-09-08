@@ -9,8 +9,22 @@
 import Foundation
 import UIKit
 
-class PicTalkCollectionView:KDDragAndDropCollectionView{
+class PicTalkCollectionView:UICollectionView, UICollectionViewDelegate, UICollectionViewDataSource{
+    
+    var dataItems:[DataItem] = [DataItem]()
+    
+     
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
+        return dataItems.count
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        return UICollectionViewCell()
+    }
+    // MARK: DataSource
     
     
-    var dataItems:[DataItem] = []
+  
 }

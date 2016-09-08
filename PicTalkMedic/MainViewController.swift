@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class MainViewController: UIViewController,UICollectionViewDelegate, UICollectionViewDataSource, AVSpeechSynthesizerDelegate,KDDragAndDropCollectionViewDataSource  {
+class MainViewController: UIViewController,UICollectionViewDelegate, UICollectionViewDataSource, AVSpeechSynthesizerDelegate  {
     
     
     //MARK: Outlets
@@ -44,7 +44,7 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
     
     //MARK: Variables
     
-    var dragAndDropManager : KDDragAndDropManager?
+    //var dragAndDropManager : KDDragAndDropManager?
     var selectedSub = 0
     var data = [PicTalkCollectionView]()
     let selectedLang = "en-UK"
@@ -75,30 +75,45 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
         // Do any additional setup after loading the view, typically from a nib.
         
         collectionViewConfig(wordCollectionView)
-        collectionViewConfig(contextCollectionView)
+        //collectionViewConfig(contextCollectionView)
         
         // headCellWords.con
         synthesizer.delegate = self
         
-        
-        
-        // Drag and drop
-        self.dragAndDropManager = KDDragAndDropManager(canvas: self.view, collectionViews: [messageCollectionView, wordCollectionView, ])
-        print("categorizedData: \n")
-        print(categorizedData)
-        
+    
+        // Set up context collection view
         // assign all the contexts to the data in context view.
         // i.e. expectation = reception , consulation
-        if let contextItems = categorizedData["context"]{
-            contextCollectionView.dataItems = contextItems
-        }
+        passDataToCollectionView(categorizedData, field: "context", collectionView: contextCollectionView)
+        
+        // Set up delegation
+        contextCollectionView.delegate = contextCollectionView
         
         
         //a 3d array for data
-        self.data = [messageCollectionView, contextCollectionView ,wordCollectionView]
+        self.data = [messageCollectionView, messageCollectionView ,wordCollectionView]
         
         //select the first category
     }
+    
+    
+    func passDataToCollectionView <T: PicTalkCollectionView>(source:PicTable, field:String,collectionView: T ){
+        if let contextItems = source[field]{
+            print("loading data to context")
+            collectionView.dataItems = contextItems
+            
+            // asseign itself to be data source
+            collectionView.dataSource = collectionView
+            print(collectionView.dataItems)
+        }
+        
+    }
+    
+    
+    
+    
+    
+    
     
     func collectionViewConfig(collv:UICollectionView){
         collv.delegate = self
@@ -128,22 +143,13 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
         switch collectionView.tag {
         //Main
         case 1:
-            if let headCell = collectionView.dequeueReusableCellWithReuseIdentifier("HeadCell", forIndexPath: indexPath) as? ContextCollectionViewCell{
-                if let view = data[collectionView.tag] as? ContextCollectionView{
-                    headCell.text.text = view.dataItems[indexPath.item].swedish
-                    cell =  headCell
-                }
-            }
+            print("hi")
+      
             
         //Sub
         case 2:
-            if let subCell = collectionView.dequeueReusableCellWithReuseIdentifier("SubCell", forIndexPath: indexPath) as? WordCollectionViewCell{
-                if let view = data[collectionView.tag] as? WordCollectionView{
-                    subCell.text.text = view.dataItems[indexPath.item].swedish
-                    subCell.imageView.image = view.dataItems[indexPath.item].pic
-                    cell =  subCell
-                }
-            }
+             print("hi")
+
         case 0:
             if let msgCell = collectionView.dequeueReusableCellWithReuseIdentifier("MsgCell", forIndexPath: indexPath) as? MessageCollectionViewCell{
                 if let view = data[collectionView.tag] as? MessageColelctionView{
@@ -156,19 +162,19 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
             break
         }
         
-        cell.hidden = false
-        
-        if let kdCollectionView = collectionView as? KDDragAndDropCollectionView {
-            
-            if let draggingPathOfCellBeingDragged = kdCollectionView.draggingPathOfCellBeingDragged {
-                
-                if draggingPathOfCellBeingDragged.item == indexPath.item {
-                    
-                    cell.hidden = true
-                    
-                }
-            }
-        }
+//        cell.hidden = false
+//        
+//        if let kdCollectionView = collectionView as? KDDragAndDropCollectionView {
+//            
+//            if let draggingPathOfCellBeingDragged = kdCollectionView.draggingPathOfCellBeingDragged {
+//                
+//                if draggingPathOfCellBeingDragged.item == indexPath.item {
+//                    
+//                    cell.hidden = true
+//                    
+//                }
+//            }
+//        }
         return cell
     }
     
@@ -186,7 +192,7 @@ class MainViewController: UIViewController,UICollectionViewDelegate, UICollectio
         case 1:
             if let selectedHeadCell = selectedCell as? ContextCollectionViewCell{
                 //appearance
-                selectedHeadCell.backgroundColor = UIColor.blackColor()
+               // selectedHeadCell.backgroundColor = UIColor.blackColor()
                 selectedHeadCell.text.textColor = UIColor.whiteColor()
                 
                 //utter
