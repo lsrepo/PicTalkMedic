@@ -44,15 +44,14 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     
     //MARK: Variables
     
-    //var dragAndDropManager : KDDragAndDropManager?
+
     var selectedSub = 0
-    //var data = [PicTalkCollectionView]()
+
     let selectedLang = "en-UK"
     
     let categorizedData = DataManager().importData("test")
     
-   
-    
+
     //Message Area
     var message:[DataItem]  = {
         var dataItem = [DataItem]()
@@ -74,25 +73,18 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         super.viewDidLoad()
         
         synthesizer.delegate = self
-        setUpContextCV()
-        setUpWordCV()
-        setUpMsgCV()
+        
+        setUpSelectionView(contextCollectionView, childCV: wordCollectionView)
+        setUpMessageCollectionView()
         
     }
     
-    func setUpContextCV(){
-        passDataToCollectionView(categorizedData, field: "context", collectionView: contextCollectionView)
-        contextCollectionView.delegate = contextCollectionView
-        contextCollectionView.childCollectionView = wordCollectionView
-    }
+   
+  
     
-    func setUpWordCV(){
-        wordCollectionView.delegate = wordCollectionView
-        wordCollectionView.dataSource = wordCollectionView
-        wordCollectionView.messageView = messageCollectionView
-    }
+    // MARK: Stay here
     
-    func setUpMsgCV(){
+    func setUpMessageCollectionView(){
         messageCollectionView.delegate = messageCollectionView
         messageCollectionView.dataSource = messageCollectionView
     }
@@ -103,13 +95,8 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
             
             //database
             collectionView.picDatabase = categorizedData
-            
             //initial items
             collectionView.dataItems = contextItems
-            
-            // asseign itself to be data source
-            collectionView.dataSource = collectionView
-            print(collectionView.dataItems)
         }
         
     }
@@ -161,4 +148,27 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
 //    }
     
     
+}
+
+
+extension MainViewController{
+    
+    // MARK: Selection View
+    
+    func setUpSelectionView(parentCV:ContextCollectionView, childCV:WordCollectionView){
+        func setUpContextCV(parentCollectionView: ContextCollectionView, childCollectionView:WordCollectionView){
+            passDataToCollectionView(categorizedData, field: "context", collectionView: parentCollectionView)
+            parentCollectionView.delegate = parentCollectionView
+            parentCollectionView.dataSource = parentCollectionView
+            parentCollectionView.childCollectionView = childCollectionView
+        }
+        
+        func setUpWordCV(childCollectionView:WordCollectionView){
+            childCollectionView.delegate = wordCollectionView
+            childCollectionView.dataSource = childCollectionView
+            childCollectionView.messageView = messageCollectionView
+        }
+        setUpContextCV(parentCV,childCollectionView: childCV)
+        setUpWordCV(childCV)
+    }
 }
