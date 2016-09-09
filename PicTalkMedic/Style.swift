@@ -13,7 +13,7 @@ import UIKit
 
 struct Style{
     static let borderRadius:CGFloat = 5
-    static let borderWidth:CGFloat  = 1
+    static let borderWidth:CGFloat  = 2
     
     static let wordCellBackgroundColor = UIColor.whiteColor()
     static let contextCellBackgroundColor = UIColor.whiteColor()

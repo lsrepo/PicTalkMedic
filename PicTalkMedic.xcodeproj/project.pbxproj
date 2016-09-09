@@ -30,6 +30,7 @@
 		27A367C21D7F4F9C0015A4BB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A367C11D7F4F9C0015A4BB /* Category.swift */; };
 		27B23FB91D80B72F00A11F95 /* PicTalkCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */; };
 		27B957A11D7B3A2800731148 /* SelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B957A01D7B3A2800731148 /* SelectionView.xib */; };
+		27C6E00F1D82140B00F6095A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C6E00E1D82140B00F6095A /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		27A367C11D7F4F9C0015A4BB /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicTalkCollectionView.swift; sourceTree = "<group>"; };
 		27B957A01D7B3A2800731148 /* SelectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionView.xib; sourceTree = "<group>"; };
+		27C6E00E1D82140B00F6095A /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				273562A61D7AFB1200302289 /* WordCollectionView.swift */,
+				27C6E00E1D82140B00F6095A /* CollectionViewController.swift */,
 				271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */,
 				2706A0ED1D7C58DB0031F76A /* Style.swift */,
 			);
@@ -300,6 +303,7 @@
 				27A367C21D7F4F9C0015A4BB /* Category.swift in Sources */,
 				276284F41D74D282001F8039 /* MainViewController.swift in Sources */,
 				273562A31D7A282E00302289 /* KDDragAndDropCollectionView.swift in Sources */,
+				27C6E00F1D82140B00F6095A /* CollectionViewController.swift in Sources */,
 				273562AC1D7B03D600302289 /* ContextCollectionView.swift in Sources */,
 				27B23FB91D80B72F00A11F95 /* PicTalkCollectionView.swift in Sources */,
 				276284FA1D74D282001F8039 /* PicTalkMedic.xcdatamodeld in Sources */,

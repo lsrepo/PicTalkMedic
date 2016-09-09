@@ -8,24 +8,20 @@
 
 import UIKit
 
-class WordCollectionView:  PicTalkCollectionView {
+class WordCollectionView: PicTalkCollectionView {
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        print("cellForItemAtIndexPath")
         
-        // create a cell, change its text
-        let cell = WordCollectionViewCell()
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("SubCell", forIndexPath: indexPath) as! WordCollectionViewCell
         
-        // standard
-        if let subCell = self.dequeueReusableCellWithReuseIdentifier("SubCell", forIndexPath: indexPath) as? WordCollectionViewCell{
-            print("inside head cell")
-            subCell.text.text = dataItems[indexPath.item].swedish
-            subCell.imageView.image = dataItems[indexPath.item].pic
-            return subCell
-        }
+        // Configure the cell
+        print("inside head cell")
+        cell.text.text = dataItems[indexPath.item].swedish
+        cell.imageView.image = dataItems[indexPath.item].pic
         
         return cell
     }
     
+  
     
 }

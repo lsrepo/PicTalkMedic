@@ -12,7 +12,7 @@ import UIKit
 class PicTalkCollectionView:UICollectionView, UICollectionViewDelegate, UICollectionViewDataSource{
     
     var dataItems:[DataItem] = [DataItem]()
-    
+    var picDatabase:PicTable!
      
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
