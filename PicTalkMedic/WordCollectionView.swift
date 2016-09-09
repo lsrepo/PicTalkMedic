@@ -9,6 +9,8 @@
 import UIKit
 
 class WordCollectionView: PicTalkCollectionView {
+    
+    var messageView:MessageColelctionView!
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
@@ -22,6 +24,19 @@ class WordCollectionView: PicTalkCollectionView {
         return cell
     }
     
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        print("a word is selected")
+        let selectedItem =  dataItems[indexPath.item]
+        messageView.dataItems.append(selectedItem)
+        messageView.reloadData()
+        print("messageView.dataItems",messageView.dataItems )
+        
+//        selectedItem?.backgroundView?.backgroundColor = UIColor.greenColor().colorWithAlphaComponent(0.2)
+        
+        
+        
+    }
   
     
 }

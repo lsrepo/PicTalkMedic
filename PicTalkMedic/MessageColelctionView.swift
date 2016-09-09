@@ -10,6 +10,16 @@ import UIKit
 
 class MessageColelctionView:  PicTalkCollectionView {
 
-   
+    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("MsgCell", forIndexPath: indexPath) as! MessageCollectionViewCell
+        
+        // Configure the cell
+        print("configure message cell")
+        //cell.text.text = dataItems[indexPath.item].swedish
+        cell.imageView.image = dataItems[indexPath.item].pic
+        
+        return cell
+    }
     
 }

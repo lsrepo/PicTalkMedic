@@ -69,10 +69,6 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="1W6-Ju-zP7"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="QjC-wl-cWq"/>
-                                </connections>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJ0-Go-Aet">
                                 <rect key="frame" x="20" y="43" width="43" height="30"/>
@@ -130,6 +126,7 @@
                             </collectionView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="AH5-y5-7UX" customClass="WordCollectionView" customModule="PicTalkMedic" customModuleProvider="target">
                                 <rect key="frame" x="20" y="287" width="374" height="305"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="S8A-mO-scJ">
                                     <size key="itemSize" width="115" height="138"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -175,10 +172,6 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="btg-u5-vam"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ezm-LN-YkA"/>
-                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

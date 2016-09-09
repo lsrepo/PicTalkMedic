@@ -13,6 +13,7 @@ class PicTalkCollectionView:UICollectionView, UICollectionViewDelegate, UICollec
     
     var dataItems:[DataItem] = [DataItem]()
     var picDatabase:PicTable!
+    
      
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

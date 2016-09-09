@@ -11,7 +11,7 @@ import UIKit
 @IBDesignable
 
 
-class MessageCollectionViewCell: UICollectionViewCell {
+class MessageCollectionViewCell: UICollectionViewCell{
     
 
     @IBOutlet weak var imageView: UIImageView!
