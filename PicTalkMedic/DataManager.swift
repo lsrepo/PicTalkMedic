@@ -73,9 +73,9 @@ class DataManager{
         let arabic = item["arabic"] as! String
         let english = item["english"]  as! String
         let parent = item["parent"]  as! String
-        let contain = item["contain"] as? String
+        let child = item["child"] as? String
         
-        let dataItem = DataItem(swedish: swedish, arabic: arabic, picName: english, parent: parent, contain: contain)
+        let dataItem = DataItem(swedish: swedish, arabic: arabic, picName: english, parent: parent, child: child)
         return dataItem
     }
     

@@ -5,7 +5,7 @@
 	<dict>
 		<key>arabic</key>
 		<string>arabic</string>
-		<key>contain</key>
+		<key>child</key>
 		<string>reception</string>
 		<key>english</key>
 		<string>reception</string>
@@ -17,7 +17,7 @@
 	<dict>
 		<key>arabic</key>
 		<string>arabic</string>
-		<key>contain</key>
+		<key>child</key>
 		<string>consultation</string>
 		<key>english</key>
 		<string>consultation</string>
@@ -29,7 +29,7 @@
 	<dict>
 		<key>arabic</key>
 		<string>arabic</string>
-		<key>contain</key>
+		<key>child</key>
 		<string>identify</string>
 		<key>english</key>
 		<string>identify</string>
@@ -91,7 +91,7 @@
 	<dict>
 		<key>arabic</key>
 		<string>payment</string>
-		<key>contain</key>
+		<key>child</key>
 		<string>pay</string>
 		<key>english</key>
 		<string>payment</string>
@@ -139,6 +139,70 @@
 		<string>pay</string>
 		<key>swedish</key>
 		<string>Vi kan inte ta emot kontanter, har du möjlighet att betala med kort?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>quick</string>
+		<key>child</key>
+		<string>quick</string>
+		<key>english</key>
+		<string>quick</string>
+		<key>parent</key>
+		<string>sys_quick</string>
+		<key>swedish</key>
+		<string>quick</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>hmm</string>
+		<key>child</key>
+		<string>numbers</string>
+		<key>english</key>
+		<string>numbers</string>
+		<key>parent</key>
+		<string>sys_quick</string>
+		<key>swedish</key>
+		<string>nummer</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>hmm</string>
+		<key>english</key>
+		<string>i</string>
+		<key>parent</key>
+		<string>quick</string>
+		<key>swedish</key>
+		<string>jag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>hmm</string>
+		<key>english</key>
+		<string>you</string>
+		<key>parent</key>
+		<string>quick</string>
+		<key>swedish</key>
+		<string>du</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>hmm</string>
+		<key>english</key>
+		<string>one</string>
+		<key>parent</key>
+		<string>numbers</string>
+		<key>swedish</key>
+		<string>ett</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>hmmm</string>
+		<key>english</key>
+		<string>two</string>
+		<key>parent</key>
+		<string>numbers</string>
+		<key>swedish</key>
+		<string>tva</string>
 	</dict>
 </array>
 </plist>

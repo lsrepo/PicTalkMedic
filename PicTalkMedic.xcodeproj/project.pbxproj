@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2703E1381D8380C300B149A5 /* QuickCategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703E1371D8380C300B149A5 /* QuickCategoryCollectionViewController.swift */; };
+		2703E13A1D83883A00B149A5 /* SmartExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703E1391D83883A00B149A5 /* SmartExtension.swift */; };
 		2706A0EC1D7C579E0031F76A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0EB1D7C579E0031F76A /* DataManager.swift */; };
 		2706A0EE1D7C58DB0031F76A /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0ED1D7C58DB0031F76A /* Style.swift */; };
 		2706A0F01D7C5A6A0031F76A /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2706A0EF1D7C5A6A0031F76A /* test.plist */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2703E1371D8380C300B149A5 /* QuickCategoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickCategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		2703E1391D83883A00B149A5 /* SmartExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartExtension.swift; sourceTree = "<group>"; };
 		2706A0EB1D7C579E0031F76A /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		2706A0ED1D7C58DB0031F76A /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		2706A0EF1D7C5A6A0031F76A /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				273562A61D7AFB1200302289 /* WordCollectionView.swift */,
+				2703E1391D83883A00B149A5 /* SmartExtension.swift */,
 				271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */,
 				2706A0ED1D7C58DB0031F76A /* Style.swift */,
 			);
@@ -133,6 +138,7 @@
 			children = (
 				273562AB1D7B03D600302289 /* ContextCollectionView.swift */,
 				277FD8961D76379F009FE0BA /* ContextCollectionViewCell.swift */,
+				2703E1371D8380C300B149A5 /* QuickCategoryCollectionViewController.swift */,
 			);
 			name = Context;
 			sourceTree = "<group>";
@@ -301,6 +307,8 @@
 				2706A0EC1D7C579E0031F76A /* DataManager.swift in Sources */,
 				2706A0EE1D7C58DB0031F76A /* Style.swift in Sources */,
 				2735629F1D7A25A300302289 /* KDDragAndDropManager.swift in Sources */,
+				2703E1381D8380C300B149A5 /* QuickCategoryCollectionViewController.swift in Sources */,
+				2703E13A1D83883A00B149A5 /* SmartExtension.swift in Sources */,
 				27A367C21D7F4F9C0015A4BB /* Category.swift in Sources */,
 				276284F41D74D282001F8039 /* MainViewController.swift in Sources */,
 				273562A31D7A282E00302289 /* KDDragAndDropCollectionView.swift in Sources */,

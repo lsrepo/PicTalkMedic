@@ -1,4 +1,4 @@
-parent,contain,english,swedish,arabic
+parent,child,english,swedish,arabic
 context,reception,reception,reception,arabic
 context,consultation,consultation,consultation,arabic
 reception,identify,identify,identify,arabic
@@ -12,3 +12,9 @@ pay,,free pass,frikort,بطاقة الخدمات الطبية المجانية
 pay,,bill,räkning,فاتورة
 pay,,receipt,kvitto,إيصال
 pay,,We do not accept cash. Can you pay with a credit card?,"Vi kan inte ta emot kontanter, har du möjlighet att betala med kort?",نحن لا نقبل النقد. يمكنك الدفع ببطاقة الائتمان؟
+sys_quick,quick,quick,quick,quick
+sys_quick,numbers,numbers,nummer,hmm
+quick,,i,jag,hmm
+quick,,you,du,hmm
+numbers,,one,ett,hmm
+numbers,,two,tva,hmmm
