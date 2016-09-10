@@ -26,12 +26,14 @@ class ContextCollectionView: PicTalkCollectionView
         // create a cell, change its text
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("HeadCell", forIndexPath: indexPath) as! ContextCollectionViewCell
        
-        cell.text.text = dataItems[indexPath.item].swedish
+        cell.text.text = textInSelectedLang(dataItems[indexPath.item])
+            
+            
      
         return cell
     }
     
-    
+  
     
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
@@ -67,8 +69,6 @@ class ContextCollectionView: PicTalkCollectionView
                     
                     //populate the data in word collection with the first
                     childCollectionView.dataItems = firstSubContextWords
-                    print("firstSubContextWords",firstSubContextWords)
-                    print(firstSubContextWords.first!.swedish)
                     childCollectionView.reloadData()
                 }
             }

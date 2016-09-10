@@ -14,6 +14,7 @@ class PicTalkCollectionView:UICollectionView, UICollectionViewDelegate, UICollec
     var dataItems:[DataItem] = [DataItem]()
     var picDatabase:PicTable!
     
+    var sharedParams: SharedParams!
      
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -24,8 +25,19 @@ class PicTalkCollectionView:UICollectionView, UICollectionViewDelegate, UICollec
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         return UICollectionViewCell()
     }
-    // MARK: DataSource
     
     
+    // MARK: Language
+    
+    func textInSelectedLang(dataItem:DataItem) -> String {
+        switch sharedParams.selectedLang{
+        case .swedish:
+            return dataItem.swedish
+        case .arabic:
+            return dataItem.arabic
+        default:
+            return ""
+        }
+    }
   
 }

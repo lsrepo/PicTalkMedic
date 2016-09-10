@@ -20,8 +20,7 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     //Buttons
     @IBOutlet weak var speakButton: UIButton!
     @IBAction func utterMessage(sender: UIButton) {
-        let text = getMessageText()
-        utter(text)
+        utter()
     }
     //Buttons Touch Events
     @IBAction func switchGender(sender: AnyObject) {
@@ -32,8 +31,25 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
             }
         }
         
+        
+        
     }
     @IBAction func switchLang(sender: UIButton) {
+        switch sharedParams.selectedLang{
+        case .arabic:
+            sharedParams.selectedLang = .swedish
+        case .swedish:
+            sharedParams.selectedLang = .arabic
+        default:
+            break
+        }
+        
+        //reload data
+        
+        reloadAllCollectionViews()
+        
+        //reload message display
+        messageDisplay.text = getTextOfMessageInSelectedLang()
     }
     
     //MARK: Collection Views
@@ -48,12 +64,12 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     @IBOutlet weak var quickWordCollectionView: WordCollectionView!
     
     
-    //MARK: Variables
+    var collectionViews:[PicTalkCollectionView]!
     
 
-    var selectedSub = 0
-
-    let selectedLang = "en-UK"
+    //var selectedSub = 0
+    
+    let sharedParams = SharedParams()
     
     let categorizedData = DataManager().importData("test")
     
@@ -70,16 +86,20 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //all views
+      collectionViews =  [messageCollectionView,contextCollectionView,wordCollectionView,quickCategoryCollectionView,quickWordCollectionView]
+        
+        
         // message view
         setUpMessageCollectionView()
         
         // set up right hand side
-        quickCategoryCollectionView.grandParent = "sys_quick"
+        quickCategoryCollectionView.grandParent = "Quick"
         print(quickCategoryCollectionView.grandParent)
         
         // set up the two selection views
         setUpSelectionView(contextCollectionView, childCV: wordCollectionView,grandParent: "context")
-        setUpSelectionView(quickCategoryCollectionView, childCV: quickWordCollectionView,grandParent: "sys_quick")
+        setUpSelectionView(quickCategoryCollectionView, childCV: quickWordCollectionView,grandParent: "Quick")
         
         //Synthesizer
         synthesizer.delegate = self
@@ -93,6 +113,17 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     func setUpMessageCollectionView(){
         messageCollectionView.delegate = messageCollectionView
         messageCollectionView.dataSource = messageCollectionView
+        messageCollectionView.messageDataDelegate = self
+        messageCollectionView.sharedParams = sharedParams
+        
+        // Gesture
+    }
+    
+    
+    func didSwipe(recognizer: UIGestureRecognizer) {
+        if recognizer.state == UIGestureRecognizerState.Ended {
+            print("swipe ended")
+        }
     }
     
     
@@ -113,32 +144,32 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         // Dispose of any resources that can be recreated.
     }
     
-    var mainCategoryIsSelected = true
-    var selectedMainContext = ""
-
+    // MARK: Helpers
     
-    //    MARK: Utterance & Synthesizer
+    func reloadAllCollectionViews(){
+        for cv in collectionViews{
+            cv.reloadData()
+        }
+    }
+    
+    // MARK: Utterance & Synthesizer
     let synthesizer = AVSpeechSynthesizer()
     var utteranceQueue = [NSIndexPath]()
     
-    func getMessageText() -> String{
-        let dataItems = messageCollectionView.dataItems
-        var text = ""
-        for d in dataItems {
-            text += d.swedish + "      "
-        }
-        print("textdataItems",dataItems)
-        print(text)
-        return text
+    func getTextOfMessageInSelectedLang()->String{
+        return messageCollectionView.getMessageText()
     }
     
-    func updateMessageDisplay(){
-        messageDisplay.text = getMessageText()
-    }
-    
-    func utter(text:String){
+    func utter(){
+        
+        //prepare text 
+        let text = getTextOfMessageInSelectedLang()
+        
         //action
         let utter = AVSpeechUtterance(string: text)
+        
+        let selectedLang = sharedParams.selectedLang.rawValue
+        print(selectedLang)
         utter.voice = AVSpeechSynthesisVoice(language: selectedLang)
         synthesizer.speakUtterance(utter)
         
@@ -163,6 +194,8 @@ extension MainViewController{
             parentCollectionView.delegate = parentCollectionView
             parentCollectionView.dataSource = parentCollectionView
             parentCollectionView.childCollectionView = childCollectionView
+            
+            
         }
         
         func setUpWordCV(childCollectionView:WordCollectionView){
@@ -172,5 +205,24 @@ extension MainViewController{
         }
         setUpContextCV(parentCV,childCollectionView: childCV)
         setUpWordCV(childCV)
+        
+        parentCV.sharedParams = sharedParams
+        childCV.sharedParams = sharedParams
     }
+}
+
+extension MainViewController:MessageDataDelegate{
+    
+    func updateMessageDisplay(message:String){
+        messageDisplay.text = message
+    }
+    
+}
+
+protocol  MessageDataDelegate: class {
+    
+    func updateMessageDisplay(message:String)
+    
+
+    
 }

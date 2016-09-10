@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>arabic</key>
-		<string>arabic</string>
+		<string>hmm</string>
 		<key>child</key>
 		<string>reception</string>
 		<key>english</key>
@@ -16,7 +16,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>arabic</string>
+		<string>hmm</string>
 		<key>child</key>
 		<string>consultation</string>
 		<key>english</key>
@@ -28,7 +28,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>arabic</string>
+		<string>hmm</string>
 		<key>child</key>
 		<string>identify</string>
 		<key>english</key>
@@ -142,13 +142,13 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>quick</string>
+		<string>hmm</string>
 		<key>child</key>
 		<string>quick</string>
 		<key>english</key>
 		<string>quick</string>
 		<key>parent</key>
-		<string>sys_quick</string>
+		<string>Quick</string>
 		<key>swedish</key>
 		<string>quick</string>
 	</dict>
@@ -160,7 +160,7 @@
 		<key>english</key>
 		<string>numbers</string>
 		<key>parent</key>
-		<string>sys_quick</string>
+		<string>Quick</string>
 		<key>swedish</key>
 		<string>nummer</string>
 	</dict>

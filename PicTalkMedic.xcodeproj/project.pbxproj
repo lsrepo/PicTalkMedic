@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2703E1381D8380C300B149A5 /* QuickCategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703E1371D8380C300B149A5 /* QuickCategoryCollectionViewController.swift */; };
 		2703E13A1D83883A00B149A5 /* SmartExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703E1391D83883A00B149A5 /* SmartExtension.swift */; };
+		2703E13C1D84233900B149A5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703E13B1D84233900B149A5 /* Helper.swift */; };
+		2703E13E1D8424A900B149A5 /* SharedParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703E13D1D8424A900B149A5 /* SharedParams.swift */; };
 		2706A0EC1D7C579E0031F76A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0EB1D7C579E0031F76A /* DataManager.swift */; };
 		2706A0EE1D7C58DB0031F76A /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0ED1D7C58DB0031F76A /* Style.swift */; };
 		2706A0F01D7C5A6A0031F76A /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2706A0EF1D7C5A6A0031F76A /* test.plist */; };
@@ -46,6 +48,8 @@
 /* Begin PBXFileReference section */
 		2703E1371D8380C300B149A5 /* QuickCategoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickCategoryCollectionViewController.swift; sourceTree = "<group>"; };
 		2703E1391D83883A00B149A5 /* SmartExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartExtension.swift; sourceTree = "<group>"; };
+		2703E13B1D84233900B149A5 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		2703E13D1D8424A900B149A5 /* SharedParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedParams.swift; sourceTree = "<group>"; };
 		2706A0EB1D7C579E0031F76A /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		2706A0ED1D7C58DB0031F76A /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		2706A0EF1D7C5A6A0031F76A /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 		2703E1361D83540F00B149A5 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				2703E13B1D84233900B149A5 /* Helper.swift */,
+				2703E13D1D8424A900B149A5 /* SharedParams.swift */,
 				27A367C11D7F4F9C0015A4BB /* Category.swift */,
 				2706A0EB1D7C579E0031F76A /* DataManager.swift */,
 				2735629B1D7A1AD700302289 /* DataItem.swift */,
@@ -309,6 +315,7 @@
 				2735629F1D7A25A300302289 /* KDDragAndDropManager.swift in Sources */,
 				2703E1381D8380C300B149A5 /* QuickCategoryCollectionViewController.swift in Sources */,
 				2703E13A1D83883A00B149A5 /* SmartExtension.swift in Sources */,
+				2703E13C1D84233900B149A5 /* Helper.swift in Sources */,
 				27A367C21D7F4F9C0015A4BB /* Category.swift in Sources */,
 				276284F41D74D282001F8039 /* MainViewController.swift in Sources */,
 				273562A31D7A282E00302289 /* KDDragAndDropCollectionView.swift in Sources */,
@@ -316,6 +323,7 @@
 				27B23FB91D80B72F00A11F95 /* PicTalkCollectionView.swift in Sources */,
 				276284FA1D74D282001F8039 /* PicTalkMedic.xcdatamodeld in Sources */,
 				273562A51D7AD47E00302289 /* MessageCollectionViewCell.swift in Sources */,
+				2703E13E1D8424A900B149A5 /* SharedParams.swift in Sources */,
 				276284F21D74D282001F8039 /* AppDelegate.swift in Sources */,
 				2735629C1D7A1AD700302289 /* DataItem.swift in Sources */,
 				273562A11D7A267D00302289 /* MessageColelctionView.swift in Sources */,

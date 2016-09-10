@@ -18,7 +18,7 @@ class WordCollectionView: PicTalkCollectionView {
         
         // Configure the cell
         print("inside head cell")
-        cell.text.text = dataItems[indexPath.item].swedish
+        cell.text.text = textInSelectedLang(dataItems[indexPath.item])
         cell.imageView.image = dataItems[indexPath.item].pic
         
         return cell
