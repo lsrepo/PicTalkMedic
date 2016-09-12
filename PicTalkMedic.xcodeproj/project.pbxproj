@@ -121,7 +121,6 @@
 		273562A81D7AFCCB00302289 /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				276284FB1D74D282001F8039 /* Assets.xcassets */,
 				273562A01D7A267D00302289 /* MessageColelctionView.swift */,
 				273562A41D7AD47E00302289 /* MessageCollectionViewCell.swift */,
 			);
@@ -194,6 +193,7 @@
 		278A97A11D7B115900617A5D /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				276284FB1D74D282001F8039 /* Assets.xcassets */,
 				2706A0F11D7C5B450031F76A /* picData.plist */,
 				2706A0EF1D7C5A6A0031F76A /* test.plist */,
 				276284FD1D74D282001F8039 /* LaunchScreen.storyboard */,

@@ -1,20 +1,75 @@
-parent,child,english,swedish,arabic
-context,reception,reception,reception,arabic
-context,consultation,consultation,consultation,arabic
-reception,identify,identify,identify,arabic
-identify,,ID,legitimation,بطاقة هوية
-identify,,personal identity number,personnummer,رقم الهوية
-identify,,What is your personal identification number?,Vad har du för personnummer?,ما هو رقم هويتك؟
-identify,,Do you have an LMA card?,Har du ett LMA-kort?,هل عندك بـطاقة ل م أ؟
-identify,,Which health center are you enrolled in?,Vilken vårdcentral tillhör du?,أي مركز الرعاية الصحية أنت تسجيلك في؟
-reception,pay,payment,payment,payment
-pay,,free pass,frikort,بطاقة الخدمات الطبية المجانية
-pay,,bill,räkning,فاتورة
-pay,,receipt,kvitto,إيصال
-pay,,We do not accept cash. Can you pay with a credit card?,"Vi kan inte ta emot kontanter, har du möjlighet att betala med kort?",نحن لا نقبل النقد. يمكنك الدفع ببطاقة الائتمان؟
-sys_quick,quick,quick,quick,quick
-sys_quick,numbers,numbers,nummer,hmm
-quick,,i,jag,hmm
-quick,,you,du,hmm
-numbers,,one,ett,hmm
-numbers,,two,tva,hmmm
+parent,child,picName,english,swedish,arabic
+context,reception,reception,reception,reception,استقبال
+context,consultation,medical examination,medical examination,hälsoundersökning,فحص طبي
+reception,identify,identify,identify,identifiera,إثبات الهويّة
+identify,,identification,identification,legitimation,بطاقة هويّة
+identify,,personal identity number,personal identity number,personnummer,رقم الهوية
+identify,,LMA-card,LMA-card,LMA-kort,بـطاقة ل م أ
+identify,,health center,health center,vårdcentral, مركز الرعاية الصحية
+identify,,registered,registered,registrerad,مسجّل
+reception,pay,payment,pay,betala,"دفع
+"
+pay,,"
+",pay,betala,يدفع
+pay,,"
+",free card,frikort,بطاقة الخدمات الطبية المجانية
+pay,,"
+",bill,räkning,فاتورة
+pay,,,receipt,kvitto,إيصال
+pay,,,cash,kontanter,النقد
+pay,,,credit card,kort ,بطاقة الائتمان
+pay,,,accept,ta emot,يقبَل
+Quick,quick,quick,quick,snabb,سريع
+quick,,i-a,I,jag,أنا
+quick,,you-a,you,du,أنت
+quick,,,thanks,tack,شكراً
+quick,,,want,vilja,يريد
+quick,,,need,behöva,يحتاج إلى
+quick,,,have,ha,لدى
+quick,,,can,kunna,يستطيع
+quick,,,yes,ja,نعم
+quick,,,no,nej,لا
+quick,,,I don't know.,jag vet inte,لا أعرف
+quick,,,OK,okej,موافق
+quick,,,not,inte,لا/ليس
+quick,,,who,vem,مَن
+quick,,,where,var,أين
+quick,,,when,när,متى
+quick,,,why,varför,لماذا
+quick,,,what,vad,ما/ماذا
+quick,,,which,"vilken
+",أيّ
+quick,,,how,hur,كيف
+Quick,numbers,numbers,numbers,siffror,أرقام
+numbers,,,zero,noll,صِفر
+numbers,,,one,ett,واحد
+numbers,,,two,två,اثنان
+numbers,,,three,tre,ثلاثة
+numbers,,,four,fyra,أربعة
+numbers,,,five,fem,خمسة
+numbers,,,six,sex,ستة
+numbers,,,seven,sju,سبعة
+numbers,,,eight,åtta,ثمانية
+numbers,,,nine,nio,تسعة
+numbers,,,ten,tio,عشرة
+Quick,time,time,time,tid,"وقت
+"
+time,,hour,time,"tid
+",وقت
+time,,month,o'clock,klockan,"الساعة
+"
+time,,,today,idag ,اليوم
+time,,morning,day,dag,"يوم
+"
+time,,,week,vecka,أسبوع
+time,,,month,månad,شهر
+time,,,year,år,سنة
+time,,,before,"före
+",قبل
+time,,,after,efter ,بعد
+time,,,next,nästa,قادم
+time,,,sometimes,ibland,أحياناً
+time,,,now,nu,الآن
+time,,,morning,morgon,صباح
+time,,,afternoon,eftermiddag,بعد ظهر
+time,,,evening,kväll,مساء

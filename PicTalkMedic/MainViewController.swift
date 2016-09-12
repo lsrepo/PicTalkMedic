@@ -14,6 +14,12 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     
     //MARK: Outlets
     
+    @IBAction func clearMessage(sender: UIButton) {
+        messageCollectionView.dataItems.removeAll()
+        messageCollectionView.reloadData()
+        //update ui
+        messageDisplay.text = ""
+    }
     //Text
     @IBOutlet weak var messageDisplay: UILabel!
     
