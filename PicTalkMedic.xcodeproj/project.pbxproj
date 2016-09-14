@@ -14,8 +14,9 @@
 		2706A0EC1D7C579E0031F76A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0EB1D7C579E0031F76A /* DataManager.swift */; };
 		2706A0EE1D7C58DB0031F76A /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0ED1D7C58DB0031F76A /* Style.swift */; };
 		2706A0F01D7C5A6A0031F76A /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2706A0EF1D7C5A6A0031F76A /* test.plist */; };
-		2706A0F21D7C5B450031F76A /* picData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2706A0F11D7C5B450031F76A /* picData.plist */; };
 		271929E91D7774F9004383E3 /* WordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */; };
+		27219B781D89E6BC004EC8A0 /* Pic.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27219B771D89E6BC004EC8A0 /* Pic.xcassets */; };
+		27219B7A1D89E862004EC8A0 /* test.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27219B791D89E862004EC8A0 /* test.xcassets */; };
 		2735629C1D7A1AD700302289 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735629B1D7A1AD700302289 /* DataItem.swift */; };
 		2735629F1D7A25A300302289 /* KDDragAndDropManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735629E1D7A25A300302289 /* KDDragAndDropManager.swift */; };
 		273562A11D7A267D00302289 /* MessageColelctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562A01D7A267D00302289 /* MessageColelctionView.swift */; };
@@ -53,8 +54,9 @@
 		2706A0EB1D7C579E0031F76A /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		2706A0ED1D7C58DB0031F76A /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		2706A0EF1D7C5A6A0031F76A /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
-		2706A0F11D7C5B450031F76A /* picData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = picData.plist; sourceTree = "<group>"; };
 		271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCollectionViewCell.swift; sourceTree = "<group>"; };
+		27219B771D89E6BC004EC8A0 /* Pic.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Pic.xcassets; path = ../Pic.xcassets; sourceTree = "<group>"; };
+		27219B791D89E862004EC8A0 /* test.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = test.xcassets; sourceTree = "<group>"; };
 		2735629B1D7A1AD700302289 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
 		2735629E1D7A25A300302289 /* KDDragAndDropManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDDragAndDropManager.swift; sourceTree = "<group>"; };
 		273562A01D7A267D00302289 /* MessageColelctionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageColelctionView.swift; sourceTree = "<group>"; };
@@ -194,7 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				276284FB1D74D282001F8039 /* Assets.xcassets */,
-				2706A0F11D7C5B450031F76A /* picData.plist */,
+				27219B771D89E6BC004EC8A0 /* Pic.xcassets */,
+				27219B791D89E862004EC8A0 /* test.xcassets */,
 				2706A0EF1D7C5A6A0031F76A /* test.plist */,
 				276284FD1D74D282001F8039 /* LaunchScreen.storyboard */,
 				276284F11D74D282001F8039 /* AppDelegate.swift */,
@@ -287,7 +290,8 @@
 			files = (
 				2706A0F01D7C5A6A0031F76A /* test.plist in Resources */,
 				276284FF1D74D282001F8039 /* LaunchScreen.storyboard in Resources */,
-				2706A0F21D7C5B450031F76A /* picData.plist in Resources */,
+				27219B781D89E6BC004EC8A0 /* Pic.xcassets in Resources */,
+				27219B7A1D89E862004EC8A0 /* test.xcassets in Resources */,
 				276284FC1D74D282001F8039 /* Assets.xcassets in Resources */,
 				276284F71D74D282001F8039 /* Main.storyboard in Resources */,
 			);

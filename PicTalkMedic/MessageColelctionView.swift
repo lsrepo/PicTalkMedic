@@ -9,6 +9,23 @@
 import UIKit
 
 class MessageColelctionView:  PicTalkCollectionView  {
+    let questionMarkItem = DataItem(swedish: "?", arabic: "?", picName: "questionMark", parent: nil, child: nil)
+    
+    var isQuestion = false {
+        willSet(newValue) {
+            if (newValue){
+                print("tru")
+                dataItems.append(questionMarkItem)
+            }else{
+                print("false")
+                if (dataItems.count > 0){
+                    dataItems.removeLast()
+                }
+                
+            }
+        }
+        
+    }
     
     weak var messageDataDelegate:  MessageDataDelegate?
    // var sharedParams: SharedParams!
@@ -24,19 +41,38 @@ class MessageColelctionView:  PicTalkCollectionView  {
     
     override var dataItems:[DataItem] {
         didSet{
+
             messageDataDelegate?.updateMessageDisplay(getMessageText())
         }
     }
     
+    func reverseDataItems(){
+        dataItems = dataItems.reverse()
+    }
+    
+    func addItem(item:DataItem){
+      
+        if (isQuestion){
+            // remove ?
+            if (dataItems.count > 0){
+                 dataItems.removeLast()
+            }
+            dataItems.append(item)
+            dataItems.append(questionMarkItem)
+        }else{
+             dataItems.append(item)
+        }
+        
+    }
     
     func getMessageText() -> String{
         var text = ""
         for item in dataItems {
             switch sharedParams.selectedLang{
             case .swedish:
-                text += item.swedish + "      "
+                text += item.swedish! + "      "
             case .arabic:
-                 text += item.arabic + "      "
+                 text += item.arabic! + "      "
             default:
                 break
             }

@@ -1,75 +1,120 @@
-parent,child,picName,english,swedish,arabic
-context,reception,reception,reception,reception,استقبال
-context,consultation,medical examination,medical examination,hälsoundersökning,فحص طبي
-reception,identify,identify,identify,identifiera,إثبات الهويّة
-identify,,identification,identification,legitimation,بطاقة هويّة
-identify,,personal identity number,personal identity number,personnummer,رقم الهوية
-identify,,LMA-card,LMA-card,LMA-kort,بـطاقة ل م أ
-identify,,health center,health center,vårdcentral, مركز الرعاية الصحية
-identify,,registered,registered,registrerad,مسجّل
+parent,child,picName,english,swedish,arabic,
+context,reception,reception,reception,reception,استقبال,
+context,consultation,medical examination,medical examination,hälsoundersökning,فحص طبي,
+reception,greet,,greet,hälsa ,ترحيب,
+greet,,,Hello!,Hej!,أهلاً!,
+greet,,,Welcome!,Välkommen!,مرحباً!,
+greet,,,How are you?,Hur är läget?,كيف حالك؟,
+greet,,,"I'm fine, thank you.","Tack, bra!",أنا لخير.,
+greet,,,What’s your name?,Vad heter du?,ما اسمك؟,
+greet,,,my name is,jag heter,إسمي,
+greet,,,Nice to meet you!,Trevligt att träffas!,تشرفنا!,
+reception,identify,identify,identify,identifiera,إثبات الهويّة,
+identify,,identification,identification,legitimation,بطاقة هويّة,
+identify,,personal identity number,personal identity number,personnummer,رقم الهوية,
+identify,,LMA-card,LMA-card,LMA-kort,بـطاقة ل م أ,
+identify,,health center,health center,vårdcentral, مركز الرعاية الصحية,
+identify,,registered,registered,registrerad,مسجّل,
 reception,pay,payment,pay,betala,"دفع
+",
+pay,,"
+",pay,betala,يدفع,
+pay,,"
+",free card,frikort,بطاقة الخدمات الطبية المجانية,
+pay,,"
+",bill,räkning,فاتورة,
+pay,,,receipt,kvitto,إيصال,
+pay,,,cash,kontanter,النقد,
+pay,,,credit card,kort ,بطاقة الائتمان,
+pay,,,accept,ta emot,يقبَل,
+reception,re-schedula,,re-schedule,omboka,,
+reception,explain,,explain,förklara,شرح,
+explain,,,queue ticket,nummerlapp,تذكرة انتظار,
+explain,,,waiting list,väntelista,قائمة الانتظار,
+explain,,,schedule appointment,boka tid,تحديد موعد,
+explain,,,emergency,akut,حالة طارئة,
+reception,closing,,closing,avsluta,نهاية,
+closing,,,Bye!,Hej då!,وداعاً!,
+closing,,,See you!,Vi ses!,إلى اللقاء!,"
 "
-pay,,"
-",pay,betala,يدفع
-pay,,"
-",free card,frikort,بطاقة الخدمات الطبية المجانية
-pay,,"
-",bill,räkning,فاتورة
-pay,,,receipt,kvitto,إيصال
-pay,,,cash,kontanter,النقد
-pay,,,credit card,kort ,بطاقة الائتمان
-pay,,,accept,ta emot,يقبَل
-Quick,quick,quick,quick,snabb,سريع
-quick,,i-a,I,jag,أنا
-quick,,you-a,you,du,أنت
-quick,,,thanks,tack,شكراً
-quick,,,want,vilja,يريد
-quick,,,need,behöva,يحتاج إلى
-quick,,,have,ha,لدى
-quick,,,can,kunna,يستطيع
-quick,,,yes,ja,نعم
-quick,,,no,nej,لا
-quick,,,I don't know.,jag vet inte,لا أعرف
-quick,,,OK,okej,موافق
-quick,,,not,inte,لا/ليس
-quick,,,who,vem,مَن
-quick,,,where,var,أين
-quick,,,when,när,متى
-quick,,,why,varför,لماذا
-quick,,,what,vad,ما/ماذا
+Quick,quick,quick,quick,snabb,سريع,
+quick,,i-a,I,jag,أنا,
+quick,,you-a,you,du,أنت,
+quick,,,thanks,tack,شكراً,
+quick,,,want,vilja,يريد,
+quick,,,need,behöva,يحتاج إلى,
+quick,,,have,ha,لدى,
+quick,,,can,kunna,يستطيع,
+quick,,,yes,ja,نعم,
+quick,,,no,nej,لا,
+quick,,,I don't know.,jag vet inte,لا أعرف,
+quick,,,OK,okej,موافق,
+quick,,,not,inte,لا/ليس,
+quick,,,who,vem,مَن,
+quick,,,where,var,أين,
+quick,,,when,när,متى,
+quick,,,why,varför,لماذا,
+quick,,,what,vad,ما/ماذا,
 quick,,,which,"vilken
-",أيّ
-quick,,,how,hur,كيف
-Quick,numbers,numbers,numbers,siffror,أرقام
-numbers,,,zero,noll,صِفر
-numbers,,,one,ett,واحد
-numbers,,,two,två,اثنان
-numbers,,,three,tre,ثلاثة
-numbers,,,four,fyra,أربعة
-numbers,,,five,fem,خمسة
-numbers,,,six,sex,ستة
-numbers,,,seven,sju,سبعة
-numbers,,,eight,åtta,ثمانية
-numbers,,,nine,nio,تسعة
-numbers,,,ten,tio,عشرة
+",أيّ,
+quick,,,how,hur,كيف,
+Quick,numbers,numbers,numbers,siffror,أرقام,
+numbers,,,zero,noll,صِفر,
+numbers,,,one,ett,واحد,
+numbers,,,two,två,اثنان,
+numbers,,,three,tre,ثلاثة,
+numbers,,,four,fyra,أربعة,
+numbers,,,five,fem,خمسة,
+numbers,,,six,sex,ستة,
+numbers,,,seven,sju,سبعة,
+numbers,,,eight,åtta,ثمانية,
+numbers,,,nine,nio,تسعة,
+numbers,,,ten,tio,عشرة,
 Quick,time,time,time,tid,"وقت
-"
+",
 time,,hour,time,"tid
-",وقت
+",وقت,
 time,,month,o'clock,klockan,"الساعة
-"
-time,,,today,idag ,اليوم
+",
+time,,,today,idag ,اليوم,
 time,,morning,day,dag,"يوم
-"
-time,,,week,vecka,أسبوع
-time,,,month,månad,شهر
-time,,,year,år,سنة
+",
+time,,,week,vecka,أسبوع,
+time,,,month,månad,شهر,
+time,,,year,år,سنة,
 time,,,before,"före
-",قبل
-time,,,after,efter ,بعد
-time,,,next,nästa,قادم
-time,,,sometimes,ibland,أحياناً
-time,,,now,nu,الآن
-time,,,morning,morgon,صباح
-time,,,afternoon,eftermiddag,بعد ظهر
-time,,,evening,kväll,مساء
+",قبل,
+time,,,after,efter ,بعد,
+time,,,next,nästa,قادم,
+time,,,sometimes,ibland,أحياناً,
+time,,,now,nu,الآن,
+time,,,morning,morgon,صباح,
+time,,,afternoon,eftermiddag,بعد ظهر,
+time,,,evening,kväll,مساء,
+Quick ,people,,people,personer ,أشخاص,
+people,,,I ,jag,أنا,
+people,,,you,du,أنت,
+people,,,he,han,هو,
+people,,,she,hon,هي,
+people,,,we,vi,نحن,
+people,,,you ,ni,أنتم,
+people,,,they,de ,هم,
+people,,,doctor,läkare,طبيب,
+people,,,nurse,sjuksköterska,ممرض,
+people,,,interpreter,tolk,مترجم,
+people,,,psychologist,psykolog,طبيب نفسي,
+people,,,speech therapist,logoped,معالج النطق,
+people,,,physiotherapist,fysioterapeut,علاج طبيعي,
+people,,,receptionist,receptionist ,موظّف استقبال,
+people,,,family,familj,أسرة,
+people,,,mother,mamma,أمّ,
+people,,,father,pappa,أب,
+people,,,children,barn,أولاد,
+people,,,son,son,إبن,
+people,,,daughter,dotter,بنت,
+people,,,brother,bror,أخ,
+people,,,sister,syster,أخت,
+people,,,husband,man,زوج,
+people,,,wife,fru,زوجة,
+people,,,grandmother,mormor/farmor,جدّة,
+people,,,grandfather,morfar/farfar,جدّ,

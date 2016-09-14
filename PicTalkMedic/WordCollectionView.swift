@@ -11,13 +11,14 @@ import UIKit
 class WordCollectionView: PicTalkCollectionView {
     
     var messageView:MessageColelctionView!
+   
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("SubCell", forIndexPath: indexPath) as! WordCollectionViewCell
         
         // Configure the cell
-        print("inside head cell")
+        
         cell.text.text = textInSelectedLang(dataItems[indexPath.item])
         cell.imageView.image = dataItems[indexPath.item].pic
         
@@ -29,7 +30,7 @@ class WordCollectionView: PicTalkCollectionView {
 
         print("a word is selected")
         let selectedItem =  dataItems[indexPath.item]
-        messageView.dataItems.append(selectedItem)
+        messageView.addItem(selectedItem)
         messageView.reloadData()
   
     }

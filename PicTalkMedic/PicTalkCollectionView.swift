@@ -29,7 +29,7 @@ class PicTalkCollectionView:UICollectionView, UICollectionViewDelegate, UICollec
     
     // MARK: Language
     
-    func textInSelectedLang(dataItem:DataItem) -> String {
+    func textInSelectedLang(dataItem:DataItem) -> String? {
         switch sharedParams.selectedLang{
         case .swedish:
             return dataItem.swedish

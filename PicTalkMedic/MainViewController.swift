@@ -13,7 +13,13 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     
     
     //MARK: Outlets
+    @IBOutlet weak var questionMarkBtn: UIButton!
     
+    @IBAction func questionMarkBtnTapped(sender: UIButton) {
+        messageCollectionView.isQuestion = !messageCollectionView.isQuestion
+        messageCollectionView.reloadData()
+        
+    }
     @IBAction func clearMessage(sender: UIButton) {
         messageCollectionView.dataItems.removeAll()
         messageCollectionView.reloadData()
@@ -41,11 +47,17 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         
     }
     @IBAction func switchLang(sender: UIButton) {
+        
+        //TO-DO: add target language
+        //previosu selected language
+        
         switch sharedParams.selectedLang{
         case .arabic:
             sharedParams.selectedLang = .swedish
+            messageCollectionView.reverseDataItems()
         case .swedish:
             sharedParams.selectedLang = .arabic
+            messageCollectionView.reverseDataItems()
         default:
             break
         }
@@ -55,7 +67,7 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         reloadAllCollectionViews()
         
         //reload message display
-        messageDisplay.text = getTextOfMessageInSelectedLang()
+        updateMessageDisplay(getTextOfMessageInSelectedLang())
     }
     
     //MARK: Collection Views

@@ -14,20 +14,3 @@ enum Language: String {
     case english = "en-GB"
 }
 
-
-//enum Character {
-//enum Weapon {
-//    case Bow
-//    case Sword
-//    case Lance
-//    case Dagger
-//}
-//enum Helmet {
-//    case Wooden
-//    case Iron
-//    case Diamond
-//}
-//case Thief
-//case Warrior
-//case Knight
-//}

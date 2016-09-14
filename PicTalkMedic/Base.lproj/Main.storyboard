@@ -34,8 +34,8 @@
                                     <action selector="switchLang:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3NN-CE-sDd"/>
                                 </connections>
                             </button>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Tdo-sA-g9J" customClass="MessageColelctionView" customModule="PicTalkMedic" customModuleProvider="target">
-                                <rect key="frame" x="171" y="73" width="682" height="88"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Tdo-sA-g9J" customClass="MessageColelctionView" customModule="PicTalkMedic" customModuleProvider="target">
+                                <rect key="frame" x="171" y="73" width="643" height="88"/>
                                 <color key="backgroundColor" red="0.9868205189704895" green="0.93253910541534424" blue="0.01343117468059063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -66,6 +66,7 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstItem="LvN-Uo-fxs" firstAttribute="centerY" secondItem="5e6-r5-A90" secondAttribute="centerY" id="0A1-DD-tSN"/>
@@ -102,7 +103,7 @@
                                 </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" alwaysBounceHorizontal="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="s7r-X9-9RT" customClass="ContextCollectionView" customModule="PicTalkMedic" customModuleProvider="target">
-                                <rect key="frame" x="20" y="199" width="461" height="105"/>
+                                <rect key="frame" x="20" y="199" width="488" height="105"/>
                                 <color key="backgroundColor" red="0.7436327338218689" green="0.94056528806686401" blue="0.77540665864944458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="105" id="0Un-rA-3ke"/>
@@ -116,7 +117,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeadCell" id="aPj-2d-QXc" customClass="ContextCollectionViewCell" customModule="PicTalkMedic" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="7.5" width="90" height="90"/>
+                                        <rect key="frame" x="0.0" y="8" width="90" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
@@ -152,7 +153,7 @@
                                 </variation>
                             </collectionView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="AH5-y5-7UX" customClass="WordCollectionView" customModule="PicTalkMedic" customModuleProvider="target">
-                                <rect key="frame" x="20" y="313" width="461" height="435"/>
+                                <rect key="frame" x="20" y="313" width="488" height="435"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="S8A-mO-scJ">
                                     <size key="itemSize" width="115" height="138"/>
@@ -203,7 +204,7 @@
                                 </cells>
                             </collectionView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" alwaysBounceHorizontal="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="iED-Ac-wz1" userLabel="Quick Category Colelction View" customClass="QuickCategoryCollectionView" customModule="PicTalkMedic" customModuleProvider="target">
-                                <rect key="frame" x="543" y="199" width="461" height="105"/>
+                                <rect key="frame" x="516" y="199" width="488" height="105"/>
                                 <color key="backgroundColor" red="0.8505474328994751" green="0.8489837646484375" blue="0.9567221999168396" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="105" id="Nb9-U1-WwI"/>
@@ -217,7 +218,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeadCell" id="jXC-0P-6V6" customClass="ContextCollectionViewCell" customModule="PicTalkMedic" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="7.5" width="90" height="90"/>
+                                        <rect key="frame" x="0.0" y="8" width="90" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
@@ -253,7 +254,7 @@
                                 </variation>
                             </collectionView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="75h-im-LKI" userLabel="Quick Word Collection View" customClass="WordCollectionView" customModule="PicTalkMedic" customModuleProvider="target">
-                                <rect key="frame" x="543" y="313" width="461" height="435"/>
+                                <rect key="frame" x="516" y="313" width="488" height="435"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="s2V-uw-cR2">
                                     <size key="itemSize" width="115" height="138"/>
@@ -303,19 +304,41 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8AE-oh-mV2">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8AE-oh-mV2">
                                 <rect key="frame" x="171" y="166" width="682" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRr-R2-WUU">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRr-R2-WUU">
                                 <rect key="frame" x="866" y="131" width="36" height="30"/>
                                 <state key="normal" title="Clear"/>
                                 <connections>
                                     <action selector="clearMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z2C-F4-uFP"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Asa-42-xpj">
+                                <rect key="frame" x="812" y="74" width="41" height="87"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yb8-wx-G3p">
+                                        <rect key="frame" x="7" y="8" width="30" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="?">
+                                            <color key="titleColor" red="0.098869062960147858" green="0.063063308596611023" blue="0.029208311811089516" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="questionMarkBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SXo-lh-95y"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.9868205189704895" green="0.93253910541534424" blue="0.01343117468059063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Yb8-wx-G3p" secondAttribute="trailing" constant="4" id="AOu-aD-rh6"/>
+                                    <constraint firstItem="Yb8-wx-G3p" firstAttribute="leading" secondItem="Asa-42-xpj" secondAttribute="leading" constant="7" id="LGL-NY-gvS"/>
+                                    <constraint firstItem="Yb8-wx-G3p" firstAttribute="top" secondItem="Asa-42-xpj" secondAttribute="topMargin" id="OFg-TM-vdj"/>
+                                    <constraint firstAttribute="bottom" secondItem="Yb8-wx-G3p" secondAttribute="bottom" constant="49" id="QYi-qP-f8F"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -323,26 +346,33 @@
                             <constraint firstItem="AH5-y5-7UX" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.6" id="5yX-Nm-j4w"/>
                             <constraint firstAttribute="bottom" secondItem="AH5-y5-7UX" secondAttribute="bottom" constant="20" symbolic="YES" id="79f-oS-xKx"/>
                             <constraint firstItem="75h-im-LKI" firstAttribute="top" secondItem="AH5-y5-7UX" secondAttribute="top" id="7si-pZ-0Bo"/>
+                            <constraint firstItem="iRr-R2-WUU" firstAttribute="leading" secondItem="Asa-42-xpj" secondAttribute="trailing" constant="13" id="ADA-Mr-vvQ"/>
                             <constraint firstItem="iED-Ac-wz1" firstAttribute="trailing" secondItem="75h-im-LKI" secondAttribute="trailing" id="AFy-vv-Z34"/>
                             <constraint firstItem="Tdo-sA-g9J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Az3-Dn-VsI"/>
+                            <constraint firstItem="Asa-42-xpj" firstAttribute="trailing" secondItem="8AE-oh-mV2" secondAttribute="trailing" id="Bwz-Or-AkL"/>
                             <constraint firstItem="s7r-X9-9RT" firstAttribute="leading" secondItem="Hjv-pc-SnU" secondAttribute="leading" id="Czw-0g-ABj"/>
+                            <constraint firstItem="Asa-42-xpj" firstAttribute="centerY" secondItem="Tdo-sA-g9J" secondAttribute="centerY" id="DtV-Pc-p04"/>
                             <constraint firstItem="Tdo-sA-g9J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="53" id="GeL-Do-ubV"/>
                             <constraint firstItem="75h-im-LKI" firstAttribute="bottom" secondItem="AH5-y5-7UX" secondAttribute="bottom" id="Gyk-2Z-nUO"/>
-                            <constraint firstItem="AH5-y5-7UX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.45" id="HeJ-NF-h1N"/>
+                            <constraint firstItem="AH5-y5-7UX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.45" constant="27.199999999999989" id="HeJ-NF-h1N"/>
                             <constraint firstItem="Hjv-pc-SnU" firstAttribute="top" secondItem="a3Y-6K-jYy" secondAttribute="bottom" constant="8" symbolic="YES" id="KNu-qf-CaQ"/>
                             <constraint firstItem="iED-Ac-wz1" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="KQd-AA-syE"/>
                             <constraint firstItem="s7r-X9-9RT" firstAttribute="trailing" secondItem="AH5-y5-7UX" secondAttribute="trailing" id="Lnz-MK-xAl"/>
-                            <constraint firstItem="iED-Ac-wz1" firstAttribute="leading" secondItem="s7r-X9-9RT" secondAttribute="trailing" constant="62" id="Mo3-xa-g86"/>
+                            <constraint firstItem="iED-Ac-wz1" firstAttribute="leading" secondItem="s7r-X9-9RT" secondAttribute="trailing" constant="8" id="Mo3-xa-g86"/>
+                            <constraint firstItem="pJ0-Go-Aet" firstAttribute="leading" secondItem="Asa-42-xpj" secondAttribute="trailing" constant="8" symbolic="YES" id="Pbd-h9-IAt"/>
                             <constraint firstItem="pJ0-Go-Aet" firstAttribute="leading" secondItem="Tdo-sA-g9J" secondAttribute="trailing" constant="8" symbolic="YES" id="T9V-rz-UCh"/>
                             <constraint firstItem="Tdo-sA-g9J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vmd-MG-PD4"/>
                             <constraint firstItem="AH5-y5-7UX" firstAttribute="top" secondItem="s7r-X9-9RT" secondAttribute="bottom" constant="9" id="X8j-xe-01U"/>
                             <constraint firstItem="iED-Ac-wz1" firstAttribute="top" secondItem="s7r-X9-9RT" secondAttribute="top" id="YE0-2t-8dw"/>
+                            <constraint firstItem="Asa-42-xpj" firstAttribute="bottom" secondItem="iRr-R2-WUU" secondAttribute="bottom" id="aey-2M-voH"/>
                             <constraint firstItem="Hjv-pc-SnU" firstAttribute="bottom" secondItem="Tdo-sA-g9J" secondAttribute="bottom" constant="-19" id="ajB-qO-bye"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AH5-y5-7UX" secondAttribute="bottom" constant="20" id="dtg-4f-SFq"/>
                             <constraint firstItem="8AE-oh-mV2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="171" id="gmK-gg-Jvb"/>
                             <constraint firstItem="8AE-oh-mV2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="166" id="j6m-tW-hRe"/>
+                            <constraint firstItem="Asa-42-xpj" firstAttribute="bottom" secondItem="Tdo-sA-g9J" secondAttribute="bottom" id="ntl-d7-Ch7"/>
                             <constraint firstItem="s7r-X9-9RT" firstAttribute="top" secondItem="Tdo-sA-g9J" secondAttribute="bottom" constant="38" id="nzD-gv-vDo"/>
                             <constraint firstItem="s7r-X9-9RT" firstAttribute="top" secondItem="Tdo-sA-g9J" secondAttribute="bottom" constant="20" id="pB5-gt-nXd"/>
+                            <constraint firstItem="iED-Ac-wz1" firstAttribute="top" secondItem="8AE-oh-mV2" secondAttribute="bottom" constant="5" id="pEe-VZ-IyZ"/>
                             <constraint firstItem="iED-Ac-wz1" firstAttribute="leading" secondItem="75h-im-LKI" secondAttribute="leading" id="uCl-K9-VTE"/>
                             <constraint firstItem="a3Y-6K-jYy" firstAttribute="leading" secondItem="Hjv-pc-SnU" secondAttribute="leading" id="vND-9b-5Vz"/>
                             <constraint firstItem="AH5-y5-7UX" firstAttribute="top" secondItem="s7r-X9-9RT" secondAttribute="bottom" constant="8" id="vi1-bu-inr"/>
@@ -366,6 +396,7 @@
                         <outlet property="contextCollectionView" destination="s7r-X9-9RT" id="PL8-wW-RAx"/>
                         <outlet property="messageCollectionView" destination="Tdo-sA-g9J" id="xlA-Hy-deL"/>
                         <outlet property="messageDisplay" destination="8AE-oh-mV2" id="7cJ-Fm-DrZ"/>
+                        <outlet property="questionMarkBtn" destination="Yb8-wx-G3p" id="B5p-5a-2ZF"/>
                         <outlet property="quickCategoryCollectionView" destination="iED-Ac-wz1" id="boB-e9-2Fw"/>
                         <outlet property="quickWordCollectionView" destination="75h-im-LKI" id="xE4-si-ZLO"/>
                         <outlet property="speakButton" destination="pJ0-Go-Aet" id="f3Y-Ff-ujK"/>

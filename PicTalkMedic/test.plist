@@ -32,6 +32,88 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
+		<string>ترحيب</string>
+		<key>child</key>
+		<string>greet</string>
+		<key>english</key>
+		<string>greet</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>hälsa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أهلاً!</string>
+		<key>english</key>
+		<string>Hello!</string>
+		<key>parent</key>
+		<string>greet</string>
+		<key>swedish</key>
+		<string>Hej!</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مرحباً!</string>
+		<key>english</key>
+		<string>Welcome!</string>
+		<key>parent</key>
+		<string>greet</string>
+		<key>swedish</key>
+		<string>Välkommen!</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كيف حالك؟</string>
+		<key>english</key>
+		<string>How are you?</string>
+		<key>parent</key>
+		<string>greet</string>
+		<key>swedish</key>
+		<string>Hur är läget?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أنا لخير.</string>
+		<key>english</key>
+		<string>I&apos;m fine, thank you.</string>
+		<key>parent</key>
+		<string>greet</string>
+		<key>swedish</key>
+		<string>Tack, bra!</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ما اسمك؟</string>
+		<key>english</key>
+		<string>What’s your name?</string>
+		<key>parent</key>
+		<string>greet</string>
+		<key>swedish</key>
+		<string>Vad heter du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>إسمي</string>
+		<key>english</key>
+		<string>my name is</string>
+		<key>parent</key>
+		<string>greet</string>
+		<key>swedish</key>
+		<string>jag heter</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تشرفنا!</string>
+		<key>english</key>
+		<string>Nice to meet you!</string>
+		<key>parent</key>
+		<string>greet</string>
+		<key>swedish</key>
+		<string>Trevligt att träffas!</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
 		<string>إثبات الهويّة</string>
 		<key>child</key>
 		<string>identify</string>
@@ -190,6 +272,102 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
+		<string>??</string>
+		<key>child</key>
+		<string>re-schedula</string>
+		<key>english</key>
+		<string>re-schedule</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>omboka</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>شرح</string>
+		<key>child</key>
+		<string>explain</string>
+		<key>english</key>
+		<string>explain</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>förklara</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تذكرة انتظار</string>
+		<key>english</key>
+		<string>queue ticket</string>
+		<key>parent</key>
+		<string>explain</string>
+		<key>swedish</key>
+		<string>nummerlapp</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قائمة الانتظار</string>
+		<key>english</key>
+		<string>waiting list</string>
+		<key>parent</key>
+		<string>explain</string>
+		<key>swedish</key>
+		<string>väntelista</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تحديد موعد</string>
+		<key>english</key>
+		<string>schedule appointment</string>
+		<key>parent</key>
+		<string>explain</string>
+		<key>swedish</key>
+		<string>boka tid</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حالة طارئة</string>
+		<key>english</key>
+		<string>emergency</string>
+		<key>parent</key>
+		<string>explain</string>
+		<key>swedish</key>
+		<string>akut</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>نهاية</string>
+		<key>child</key>
+		<string>closing</string>
+		<key>english</key>
+		<string>closing</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>avsluta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وداعاً!</string>
+		<key>english</key>
+		<string>Bye!</string>
+		<key>parent</key>
+		<string>closing</string>
+		<key>swedish</key>
+		<string>Hej då!</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>إلى اللقاء!</string>
+		<key>english</key>
+		<string>See you!</string>
+		<key>parent</key>
+		<string>closing</string>
+		<key>swedish</key>
+		<string>Vi ses!</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
 		<string>سريع</string>
 		<key>child</key>
 		<string>quick</string>
@@ -300,7 +478,7 @@
 		<key>arabic</key>
 		<string>لا أعرف</string>
 		<key>english</key>
-		<string>I don&#39;t know.</string>
+		<string>I don&apos;t know.</string>
 		<key>parent</key>
 		<string>quick</string>
 		<key>swedish</key>
@@ -550,7 +728,7 @@
 		<key>arabic</key>
 		<string>الساعة</string>
 		<key>english</key>
-		<string>o&#39;clock</string>
+		<string>o&apos;clock</string>
 		<key>parent</key>
 		<string>time</string>
 		<key>picName</key>
@@ -689,6 +867,278 @@
 		<string>time</string>
 		<key>swedish</key>
 		<string>kväll</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أشخاص</string>
+		<key>child</key>
+		<string>people</string>
+		<key>english</key>
+		<string>people</string>
+		<key>parent</key>
+		<string>Quick</string>
+		<key>swedish</key>
+		<string>personer</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أنا</string>
+		<key>english</key>
+		<string>I</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>jag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أنت</string>
+		<key>english</key>
+		<string>you</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>du</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هو</string>
+		<key>english</key>
+		<string>he</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>han</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هي</string>
+		<key>english</key>
+		<string>she</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>hon</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>نحن</string>
+		<key>english</key>
+		<string>we</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>vi</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أنتم</string>
+		<key>english</key>
+		<string>you</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>ni</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هم</string>
+		<key>english</key>
+		<string>they</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>de</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طبيب</string>
+		<key>english</key>
+		<string>doctor</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>läkare</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ممرض</string>
+		<key>english</key>
+		<string>nurse</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>sjuksköterska</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مترجم</string>
+		<key>english</key>
+		<string>interpreter</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>tolk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طبيب نفسي</string>
+		<key>english</key>
+		<string>psychologist</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>psykolog</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>معالج النطق</string>
+		<key>english</key>
+		<string>speech therapist</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>logoped</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>علاج طبيعي</string>
+		<key>english</key>
+		<string>physiotherapist</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>fysioterapeut</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>موظّف استقبال</string>
+		<key>english</key>
+		<string>receptionist</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>receptionist</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أسرة</string>
+		<key>english</key>
+		<string>family</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>familj</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أمّ</string>
+		<key>english</key>
+		<string>mother</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>mamma</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أب</string>
+		<key>english</key>
+		<string>father</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>pappa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أولاد</string>
+		<key>english</key>
+		<string>children</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>barn</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>إبن</string>
+		<key>english</key>
+		<string>son</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>son</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بنت</string>
+		<key>english</key>
+		<string>daughter</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>dotter</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أخ</string>
+		<key>english</key>
+		<string>brother</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>bror</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أخت</string>
+		<key>english</key>
+		<string>sister</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>syster</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>زوج</string>
+		<key>english</key>
+		<string>husband</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>man</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>زوجة</string>
+		<key>english</key>
+		<string>wife</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>fru</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>جدّة</string>
+		<key>english</key>
+		<string>grandmother</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>mormor/farmor</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>جدّ</string>
+		<key>english</key>
+		<string>grandfather</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>morfar/farfar</string>
 	</dict>
 </array>
 </plist>
