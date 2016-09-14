@@ -41,13 +41,14 @@ class MessageColelctionView:  PicTalkCollectionView  {
     
     override var dataItems:[DataItem] {
         didSet{
-
+            print("In dataItems, getMessageText():",getMessageText())
             messageDataDelegate?.updateMessageDisplay(getMessageText())
         }
     }
     
     func reverseDataItems(){
         dataItems = dataItems.reverse()
+        print("data is reversed")
     }
     
     func addItem(item:DataItem){
@@ -68,6 +69,7 @@ class MessageColelctionView:  PicTalkCollectionView  {
     func getMessageText() -> String{
         var text = ""
         for item in dataItems {
+            print(" item is ", item.swedish )
             switch sharedParams.selectedLang{
             case .swedish:
                 text += item.swedish! + "      "
@@ -77,6 +79,7 @@ class MessageColelctionView:  PicTalkCollectionView  {
                 break
             }
         }
+        print("getMessageText: ",text)
         return text
     }
     
@@ -87,9 +90,18 @@ class MessageColelctionView:  PicTalkCollectionView  {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("MsgCell", forIndexPath: indexPath) as! MessageCollectionViewCell
         
         // Configure the cell
-        print("configure message cell")
-        //cell.text.text = dataItems[indexPath.item].swedish
-        cell.imageView.image = dataItems[indexPath.item].pic
+        
+        switch sharedParams.selectedLang{
+        case .arabic:
+            // reverse the pic
+            let maxIndex = dataItems.count - 1
+            cell.imageView.image = dataItems[maxIndex - indexPath.item].pic
+        case .swedish:
+           cell.imageView.image = dataItems[indexPath.item].pic
+        default:
+            break
+        }
+        
         
         return cell
     }

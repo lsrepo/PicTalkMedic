@@ -54,19 +54,18 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         switch sharedParams.selectedLang{
         case .arabic:
             sharedParams.selectedLang = .swedish
-            messageCollectionView.reverseDataItems()
+            //messageCollectionView.reverseDataItems()
         case .swedish:
             sharedParams.selectedLang = .arabic
-            messageCollectionView.reverseDataItems()
+            //messageCollectionView.reverseDataItems()
         default:
             break
         }
-        
-        //reload data
-        
         reloadAllCollectionViews()
         
+        print("update message display",getTextOfMessageInSelectedLang())
         //reload message display
+        
         updateMessageDisplay(getTextOfMessageInSelectedLang())
     }
     
