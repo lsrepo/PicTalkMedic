@@ -29,7 +29,7 @@ class DataManager{
         }
         if let dict = myDict {
             //Get all elements from a category
-            categorizedData = getCategorizedData("reception", dict: dict)
+            categorizedData = getCategorizedData(dict)
         }
         return categorizedData!
     }
@@ -37,7 +37,7 @@ class DataManager{
     
     
     
-    func getCategorizedData(categoryName:String, dict:NSArray) ->  PicTable {
+    func getCategorizedData(dict:NSArray) ->  PicTable {
         var categorizedDataItems = [String:[DataItem]]()
         
         for item in dict{
