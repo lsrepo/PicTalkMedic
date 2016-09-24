@@ -17,19 +17,19 @@ class PicTalkCollectionView:UICollectionView, UICollectionViewDelegate, UICollec
     var sharedParams: SharedParams!
      
     
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
         return dataItems.count
     }
     
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         return UICollectionViewCell()
     }
     
     
     // MARK: Language
     
-    func textInSelectedLang(dataItem:DataItem) -> String? {
+    func textInSelectedLang(_ dataItem:DataItem) -> String? {
         switch sharedParams.selectedLang{
         case .swedish:
             return dataItem.swedish

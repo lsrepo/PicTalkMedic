@@ -13,19 +13,20 @@ import Foundation
 
 typealias PicTable = [String:[DataItem]]
 
+typealias DataArray = [[String:AnyObject]]
 class DataManager{
     
     
     
     
-    func importData(fileName:String) ->PicTable{
+    func importData(_ fileName:String) ->PicTable{
         
         var categorizedData:PicTable?
         
-        var myDict: NSArray?
-        if let path = NSBundle.mainBundle().pathForResource(fileName, ofType: "plist") {
+        var myDict: DataArray?
+        if let path = Bundle.main.path(forResource: fileName, ofType: "plist") {
             //myDict = NSDictionary(contentsOfFile: path)
-            myDict = NSArray(contentsOfFile:path)
+            myDict = NSArray(contentsOfFile:path) as! DataArray
         }
         if let dict = myDict {
             //Get all elements from a category
@@ -37,17 +38,17 @@ class DataManager{
     
     
     
-    func getCategorizedData(dict:NSArray) ->  PicTable {
+    func getCategorizedData(_ dict:DataArray) ->  PicTable {
         var categorizedDataItems = [String:[DataItem]]()
         
         for item in dict{
             if let parent = item["parent"] as? String{
                 
                 // Check if there's such parent
-                let newItem = parseOneDataItem(item)
+                let newItem = parseOneDataItem(item as AnyObject)
                 
                 //add items to categorizedDataItems
-                if let a  = categorizedDataItems.indexForKey(parent){
+                if let a  = categorizedDataItems.index(forKey: parent){
                     // the pair already exists
                     // get the old value
                     var array = categorizedDataItems[a].1
@@ -67,7 +68,7 @@ class DataManager{
         return (categorizedDataItems)
     }
     
-    func parseOneDataItem(item:AnyObject)  -> DataItem{
+    func parseOneDataItem(_ item:AnyObject)  -> DataItem{
         print(item)
         //create one data item
         let swedish = item["swedish"] as? String
@@ -88,28 +89,28 @@ extension String {
     
     var removePunctuations: String{
         get{
-            return self.componentsSeparatedByCharactersInSet(.punctuationCharacterSet()).joinWithSeparator("")
+            return self.components(separatedBy: .punctuationCharacters).joined(separator: "")
         }
     }
     
     
     var replaceBlankSpace:String{
         get{
-            return self.stringByReplacingOccurrencesOfString(" ", withString: "-")
+            return self.replacingOccurrences(of: " ", with: "-")
         }
     }
     
     var replaceSwedish:String{
         get{
             var result = self
-            result = result.stringByReplacingOccurrencesOfString("å", withString: "ao")
-            result = result.stringByReplacingOccurrencesOfString("ö", withString: "oe")
-            result = result.stringByReplacingOccurrencesOfString("ä", withString: "ae")
+            result = result.replacingOccurrences(of: "å", with: "ao")
+            result = result.replacingOccurrences(of: "ö", with: "oe")
+            result = result.replacingOccurrences(of: "ä", with: "ae")
             return result
         }
     }
     
     func applyNamingRule()->String{
-        return self.removePunctuations.replaceBlankSpace.replaceSwedish.lowercaseString
+        return self.removePunctuations.replaceBlankSpace.replaceSwedish.lowercased()
     }
 }

@@ -31,8 +31,8 @@ class MessageColelctionView:  PicTalkCollectionView  {
    // var sharedParams: SharedParams!
     
     
-    func didSwipe(recognizer: UIGestureRecognizer) {
-        if recognizer.state == UIGestureRecognizerState.Ended {
+    func didSwipe(_ recognizer: UIGestureRecognizer) {
+        if recognizer.state == UIGestureRecognizerState.ended {
             print("swipe ended msg")
         }
     }
@@ -47,11 +47,11 @@ class MessageColelctionView:  PicTalkCollectionView  {
     }
     
     func reverseDataItems(){
-        dataItems = dataItems.reverse()
+        dataItems = dataItems.reversed()
         print("data is reversed")
     }
     
-    func addItem(item:DataItem){
+    func addItem(_ item:DataItem){
       
         if (isQuestion){
             // remove ?
@@ -85,9 +85,9 @@ class MessageColelctionView:  PicTalkCollectionView  {
     
     
     
-    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("MsgCell", forIndexPath: indexPath) as! MessageCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MsgCell", for: indexPath) as! MessageCollectionViewCell
         
         // Configure the cell
         
@@ -95,9 +95,9 @@ class MessageColelctionView:  PicTalkCollectionView  {
         case .arabic:
             // reverse the pic
             let maxIndex = dataItems.count - 1
-            cell.imageView.image = dataItems[maxIndex - indexPath.item].pic
+            cell.imageView.image = dataItems[maxIndex - (indexPath as NSIndexPath).item].pic
         case .swedish:
-           cell.imageView.image = dataItems[indexPath.item].pic
+           cell.imageView.image = dataItems[(indexPath as NSIndexPath).item].pic
         default:
             break
         }

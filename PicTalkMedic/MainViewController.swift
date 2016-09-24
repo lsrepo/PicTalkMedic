@@ -15,12 +15,12 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     //MARK: Outlets
     @IBOutlet weak var questionMarkBtn: UIButton!
     
-    @IBAction func questionMarkBtnTapped(sender: UIButton) {
+    @IBAction func questionMarkBtnTapped(_ sender: UIButton) {
         messageCollectionView.isQuestion = !messageCollectionView.isQuestion
         messageCollectionView.reloadData()
         
     }
-    @IBAction func clearMessage(sender: UIButton) {
+    @IBAction func clearMessage(_ sender: UIButton) {
         messageCollectionView.dataItems.removeAll()
         messageCollectionView.reloadData()
         //update ui
@@ -31,12 +31,12 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     
     //Buttons
     @IBOutlet weak var speakButton: UIButton!
-    @IBAction func utterMessage(sender: UIButton) {
+    @IBAction func utterMessage(_ sender: UIButton) {
         utter()
     }
     //Buttons Touch Events
-    @IBAction func switchGender(sender: AnyObject) {
-        let cells = wordCollectionView.visibleCells()
+    @IBAction func switchGender(_ sender: AnyObject) {
+        let cells = wordCollectionView.visibleCells
         for cell in cells{
             if let castedCell = cell as? WordCollectionViewCell{
                 castedCell.switchGender()
@@ -46,7 +46,7 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         
         
     }
-    @IBAction func switchLang(sender: UIButton) {
+    @IBAction func switchLang(_ sender: UIButton) {
         
         //TO-DO: add target language
         //previosu selected language
@@ -137,14 +137,14 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     }
     
     
-    func didSwipe(recognizer: UIGestureRecognizer) {
-        if recognizer.state == UIGestureRecognizerState.Ended {
+    func didSwipe(_ recognizer: UIGestureRecognizer) {
+        if recognizer.state == UIGestureRecognizerState.ended {
             print("swipe ended")
         }
     }
     
     
-    func passDataToCollectionView <T: PicTalkCollectionView>(source:PicTable, field:String,collectionView: T ){
+    func passDataToCollectionView <T: PicTalkCollectionView>(_ source:PicTable, field:String,collectionView: T ){
         if let contextItems = source[field]{
             
             //database
@@ -171,7 +171,7 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     
     // MARK: Utterance & Synthesizer
     let synthesizer = AVSpeechSynthesizer()
-    var utteranceQueue = [NSIndexPath]()
+    var utteranceQueue = [IndexPath]()
     
     func getTextOfMessageInSelectedLang()->String{
         return messageCollectionView.getMessageText()
@@ -188,12 +188,12 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         let selectedLang = sharedParams.selectedLang.rawValue
         print(selectedLang)
         utter.voice = AVSpeechSynthesisVoice(language: selectedLang)
-        synthesizer.speakUtterance(utter)
+        synthesizer.speak(utter)
         
     }
     
     
-    func speechSynthesizer(synthesizer: AVSpeechSynthesizer, didFinishSpeechUtterance utterance: AVSpeechUtterance) {
+    func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
        print("finsih speaking")
     }
     
@@ -205,8 +205,8 @@ extension MainViewController{
     
     // MARK: Selection View
     
-    func setUpSelectionView(parentCV:ContextCollectionView, childCV:WordCollectionView,grandParent:String){
-        func setUpContextCV(parentCollectionView: ContextCollectionView, childCollectionView:WordCollectionView){
+    func setUpSelectionView(_ parentCV:ContextCollectionView, childCV:WordCollectionView,grandParent:String){
+        func setUpContextCV(_ parentCollectionView: ContextCollectionView, childCollectionView:WordCollectionView){
             passDataToCollectionView(categorizedData, field: grandParent, collectionView: parentCollectionView)
             parentCollectionView.delegate = parentCollectionView
             parentCollectionView.dataSource = parentCollectionView
@@ -215,7 +215,7 @@ extension MainViewController{
             
         }
         
-        func setUpWordCV(childCollectionView:WordCollectionView){
+        func setUpWordCV(_ childCollectionView:WordCollectionView){
             childCollectionView.delegate = childCollectionView
             childCollectionView.dataSource = childCollectionView
             childCollectionView.messageView = messageCollectionView
@@ -230,7 +230,7 @@ extension MainViewController{
 
 extension MainViewController:MessageDataDelegate{
     
-    func updateMessageDisplay(message:String){
+    func updateMessageDisplay(_ message:String){
         messageDisplay.text = message
     }
     
@@ -238,7 +238,7 @@ extension MainViewController:MessageDataDelegate{
 
 protocol  MessageDataDelegate: class {
     
-    func updateMessageDisplay(message:String)
+    func updateMessageDisplay(_ message:String)
     
 
     

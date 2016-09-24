@@ -15,15 +15,15 @@ class WordCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
 
     func switchGender(){
-        backgroundColor = UIColor.redColor()
+        backgroundColor = UIColor.red
         
     }
     
     @IBInspectable var borderRadius: CGFloat = Style.borderRadius
     @IBInspectable var borderWidth: CGFloat = Style.borderWidth
     
-    override func drawRect(rect: CGRect) {
-        super.drawRect(rect)
+    override func draw(_ rect: CGRect) {
+        super.draw(rect)
         // draw the layout
         
         self.layer.borderWidth = self.borderWidth

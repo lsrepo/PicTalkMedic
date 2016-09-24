@@ -20,13 +20,13 @@ class ContextCollectionView: PicTalkCollectionView
     
     // MARK: DataSource
     
-    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         
         // create a cell, change its text
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("HeadCell", forIndexPath: indexPath) as! ContextCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HeadCell", for: indexPath) as! ContextCollectionViewCell
        
-        cell.text.text = textInSelectedLang(dataItems[indexPath.item])
+        cell.text.text = textInSelectedLang(dataItems[(indexPath as NSIndexPath).item])
             
             
      
@@ -36,9 +36,9 @@ class ContextCollectionView: PicTalkCollectionView
   
     
     
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: IndexPath) {
         
-        let tappedIndex = indexPath.item
+        let tappedIndex = (indexPath as NSIndexPath).item
         
         // 1. Distinguish the level we are at : main or sub
         if (contextIsSelected){
@@ -53,7 +53,7 @@ class ContextCollectionView: PicTalkCollectionView
     
     //MARK: When a context is selected
     
-    func loadWordsOfSelectedContext(selectedContext:String){
+    func loadWordsOfSelectedContext(_ selectedContext:String){
         // A. populate data in context collection with..
         //-----------------------------------------------
         // expectation: reception , consulation
@@ -76,7 +76,7 @@ class ContextCollectionView: PicTalkCollectionView
     }
     
     /// 2. Change the items in context view - no need to preselect anything
-    func loadEventsOfSelectedContextWithTappedItem(tappedItem:DataItem){
+    func loadEventsOfSelectedContextWithTappedItem(_ tappedItem:DataItem){
         
         if let selectedSubContext = tappedItem.child{
             
@@ -93,14 +93,14 @@ class ContextCollectionView: PicTalkCollectionView
             // B. Insert backButton
             //----------------------------------------------------
             let backButton = DataItem(swedish: "back", arabic: "back", picName: "back", parent: "system", child: nil)
-            self.dataItems.insert(backButton, atIndex: 0)
+            self.dataItems.insert(backButton, at: 0)
             
             
         }
     }
     
     
-    func contextDidSelectWithIndexOf(tappedIndex:Int){
+    func contextDidSelectWithIndexOf(_ tappedIndex:Int){
         let tappedItem = dataItems[tappedIndex]
         // the tabbed item belongs to main category
         
@@ -121,7 +121,7 @@ class ContextCollectionView: PicTalkCollectionView
     
     //MARK: When an event is selected
     
-    func eventDidSelectWithIndexOf(tappedIndex:Int,guardEnabled:Bool){
+    func eventDidSelectWithIndexOf(_ tappedIndex:Int,guardEnabled:Bool){
         let tappedItem = dataItems[tappedIndex]
         
         // guard: if the back button is not tapped

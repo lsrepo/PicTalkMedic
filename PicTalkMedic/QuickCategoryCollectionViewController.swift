@@ -11,9 +11,9 @@ import UIKit
 class QuickCategoryCollectionView: ContextCollectionView {
   
     
-    override  func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    override  func collectionView(_ collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: IndexPath) {
         
-        let tappedIndex = indexPath.item
+        let tappedIndex = (indexPath as NSIndexPath).item
         eventDidSelectWithIndexOf(tappedIndex,guardEnabled: false)
         childCollectionView.reloadData()
     }

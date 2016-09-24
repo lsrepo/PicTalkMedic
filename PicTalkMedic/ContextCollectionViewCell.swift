@@ -16,8 +16,8 @@ class ContextCollectionViewCell: UICollectionViewCell {
     @IBInspectable var borderWidth: CGFloat = Style.borderWidth
    
     
-    override func drawRect(rect: CGRect) {
-        super.drawRect(rect)
+    override func draw(_ rect: CGRect) {
+        super.draw(rect)
         // draw the layout
         
         self.layer.borderWidth = self.borderWidth

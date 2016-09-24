@@ -17,9 +17,7 @@
 		271929E91D7774F9004383E3 /* WordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */; };
 		27219B7A1D89E862004EC8A0 /* test.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27219B791D89E862004EC8A0 /* test.xcassets */; };
 		2735629C1D7A1AD700302289 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735629B1D7A1AD700302289 /* DataItem.swift */; };
-		2735629F1D7A25A300302289 /* KDDragAndDropManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735629E1D7A25A300302289 /* KDDragAndDropManager.swift */; };
 		273562A11D7A267D00302289 /* MessageColelctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562A01D7A267D00302289 /* MessageColelctionView.swift */; };
-		273562A31D7A282E00302289 /* KDDragAndDropCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562A21D7A282E00302289 /* KDDragAndDropCollectionView.swift */; };
 		273562A51D7AD47E00302289 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562A41D7AD47E00302289 /* MessageCollectionViewCell.swift */; };
 		273562A71D7AFB1200302289 /* WordCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562A61D7AFB1200302289 /* WordCollectionView.swift */; };
 		273562AC1D7B03D600302289 /* ContextCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562AB1D7B03D600302289 /* ContextCollectionView.swift */; };
@@ -56,9 +54,7 @@
 		271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCollectionViewCell.swift; sourceTree = "<group>"; };
 		27219B791D89E862004EC8A0 /* test.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = test.xcassets; sourceTree = "<group>"; };
 		2735629B1D7A1AD700302289 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
-		2735629E1D7A25A300302289 /* KDDragAndDropManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDDragAndDropManager.swift; sourceTree = "<group>"; };
 		273562A01D7A267D00302289 /* MessageColelctionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageColelctionView.swift; sourceTree = "<group>"; };
-		273562A21D7A282E00302289 /* KDDragAndDropCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDDragAndDropCollectionView.swift; sourceTree = "<group>"; };
 		273562A41D7AD47E00302289 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
 		273562A61D7AFB1200302289 /* WordCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCollectionView.swift; sourceTree = "<group>"; };
 		273562AB1D7B03D600302289 /* ContextCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextCollectionView.swift; sourceTree = "<group>"; };
@@ -107,15 +103,6 @@
 				27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */,
 			);
 			name = Helper;
-			sourceTree = "<group>";
-		};
-		2735629D1D7A259800302289 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				2735629E1D7A25A300302289 /* KDDragAndDropManager.swift */,
-				273562A21D7A282E00302289 /* KDDragAndDropCollectionView.swift */,
-			);
-			name = Extension;
 			sourceTree = "<group>";
 		};
 		273562A81D7AFCCB00302289 /* Message */ = {
@@ -169,7 +156,6 @@
 		276284F01D74D282001F8039 /* PicTalkMedic */ = {
 			isa = PBXGroup;
 			children = (
-				2735629D1D7A259800302289 /* Extension */,
 				276284F51D74D282001F8039 /* Main.storyboard */,
 				276284F31D74D282001F8039 /* MainViewController.swift */,
 				2703E1361D83540F00B149A5 /* Helper */,
@@ -249,14 +235,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = pictalk.se;
 				TargetAttributes = {
 					276284ED1D74D282001F8039 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JFRSPHJ244;
+						LastSwiftMigration = 0800;
 					};
 					276285041D74D282001F8039 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 276284ED1D74D282001F8039;
 					};
 				};
@@ -312,13 +301,11 @@
 				271929E91D7774F9004383E3 /* WordCollectionViewCell.swift in Sources */,
 				2706A0EC1D7C579E0031F76A /* DataManager.swift in Sources */,
 				2706A0EE1D7C58DB0031F76A /* Style.swift in Sources */,
-				2735629F1D7A25A300302289 /* KDDragAndDropManager.swift in Sources */,
 				2703E1381D8380C300B149A5 /* QuickCategoryCollectionViewController.swift in Sources */,
 				2703E13A1D83883A00B149A5 /* SmartExtension.swift in Sources */,
 				2703E13C1D84233900B149A5 /* Helper.swift in Sources */,
 				27A367C21D7F4F9C0015A4BB /* Category.swift in Sources */,
 				276284F41D74D282001F8039 /* MainViewController.swift in Sources */,
-				273562A31D7A282E00302289 /* KDDragAndDropCollectionView.swift in Sources */,
 				273562AC1D7B03D600302289 /* ContextCollectionView.swift in Sources */,
 				27B23FB91D80B72F00A11F95 /* PicTalkCollectionView.swift in Sources */,
 				276284FA1D74D282001F8039 /* PicTalkMedic.xcdatamodeld in Sources */,
@@ -382,8 +369,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -428,8 +417,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -448,6 +439,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -457,10 +449,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JFRSPHJ244;
 				INFOPLIST_FILE = PicTalkMedic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pictalk.se.PicTalkMedic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -469,10 +463,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JFRSPHJ244;
 				INFOPLIST_FILE = PicTalkMedic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pictalk.se.PicTalkMedic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -485,6 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pictalk.se.PicTalkMedicTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicTalkMedic.app/PicTalkMedic";
 			};
 			name = Debug;
@@ -497,6 +494,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pictalk.se.PicTalkMedicTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicTalkMedic.app/PicTalkMedic";
 			};
 			name = Release;

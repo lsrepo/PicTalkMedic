@@ -13,23 +13,23 @@ class WordCollectionView: PicTalkCollectionView {
     var messageView:MessageColelctionView!
    
 
-    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("SubCell", forIndexPath: indexPath) as! WordCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SubCell", for: indexPath) as! WordCollectionViewCell
         
         // Configure the cell
         
-        cell.text.text = textInSelectedLang(dataItems[indexPath.item])
-        cell.imageView.image = dataItems[indexPath.item].pic
+        cell.text.text = textInSelectedLang(dataItems[(indexPath as NSIndexPath).item])
+        cell.imageView.image = dataItems[(indexPath as NSIndexPath).item].pic
         
         return cell
     }
     
     
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: IndexPath) {
 
         print("a word is selected")
-        let selectedItem =  dataItems[indexPath.item]
+        let selectedItem =  dataItems[(indexPath as NSIndexPath).item]
         messageView.addItem(selectedItem)
         messageView.reloadData()
   
