@@ -69,7 +69,7 @@ class DataManager{
     }
     
     func parseOneDataItem(_ item:AnyObject)  -> DataItem{
-        print(item)
+        //print(item)
         //create one data item
         let swedish = item["swedish"] as? String
         let arabic = item["arabic"] as? String
@@ -78,7 +78,7 @@ class DataManager{
         let child = item["child"] as? String
         
         let dataItem = DataItem(swedish: swedish, arabic: arabic, picName: picName, parent: parent, child: child)
-        print("", swedish,picName)
+        //print("", swedish,picName)
         return dataItem
     }
     

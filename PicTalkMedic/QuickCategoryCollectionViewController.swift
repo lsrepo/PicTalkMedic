@@ -15,8 +15,13 @@ class QuickCategoryCollectionView: ContextCollectionView {
         
         let tappedIndex = (indexPath as NSIndexPath).item
         eventDidSelectWithIndexOf(tappedIndex,guardEnabled: false)
+
+        
+
+        selectedIndexPath = indexPath
         childCollectionView.reloadData()
     }
     
-
+ 
+    
 }

@@ -63,7 +63,7 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         }
         reloadAllCollectionViews()
         
-        print("update message display",getTextOfMessageInSelectedLang())
+        //print("update message display",getTextOfMessageInSelectedLang())
         //reload message display
         
         updateMessageDisplay(getTextOfMessageInSelectedLang())
@@ -97,7 +97,7 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         return dataItem
     }()
     
-    
+
     // MARK: VidedidLoad
 
     override func viewDidLoad() {
@@ -112,11 +112,14 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         
         // set up right hand side
         quickCategoryCollectionView.grandParent = "Quick"
-        print(quickCategoryCollectionView.grandParent)
+        //print(quickCategoryCollectionView.grandParent)
         
         // set up the two selection views
         setUpSelectionView(contextCollectionView, childCV: wordCollectionView,grandParent: "context")
         setUpSelectionView(quickCategoryCollectionView, childCV: quickWordCollectionView,grandParent: "Quick")
+        
+        
+        
         
         //Synthesizer
         synthesizer.delegate = self
@@ -139,7 +142,7 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     
     func didSwipe(_ recognizer: UIGestureRecognizer) {
         if recognizer.state == UIGestureRecognizerState.ended {
-            print("swipe ended")
+            //print("swipe ended")
         }
     }
     
@@ -186,7 +189,7 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         let utter = AVSpeechUtterance(string: text)
         
         let selectedLang = sharedParams.selectedLang.rawValue
-        print(selectedLang)
+        //print(selectedLang)
         utter.voice = AVSpeechSynthesisVoice(language: selectedLang)
         synthesizer.speak(utter)
         
@@ -194,7 +197,7 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     
     
     func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
-       print("finsih speaking")
+       //print("finsih speaking")
     }
     
     

@@ -28,7 +28,7 @@ class WordCollectionView: PicTalkCollectionView {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: IndexPath) {
 
-        print("a word is selected")
+        //print("a word is selected")
         let selectedItem =  dataItems[(indexPath as NSIndexPath).item]
         messageView.addItem(selectedItem)
         messageView.reloadData()

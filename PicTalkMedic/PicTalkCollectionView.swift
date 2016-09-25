@@ -13,7 +13,6 @@ class PicTalkCollectionView:UICollectionView, UICollectionViewDelegate, UICollec
     
     var dataItems:[DataItem] = [DataItem]()
     var picDatabase:PicTable!
-    
     var sharedParams: SharedParams!
      
     

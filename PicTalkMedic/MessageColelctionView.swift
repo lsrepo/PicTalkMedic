@@ -14,10 +14,10 @@ class MessageColelctionView:  PicTalkCollectionView  {
     var isQuestion = false {
         willSet(newValue) {
             if (newValue){
-                print("tru")
+                //print("tru")
                 dataItems.append(questionMarkItem)
             }else{
-                print("false")
+                //print("false")
                 if (dataItems.count > 0){
                     dataItems.removeLast()
                 }
@@ -33,7 +33,7 @@ class MessageColelctionView:  PicTalkCollectionView  {
     
     func didSwipe(_ recognizer: UIGestureRecognizer) {
         if recognizer.state == UIGestureRecognizerState.ended {
-            print("swipe ended msg")
+            //print("swipe ended msg")
         }
     }
     
@@ -41,14 +41,14 @@ class MessageColelctionView:  PicTalkCollectionView  {
     
     override var dataItems:[DataItem] {
         didSet{
-            print("In dataItems, getMessageText():",getMessageText())
+            //print("In dataItems, getMessageText():",getMessageText())
             messageDataDelegate?.updateMessageDisplay(getMessageText())
         }
     }
     
     func reverseDataItems(){
         dataItems = dataItems.reversed()
-        print("data is reversed")
+        //print("data is reversed")
     }
     
     func addItem(_ item:DataItem){
@@ -69,7 +69,7 @@ class MessageColelctionView:  PicTalkCollectionView  {
     func getMessageText() -> String{
         var text = ""
         for item in dataItems {
-            print(" item is ", item.swedish )
+            //print(" item is ", item.swedish )
             switch sharedParams.selectedLang{
             case .swedish:
                 text += item.swedish! + "      "
@@ -79,7 +79,7 @@ class MessageColelctionView:  PicTalkCollectionView  {
                 break
             }
         }
-        print("getMessageText: ",text)
+        //print("getMessageText: ",text)
         return text
     }
     

@@ -16,7 +16,11 @@ class ContextCollectionView: PicTalkCollectionView
     var childCollectionView: WordCollectionView!
     var contextIsSelected = true
     var grandParent = "context"
+    var selectedEventIndexPath:IndexPath = IndexPath(item: 1, section: 0)
+    var selectedCategoryIndexPath:IndexPath = IndexPath()
+    var selectedIndexPath:IndexPath = IndexPath()
     
+
     
     // MARK: DataSource
     
@@ -27,49 +31,71 @@ class ContextCollectionView: PicTalkCollectionView
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HeadCell", for: indexPath) as! ContextCollectionViewCell
        
         cell.text.text = textInSelectedLang(dataItems[(indexPath as NSIndexPath).item])
-            
-            
-     
+        cell.data = dataItems[(indexPath as NSIndexPath).item]
+        
+        
+        if selectedIndexPath == indexPath{
+              cell.isSelected = true
+        }else{
+              cell.isSelected = false
+        }
+      
+        
         return cell
     }
     
-  
+
     
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: IndexPath) {
-        
+
         let tappedIndex = (indexPath as NSIndexPath).item
         
         // 1. Distinguish the level we are at : main or sub
         if (contextIsSelected){
+            selectedCategoryIndexPath = indexPath
             contextDidSelectWithIndexOf(tappedIndex)
+            selectedEventIndexPath = IndexPath(item: 1, section: 0)
+            selectedIndexPath = selectedEventIndexPath
+
         }
         else{
+            selectedEventIndexPath = indexPath
             eventDidSelectWithIndexOf(tappedIndex,guardEnabled: true)
+            //selectedCellTitle = saveSelectedTitle(indexPath: indexPath)
         }
         
+
         reloadData()
+        
     }
     
+    
+    
     //MARK: When a context is selected
+    
+
     
     func loadWordsOfSelectedContext(_ selectedContext:String){
         // A. populate data in context collection with..
         //-----------------------------------------------
         // expectation: reception , consulation
         if let mainContextItems = picDatabase[selectedContext]{
-            print("mainContextItems",mainContextItems)
+            //print("mainContextItems",mainContextItems)
             // B. populate data in word collection with..
             //--------------------------------------------
             // expectation: identify , pay  ( subcontext of reception )
             if let firstSubContext = mainContextItems.first?.child{
-                print("firstSubContext",firstSubContext)
+                //print("firstSubContext",firstSubContext)
                 // expectation: identify, payment
+
                 if let firstSubContextWords = picDatabase[firstSubContext] {
                     
                     //populate the data in word collection with the first
                     childCollectionView.dataItems = firstSubContextWords
                     childCollectionView.reloadData()
+                    
+                  
                 }
             }
         }
@@ -85,7 +111,7 @@ class ContextCollectionView: PicTalkCollectionView
             
             // A. Populate context view data with the sub contexts
             //----------------------------------------------------
-            //print("selectedSubContext:",selectedSubContext)
+            ////print("selectedSubContext:",selectedSubContext)
             if let selectedSubContextItems = picDatabase[selectedSubContext]{
                 self.dataItems = selectedSubContextItems
             }
@@ -109,12 +135,15 @@ class ContextCollectionView: PicTalkCollectionView
             loadWordsOfSelectedContext(selectedContext)
         }
         
-        // 2. Change the items in context view - no need to preselect anything
+        // 2. Change the items in context view - pre select the first
         loadEventsOfSelectedContextWithTappedItem(tappedItem)
         
         // 3. set mainCIS to false
         //----------------------------------------------------
         contextIsSelected = false
+        
+        // 4. prevent forgetting the selected context
+        selectedIndexPath = selectedCategoryIndexPath
     }
     
     
@@ -124,14 +153,15 @@ class ContextCollectionView: PicTalkCollectionView
     func eventDidSelectWithIndexOf(_ tappedIndex:Int,guardEnabled:Bool){
         let tappedItem = dataItems[tappedIndex]
         
+        
         // guard: if the back button is not tapped
         //----------------------------------------------------
         guard (tappedIndex != 0 || guardEnabled == false )else{
-            print(" in guard else")
+            //print(" in guard else")
             // 1. change the items in context view to main
             
             if let contextItems = picDatabase[grandParent]{
-                print("contextItems:",contextItems)
+                //print("contextItems:",contextItems)
                 self.dataItems = contextItems
             }
             
@@ -144,6 +174,9 @@ class ContextCollectionView: PicTalkCollectionView
             // 3. delete items in word colelction
             childCollectionView.dataItems.removeAll()
             childCollectionView.reloadData()
+            
+            // 4. empty selectedIndexPath
+            selectedIndexPath = IndexPath()
             return
         }
         
@@ -160,11 +193,19 @@ class ContextCollectionView: PicTalkCollectionView
             }
         }
         
-        // TODO: 2. change the items in context view to sub
+        
+        // 2.
+        
+        // 3. Prevent forgetting the selected event
+        selectedIndexPath = selectedEventIndexPath
         
         
         
     }
+    
+    // MARK: remove
+    
+ 
     
     
 }
