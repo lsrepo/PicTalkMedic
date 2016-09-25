@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045535831D96B93000F28FBB /* Pic.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045535821D96B93000F28FBB /* Pic.xcassets */; };
 		2703E1381D8380C300B149A5 /* QuickCategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703E1371D8380C300B149A5 /* QuickCategoryCollectionViewController.swift */; };
 		2703E13A1D83883A00B149A5 /* SmartExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703E1391D83883A00B149A5 /* SmartExtension.swift */; };
 		2703E13C1D84233900B149A5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703E13B1D84233900B149A5 /* Helper.swift */; };
@@ -15,7 +16,6 @@
 		2706A0EE1D7C58DB0031F76A /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0ED1D7C58DB0031F76A /* Style.swift */; };
 		2706A0F01D7C5A6A0031F76A /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2706A0EF1D7C5A6A0031F76A /* test.plist */; };
 		271929E91D7774F9004383E3 /* WordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */; };
-		27219B7A1D89E862004EC8A0 /* test.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27219B791D89E862004EC8A0 /* test.xcassets */; };
 		2735629C1D7A1AD700302289 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735629B1D7A1AD700302289 /* DataItem.swift */; };
 		273562A11D7A267D00302289 /* MessageColelctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562A01D7A267D00302289 /* MessageColelctionView.swift */; };
 		273562A51D7AD47E00302289 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562A41D7AD47E00302289 /* MessageCollectionViewCell.swift */; };
@@ -44,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045535821D96B93000F28FBB /* Pic.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Pic.xcassets; path = ../Pic.xcassets; sourceTree = "<group>"; };
 		2703E1371D8380C300B149A5 /* QuickCategoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickCategoryCollectionViewController.swift; sourceTree = "<group>"; };
 		2703E1391D83883A00B149A5 /* SmartExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartExtension.swift; sourceTree = "<group>"; };
 		2703E13B1D84233900B149A5 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		2706A0ED1D7C58DB0031F76A /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		2706A0EF1D7C5A6A0031F76A /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
 		271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCollectionViewCell.swift; sourceTree = "<group>"; };
-		27219B791D89E862004EC8A0 /* test.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = test.xcassets; sourceTree = "<group>"; };
 		2735629B1D7A1AD700302289 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
 		273562A01D7A267D00302289 /* MessageColelctionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageColelctionView.swift; sourceTree = "<group>"; };
 		273562A41D7AD47E00302289 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -180,8 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				276284FB1D74D282001F8039 /* Assets.xcassets */,
-				27219B791D89E862004EC8A0 /* test.xcassets */,
 				2706A0EF1D7C5A6A0031F76A /* test.plist */,
+				045535821D96B93000F28FBB /* Pic.xcassets */,
 				276284FD1D74D282001F8039 /* LaunchScreen.storyboard */,
 				276284F11D74D282001F8039 /* AppDelegate.swift */,
 				276285001D74D282001F8039 /* Info.plist */,
@@ -276,7 +276,7 @@
 			files = (
 				2706A0F01D7C5A6A0031F76A /* test.plist in Resources */,
 				276284FF1D74D282001F8039 /* LaunchScreen.storyboard in Resources */,
-				27219B7A1D89E862004EC8A0 /* test.xcassets in Resources */,
+				045535831D96B93000F28FBB /* Pic.xcassets in Resources */,
 				276284FC1D74D282001F8039 /* Assets.xcassets in Resources */,
 				276284F71D74D282001F8039 /* Main.storyboard in Resources */,
 			);

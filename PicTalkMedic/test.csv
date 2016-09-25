@@ -1,19 +1,22 @@
 parent,child,picName,english,swedish,arabic,missing
 context,reception,reception,reception,reception,استقبال,
 context,consultation,medical examination,medical examination,hälsoundersökning,فحص طبي,
-reception,greet,,greet,hälsa ,ترحيب,
+reception,greet,,greet,hälsa ,تَحيّة,
 greet,,,Hello!,Hej!,أهلاً!,
 greet,,,Welcome!,Välkommen!,مرحباً!,
 greet,,,How are you?,Hur mår du?,كيف حالك؟,"
 "
 greet,,,I'm fine.,Jag mår bra.,أنا بخير.,
 greet,,,What’s your name?,Vad heter du?,ما اسمك؟,
-greet,,,My name is,Jag heter,إسمي,"
+greet,,,My name is,Jag heter,"أنا إسمي
+","
 "
 greet,,,Nice to meet you!,Trevligt att träffas!,تشرفنا!,
 reception,intention,,intention,avsikt,غَرَض,"
 "
 intention,,,How can I help?,Hur kan jag hjälpa?,كيف يمكنني مساعدة؟,
+intention,,,Do you have,Har du,هل لديك,"
+"
 intention,,,appointment,avtalad tid,موعد,
 intention,,,notice,kallelse,دعوة,
 intention,,,referral,remiss,إحالة,"find better pic?
@@ -43,7 +46,7 @@ pay,,,credit card,kort ,بطاقة الائتمان,
 pay,,,not accept,tar inte emot,لا يقبَل,
 reception,re-schedule,,re-schedule,omboka,تغيير موعد,
 re-schedule,,,sick,sjuk,مريض,
-re-schedule,,,here,här,هنا,
+re-schedule,,,not here,inte här,ليس هنا,
 re-schedule,,,unfortunately,"tyvärr
 ",للأسف,
 re-schedule,,,new ,tid, جديد,"
@@ -55,9 +58,10 @@ explain,,,waiting list,väntelista,قائمة الانتظار,
 explain,,,make appointment,boka tid,يحدّد موعداً,
 explain,,,emergency,akut,حالة طارئة,
 explain,,,self-referral,egenremiss,إحالة ذاتية,
+explain,,,Do you want,Vill du,هل تريد,
 explain,,,write,skriva,يكتب,
 explain,,,notice,kallelse,دعوة,
-explain,,,receive a letter,ta emot ett brev,يَتَلَقّى رسالة,
+explain,,,receive a letter,ta emot brev,يَتَلَقّى رسالة,
 explain,,,send,skicka,يرسل,
 explain,,,envelope,kuvert,ظَرف,
 reception,closing,,closing,avsluta,نهاية,
@@ -99,7 +103,7 @@ numbers,,,seven,sju,سبعة,
 numbers,,,eight,åtta,ثمانية,
 numbers,,,nine,nio,تسعة,
 numbers,,,ten,tio,عشرة,
-Quick,time,time,time,tid,"وقت
+Quick,time,time,time,tid,"الوقت
 ",
 time,,,time,"tid
 ",وقت,
@@ -140,21 +144,24 @@ professions,,,nurse,sjuksköterska,ممرض,
 professions,,,interpreter,tolk,مترجم,
 professions,,,receptionist,receptionist ,موظّف استقبال,
 professions,,,psychologist,psykolog,طبيب نفسي,
-professions,,,physiotherapist,fysioterapeut,علاج طبيعي,
+professions,,,physiotherapist,sjukgymnast,علاج طبيعي,
 professions,,,speech therapist,logoped,معالج النطق,
 Quick ,"family
 ",,family,familj,عائلة,
+family,,,relative,anhörig,قَريب,missing pic
 family,,,family,familj,عائلة,
+family,,,,god man,الموصي,missing pic
 family,,,mother,mamma,أمّ,
 family,,,father,pappa,أب,
 family,,,children,barn,أولاد,
 family,,,son,son,إبن,
-family,,,daughter,dotter,بنت,
+family,,,daughter,dotter,ابْنة,
 family,,,baby,baby,رضيع,
 family,,,brother,bror,أخ,
 family,,,sister,syster,أخت,
 family,,,husband,man,زوج,
 family,,,wife,fru,زوجة,
+family,,,friend,vaen,رفيق,
 family,,,girlfriend,flickvän,صديقة,
 family,,,boyfriend,pojkvän,صديق ,
 family,,,grandmother,mormor/farmor,جدّة,
