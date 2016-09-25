@@ -31,13 +31,12 @@ class ContextCollectionViewCell: UICollectionViewCell {
     override var isSelected: Bool{
         didSet{
             if isSelected{
-               self.layer.borderWidth = 3.3
-//                self.backgroundColor = UIColor.lightGray
-//                self.text.textColor = UIColor.white
-            }else{
+//               self.layer.borderWidth = 3.3
+                self.backgroundColor = UIColor.lightGray
+                          }else{
                self.layer.borderWidth = 2
-//                self.backgroundColor = UIColor.clear
-//                 self.backgroundColor = UIColor.white
+                self.backgroundColor = UIColor.clear
+                 self.backgroundColor = UIColor.white
 //                self.text.textColor = UIColor.black
             }
             

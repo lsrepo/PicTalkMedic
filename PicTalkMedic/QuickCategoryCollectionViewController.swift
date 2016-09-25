@@ -15,11 +15,12 @@ class QuickCategoryCollectionView: ContextCollectionView {
         
         let tappedIndex = (indexPath as NSIndexPath).item
         eventDidSelectWithIndexOf(tappedIndex,guardEnabled: false)
-
         
-
-        selectedIndexPath = indexPath
+        selectedCategoryIndexPath = indexPath
+        selectedIndexPath = selectedCategoryIndexPath
+        resetStyle()
         childCollectionView.reloadData()
+        self.reloadData()
     }
     
  

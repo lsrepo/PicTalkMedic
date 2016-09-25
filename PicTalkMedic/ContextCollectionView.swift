@@ -34,13 +34,15 @@ class ContextCollectionView: PicTalkCollectionView
         cell.data = dataItems[(indexPath as NSIndexPath).item]
         
         
+        // need this when language is changed
+        
         if selectedIndexPath == indexPath{
               cell.isSelected = true
         }else{
               cell.isSelected = false
         }
       
-        
+       
         return cell
     }
     
@@ -62,10 +64,10 @@ class ContextCollectionView: PicTalkCollectionView
         else{
             selectedEventIndexPath = indexPath
             eventDidSelectWithIndexOf(tappedIndex,guardEnabled: true)
-            //selectedCellTitle = saveSelectedTitle(indexPath: indexPath)
+          
         }
         
-
+      
         reloadData()
         
     }
@@ -74,6 +76,7 @@ class ContextCollectionView: PicTalkCollectionView
     
     //MARK: When a context is selected
     
+
 
     
     func loadWordsOfSelectedContext(_ selectedContext:String){
