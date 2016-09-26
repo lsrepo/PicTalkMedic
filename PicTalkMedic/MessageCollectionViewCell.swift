@@ -26,4 +26,6 @@ class MessageCollectionViewCell: UICollectionViewCell{
         self.layer.cornerRadius = self.borderRadius
         
     }
+    
+    var data:DataItem!
 }

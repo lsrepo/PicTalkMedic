@@ -8,17 +8,17 @@
 
 import UIKit
 
-class MessageColelctionView:  PicTalkCollectionView  {
+class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate  {
     var questionMarkItem:DataItem {
         get{
-          
+            
             switch sharedParams.selectedLang{
             case .swedish:
                 return DataItem(swedish: "?", arabic: "⸮", picName: "questionMark", parent: nil, child: nil)
             case .arabic:
                 return DataItem(swedish: "?", arabic: "⸮", picName: "questionMarkReversed", parent: nil, child: nil)
             default:
-                  return DataItem(swedish: "?", arabic: "⸮", picName: "questionMark", parent: nil, child: nil)
+                return DataItem(swedish: "?", arabic: "⸮", picName: "questionMark", parent: nil, child: nil)
             }
             
         }
@@ -27,7 +27,7 @@ class MessageColelctionView:  PicTalkCollectionView  {
     var isQuestion = false {
         willSet(newValue) {
             if (newValue){
-               
+                
                 dataItems.append(questionMarkItem)
             }else{
                 //print("false")
@@ -41,16 +41,16 @@ class MessageColelctionView:  PicTalkCollectionView  {
     }
     
     weak var messageDataDelegate:  MessageDataDelegate?
-   // var sharedParams: SharedParams!
+    // var sharedParams: SharedParams!
     
     
     func didSwipe(_ recognizer: UIGestureRecognizer) {
         if recognizer.state == UIGestureRecognizerState.ended {
-            //print("swipe ended msg")
+            print("swipe ended msg")
         }
     }
     
-   
+    
     
     override var dataItems:[DataItem] {
         didSet{
@@ -65,16 +65,16 @@ class MessageColelctionView:  PicTalkCollectionView  {
     }
     
     func addItem(_ item:DataItem){
-      
+        
         if (isQuestion){
             // remove ?
             if (dataItems.count > 0){
-                 dataItems.removeLast()
+                dataItems.removeLast()
             }
             dataItems.append(item)
             dataItems.append(questionMarkItem)
         }else{
-             dataItems.append(item)
+            dataItems.append(item)
         }
         
     }
@@ -87,7 +87,7 @@ class MessageColelctionView:  PicTalkCollectionView  {
             case .swedish:
                 text += item.swedish! + "   /   "
             case .arabic:
-                 text += item.arabic! + "   /   "
+                text += item.arabic! + "   /   "
             default:
                 break
             }
@@ -103,12 +103,17 @@ class MessageColelctionView:  PicTalkCollectionView  {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MsgCell", for: indexPath) as! MessageCollectionViewCell
         
         // Configure the cell
+       
         
+        // sequence
         switch sharedParams.selectedLang{
         case .arabic:
             // reverse the pic
             let maxIndex = dataItems.count - 1
-            cell.imageView.image = dataItems[maxIndex - (indexPath as NSIndexPath).item].pic
+            
+            let dataItem = dataItems[maxIndex - (indexPath as NSIndexPath).item]
+            cell.data = dataItem
+            cell.imageView.image = dataItem.pic
             
             // handle question mark
             if ( indexPath.item == 0 && isQuestion ){
@@ -116,20 +121,50 @@ class MessageColelctionView:  PicTalkCollectionView  {
                 cell.imageView.image = questionMarkItem.pic
             }
         case .swedish:
-           cell.imageView.image = dataItems[(indexPath as NSIndexPath).item].pic
+            let dataItem = dataItems[(indexPath as NSIndexPath).item]
+            cell.data = dataItem
+            cell.imageView.image = dataItem.pic
             
-           // handle question mark
-           if ( indexPath.item == dataItems.count-1 && isQuestion  ){
-            print(" this is ?")
-            cell.imageView.image = questionMarkItem.pic
+            
+            // handle question mark
+            if ( indexPath.item == dataItems.count-1 && isQuestion  ){
+                print(" this is ?")
+                cell.imageView.image = questionMarkItem.pic
             }
         default:
             break
         }
         
+        // add gestures
+        let upSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeToRemove(gestureReconizer:)))
+        upSwipe.direction = UISwipeGestureRecognizerDirection.up
         
+        let downSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeToRemove(gestureReconizer:)))
+        upSwipe.direction = UISwipeGestureRecognizerDirection.down
         
+        cell.addGestureRecognizer(upSwipe)
+        cell.addGestureRecognizer(downSwipe)
         return cell
     }
+    
+ 
+    func swipeToRemove(gestureReconizer:UISwipeGestureRecognizer){
+        print(gestureReconizer)
+        if let cell = gestureReconizer.view as? MessageCollectionViewCell{
+            print(self.dataSource)
+            
+            
+            if (cell.data.swedish == "?"){
+                messageDataDelegate?.deactivateQuestionMode()
+            }else{
+                self.dataItems = self.dataItems.filter{$0 != cell.data}
+            }
+            
+            
+            self.reloadData()
+            
+        }
+    }
+    
     
 }

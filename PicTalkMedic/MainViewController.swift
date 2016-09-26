@@ -46,7 +46,7 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         reloadAllCollectionViews()
         
         //reload message display
-        updateMessageDisplay(getTextOfMessageInSelectedLang(lang:sharedParams.selectedLang))
+        updateMessageDisplay(getTextOfMessage(lang:sharedParams.selectedLang))
         
         //reset questionMarkButton title
         switchQuestionMarkButtonTitle()
@@ -151,7 +151,7 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         reloadAllCollectionViews()
 
         //reload message display
-        updateMessageDisplay(getTextOfMessageInSelectedLang(lang:sharedParams.selectedLang))
+        updateMessageDisplay(getTextOfMessage(lang:sharedParams.selectedLang))
     }
     
     //MARK: Collection Views
@@ -262,9 +262,9 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     
     // MARK: Utterance & Synthesizer
     let synthesizer = AVSpeechSynthesizer()
-    var utteranceQueue = [IndexPath]()
     
-    func getTextOfMessageInSelectedLang(lang:Language)->String{
+    
+    func getTextOfMessage(lang:Language)->String{
         return messageCollectionView.getMessageText(lang:lang)
     }
     
@@ -272,19 +272,17 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         
         //prepare text 
         var text = ""
-        
-        
-        
-        
+
+        // default
         var utterLang = Language.arabic.rawValue
         
         switch sharedParams.selectedLang{
         case .arabic:
-            text = getTextOfMessageInSelectedLang(lang:Language.swedish)
+            text = getTextOfMessage(lang:Language.swedish)
             utterLang = Language.swedish.rawValue
             
         case .swedish:
-            text = getTextOfMessageInSelectedLang(lang:Language.arabic)
+            text = getTextOfMessage(lang:Language.arabic)
             utterLang = Language.arabic.rawValue
         default:
             break
@@ -331,6 +329,9 @@ extension MainViewController{
         
         parentCV.sharedParams = sharedParams
         childCV.sharedParams = sharedParams
+        
+        
+        
     }
 }
 
@@ -339,6 +340,7 @@ extension MainViewController:MessageDataDelegate{
     func updateMessageDisplay(_ message:String){
         messageDisplay.text = message
     }
+
     
 }
 
@@ -346,6 +348,6 @@ protocol  MessageDataDelegate: class {
     
     func updateMessageDisplay(_ message:String)
     
-
+    func deactivateQuestionMode()
     
 }

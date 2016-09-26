@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class WordCollectionView: PicTalkCollectionView {
     
@@ -32,7 +33,38 @@ class WordCollectionView: PicTalkCollectionView {
         let selectedItem =  dataItems[(indexPath as NSIndexPath).item]
         messageView.addItem(selectedItem)
         messageView.reloadData()
-  
+        
+        func utter(){
+            
+            
+            //synthesizer
+            let synthesizer = AVSpeechSynthesizer()
+            //prepare text
+            var text = ""
+            
+            // default
+            var utterLang = Language.arabic.rawValue
+            
+            switch sharedParams.selectedLang{
+            case .arabic:
+                text = selectedItem.arabic!
+                utterLang = Language.arabic.rawValue
+                
+            case .swedish:
+                text = selectedItem.swedish!
+                utterLang = Language.swedish.rawValue
+            default:
+                break
+            }
+            
+            
+            //action
+            let utter = AVSpeechUtterance(string: text)
+            utter.voice = AVSpeechSynthesisVoice(language: utterLang)
+            synthesizer.speak(utter)
+        }
+        
+        utter()
     }
   
     
