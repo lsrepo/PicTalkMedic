@@ -18,7 +18,6 @@ class QuickCategoryCollectionView: ContextCollectionView {
         
         selectedCategoryIndexPath = indexPath
         selectedIndexPath = selectedCategoryIndexPath
-        resetStyle()
         childCollectionView.reloadData()
         self.reloadData()
     }

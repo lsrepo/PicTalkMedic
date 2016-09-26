@@ -11,6 +11,44 @@ import AVFoundation
 
 class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     
+   
+    @IBAction func switchSpeakerButtonTapped(_ sender: UIButton) {
+ 
+        //switch bubble
+        if (bubbleImageView.tag == -1){
+            switchLanguage(language: .swedish)
+            speakerAButton.alpha = 0.5
+            speakerBButton.alpha = 1.0
+            
+            
+            bubbleImageView.transform = CGAffineTransform(scaleX: 1, y: 1)
+            bubbleImageView.tag = 1
+        }else{
+            switchLanguage(language: .arabic)
+            speakerAButton.alpha = 1.0
+            speakerBButton.alpha = 0.5
+            
+            bubbleImageView.transform = CGAffineTransform(scaleX: 1, y: -1)
+            bubbleImageView.tag = -1
+        }
+    }
+    @IBOutlet weak var speakerAButton: SpeakerButton!
+    @IBOutlet weak var speakerAButtonTapped: SpeakerButton!
+    @IBAction func speakerBButtonTapped(_ sender: SpeakerButton) {
+ 
+    }
+    @IBOutlet weak var speakerBButton: SpeakerButton!
+    
+
+    
+    func switchLanguage(language:Language){
+        sharedParams.selectedLang = language
+        reloadAllCollectionViews()
+        
+        //reload message display
+        updateMessageDisplay(getTextOfMessageInSelectedLang())
+    }
+    @IBOutlet weak var bubbleImageView: UIImageView!
     
     //MARK: Outlets
     @IBOutlet weak var questionMarkBtn: UIButton!
@@ -36,14 +74,15 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     }
     //Buttons Touch Events
     @IBAction func switchGender(_ sender: AnyObject) {
-        let cells = wordCollectionView.visibleCells
-        for cell in cells{
-            if let castedCell = cell as? WordCollectionViewCell{
-                castedCell.switchGender()
-            }
-        }
+//        let cells = wordCollectionView.visibleCells
+//        for cell in cells{
+//            if let castedCell = cell as? WordCollectionViewCell{
+//                castedCell.switchGender()
+//            }
+//        }
+
         
-        
+ 
         
     }
     @IBAction func switchLang(_ sender: UIButton) {
@@ -54,18 +93,15 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         switch sharedParams.selectedLang{
         case .arabic:
             sharedParams.selectedLang = .swedish
-            //messageCollectionView.reverseDataItems()
+
         case .swedish:
             sharedParams.selectedLang = .arabic
-            //messageCollectionView.reverseDataItems()
         default:
             break
         }
         reloadAllCollectionViews()
-        
-        //print("update message display",getTextOfMessageInSelectedLang())
+
         //reload message display
-        
         updateMessageDisplay(getTextOfMessageInSelectedLang())
     }
     
@@ -97,7 +133,10 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         return dataItem
     }()
     
-
+    override func viewWillAppear(_ animated: Bool) {
+        // set-up initial appearance
+        speakerAButton.alpha = 0.5
+    }
     // MARK: VidedidLoad
 
     override func viewDidLoad() {
