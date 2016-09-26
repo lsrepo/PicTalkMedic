@@ -157,8 +157,10 @@ class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate
     }
     
  
-    func swipeToRemove(gestureReconizer:UISwipeGestureRecognizer){
-        print(gestureReconizer)
+    func swipeToRemove(gestureReconizer:UIGestureRecognizer){
+        
+        let not = gestureReconizer.numberOfTouches
+        
         if let cell = gestureReconizer.view as? MessageCollectionViewCell{
             print("-------")
             print(cell)
@@ -167,11 +169,19 @@ class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate
             if (cell.data.swedish == "?"){
                 messageDataDelegate?.deactivateQuestionMode()
             }else{
+                let count = self.dataItems.count
+                // prevent multi swipes -- safe bet
+                guard (cell.itemIndex < count)else{
+                    print("danger")
+                    //self.reloadData()
+                    return
+                }
+                
                 self.dataItems.remove(at: cell.itemIndex)
+          
                 
             }
-            
-            
+
             self.reloadData()
             
         }
