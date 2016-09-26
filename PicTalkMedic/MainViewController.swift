@@ -69,15 +69,49 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     @IBOutlet weak var questionMarkBtn: UIButton!
     
     @IBAction func questionMarkBtnTapped(_ sender: UIButton) {
-        messageCollectionView.isQuestion = !messageCollectionView.isQuestion
-        messageCollectionView.reloadData()
+        //messageCollectionView.isQuestion = !messageCollectionView.isQuestion
+        if messageCollectionView.isQuestion{
+            deactivateQuestionMode()
+        }else{
+            activateQuestionMode()
+        }
+        //messageCollectionView.reloadData()
         
     }
+    
+    func activateQuestionMode(){
+        messageCollectionView.isQuestion = true
+        
+        questionMarkBtn.layer.borderWidth = 2
+        questionMarkBtn.layer.cornerRadius = 15
+        questionMarkBtn.layer.borderColor = Style.primaryColor.cgColor
+        questionMarkBtn.layer.backgroundColor = Style.primaryColor.cgColor
+        questionMarkBtn.setTitleColor(UIColor.white, for: .normal)
+        
+        messageCollectionView.reloadData()
+    }
+    
+    func deactivateQuestionMode(){
+        messageCollectionView.isQuestion = false
+        
+        questionMarkBtn.layer.borderWidth = 0
+        questionMarkBtn.setTitleColor(UIColor.black, for: .normal)
+        questionMarkBtn.layer.backgroundColor = UIColor.clear.cgColor
+        
+        messageCollectionView.reloadData()
+    }
+    
+    
     @IBAction func clearMessage(_ sender: UIButton) {
         messageCollectionView.dataItems.removeAll()
         messageCollectionView.reloadData()
         //update ui
         messageDisplay.text = ""
+        
+        // deactivate question mode
+        if messageCollectionView.isQuestion{
+            deactivateQuestionMode()
+        }
     }
     //Text
     @IBOutlet weak var messageDisplay: UILabel!
