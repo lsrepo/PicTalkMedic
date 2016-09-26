@@ -87,6 +87,7 @@ class DataManager{
 
 extension String {
     
+    ///replace punctuation
     var removePunctuations: String{
         get{
             return self.components(separatedBy: .punctuationCharacters).joined(separator: "")

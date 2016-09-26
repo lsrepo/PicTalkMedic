@@ -9,12 +9,25 @@
 import UIKit
 
 class MessageColelctionView:  PicTalkCollectionView  {
-    let questionMarkItem = DataItem(swedish: "?", arabic: "?", picName: "questionMark", parent: nil, child: nil)
+    var questionMarkItem:DataItem {
+        get{
+          
+            switch sharedParams.selectedLang{
+            case .swedish:
+                return DataItem(swedish: "?", arabic: "⸮", picName: "questionMark", parent: nil, child: nil)
+            case .arabic:
+                return DataItem(swedish: "?", arabic: "⸮", picName: "questionMarkReversed", parent: nil, child: nil)
+            default:
+                  return DataItem(swedish: "?", arabic: "⸮", picName: "questionMark", parent: nil, child: nil)
+            }
+            
+        }
+    }
     
     var isQuestion = false {
         willSet(newValue) {
             if (newValue){
-                //print("tru")
+               
                 dataItems.append(questionMarkItem)
             }else{
                 //print("false")
@@ -42,7 +55,7 @@ class MessageColelctionView:  PicTalkCollectionView  {
     override var dataItems:[DataItem] {
         didSet{
             //print("In dataItems, getMessageText():",getMessageText())
-            messageDataDelegate?.updateMessageDisplay(getMessageText())
+            messageDataDelegate?.updateMessageDisplay(getMessageText(lang:sharedParams.selectedLang))
         }
     }
     
@@ -66,15 +79,15 @@ class MessageColelctionView:  PicTalkCollectionView  {
         
     }
     
-    func getMessageText() -> String{
+    func getMessageText(lang:Language) -> String{
         var text = ""
         for item in dataItems {
             //print(" item is ", item.swedish )
-            switch sharedParams.selectedLang{
+            switch lang{
             case .swedish:
-                text += item.swedish! + "      "
+                text += item.swedish! + "   /   "
             case .arabic:
-                 text += item.arabic! + "      "
+                 text += item.arabic! + "   /   "
             default:
                 break
             }
@@ -96,11 +109,24 @@ class MessageColelctionView:  PicTalkCollectionView  {
             // reverse the pic
             let maxIndex = dataItems.count - 1
             cell.imageView.image = dataItems[maxIndex - (indexPath as NSIndexPath).item].pic
+            
+            // handle question mark
+            if ( indexPath.item == 0 && isQuestion ){
+                print(" this is ?")
+                cell.imageView.image = questionMarkItem.pic
+            }
         case .swedish:
            cell.imageView.image = dataItems[(indexPath as NSIndexPath).item].pic
+            
+           // handle question mark
+           if ( indexPath.item == dataItems.count-1 && isQuestion  ){
+            print(" this is ?")
+            cell.imageView.image = questionMarkItem.pic
+            }
         default:
             break
         }
+        
         
         
         return cell

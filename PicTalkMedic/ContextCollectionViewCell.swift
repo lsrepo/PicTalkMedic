@@ -12,6 +12,7 @@ class ContextCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var text: UILabel!
     
+    @IBOutlet weak var imageView: UIImageView!
     @IBInspectable var borderRadius: CGFloat = Style.borderRadius
     @IBInspectable var borderWidth: CGFloat = Style.borderWidth
     

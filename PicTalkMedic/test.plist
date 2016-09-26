@@ -28,7 +28,17 @@
 		<key>picName</key>
 		<string>medical examination</string>
 		<key>swedish</key>
-		<string>hälsoundersökning</string>
+		<string>undersökning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>العودة</string>
+		<key>english</key>
+		<string>back</string>
+		<key>parent</key>
+		<string>system</string>
+		<key>swedish</key>
+		<string>tillbaka</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -76,7 +86,7 @@
 		<key>arabic</key>
 		<string>أنا بخير.</string>
 		<key>english</key>
-		<string>I&#39;m fine.</string>
+		<string>I&apos;m fine.</string>
 		<key>parent</key>
 		<string>greet</string>
 		<key>swedish</key>
@@ -740,7 +750,7 @@
 		<key>arabic</key>
 		<string>لا أعرف.</string>
 		<key>english</key>
-		<string>I don&#39;t know.</string>
+		<string>I don&apos;t know.</string>
 		<key>parent</key>
 		<string>basic</string>
 		<key>swedish</key>
@@ -1010,7 +1020,7 @@
 		<key>arabic</key>
 		<string>الساعة</string>
 		<key>english</key>
-		<string>o&#39;clock</string>
+		<string>o&apos;clock</string>
 		<key>parent</key>
 		<string>time</string>
 		<key>swedish</key>
@@ -1230,7 +1240,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مِهَن</string>
+		<string>المِهَن</string>
 		<key>child</key>
 		<string>professions</string>
 		<key>english</key>
@@ -1249,16 +1259,6 @@
 		<string>professions</string>
 		<key>swedish</key>
 		<string>läkare</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>ممرض</string>
-		<key>english</key>
-		<string>nurse</string>
-		<key>parent</key>
-		<string>professions</string>
-		<key>swedish</key>
-		<string>sjuksköterska</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -1346,6 +1346,16 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
+		<string>رفيف</string>
+		<key>english</key>
+		<string>friend</string>
+		<key>parent</key>
+		<string>family</string>
+		<key>swedish</key>
+		<string>vän</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
 		<string>عائلة</string>
 		<key>english</key>
 		<string>family</string>
@@ -1357,6 +1367,8 @@
 	<dict>
 		<key>arabic</key>
 		<string>الموصي</string>
+		<key>english</key>
+		<string>trustee</string>
 		<key>missing</key>
 		<string>missing pic</string>
 		<key>parent</key>
@@ -1516,7 +1528,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>بحث</string>
+		<string>بَحْث</string>
 		<key>child</key>
 		<string>directions</string>
 		<key>english</key>

@@ -33,6 +33,9 @@ class ContextCollectionView: PicTalkCollectionView
         cell.text.text = textInSelectedLang(dataItems[(indexPath as NSIndexPath).item])
         cell.data = dataItems[(indexPath as NSIndexPath).item]
         
+        //image
+        
+        cell.imageView.image = dataItems[(indexPath as NSIndexPath).item].pic
         
         // need this when language is changed
         
@@ -121,7 +124,7 @@ class ContextCollectionView: PicTalkCollectionView
             
             // B. Insert backButton
             //----------------------------------------------------
-            let backButton = DataItem(swedish: "back", arabic: "back", picName: "back", parent: "system", child: nil)
+            let backButton = DataItem(swedish: "tillbaka", arabic: "العودة", picName: "tillbaka", parent: "system", child: nil)
             self.dataItems.insert(backButton, at: 0)
             
             

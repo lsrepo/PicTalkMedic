@@ -39,15 +39,30 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     }
     @IBOutlet weak var speakerBButton: SpeakerButton!
     
-
+// MARK: Switch Language
     
     func switchLanguage(language:Language){
         sharedParams.selectedLang = language
         reloadAllCollectionViews()
         
         //reload message display
-        updateMessageDisplay(getTextOfMessageInSelectedLang())
+        updateMessageDisplay(getTextOfMessageInSelectedLang(lang:sharedParams.selectedLang))
+        
+        //reset questionMarkButton title
+        switchQuestionMarkButtonTitle()
     }
+    
+    func switchQuestionMarkButtonTitle(){
+        
+        if (questionMarkBtn.titleLabel?.text! == "?"){
+            questionMarkBtn.setTitle("⸮", for: .normal)
+        }else{
+              questionMarkBtn.setTitle("?", for: .normal)
+        }
+    }
+    
+    
+    
     @IBOutlet weak var bubbleImageView: UIImageView!
     
     //MARK: Outlets
@@ -102,7 +117,7 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         reloadAllCollectionViews()
 
         //reload message display
-        updateMessageDisplay(getTextOfMessageInSelectedLang())
+        updateMessageDisplay(getTextOfMessageInSelectedLang(lang:sharedParams.selectedLang))
     }
     
     //MARK: Collection Views
@@ -215,21 +230,36 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     let synthesizer = AVSpeechSynthesizer()
     var utteranceQueue = [IndexPath]()
     
-    func getTextOfMessageInSelectedLang()->String{
-        return messageCollectionView.getMessageText()
+    func getTextOfMessageInSelectedLang(lang:Language)->String{
+        return messageCollectionView.getMessageText(lang:lang)
     }
     
     func utter(){
         
         //prepare text 
-        let text = getTextOfMessageInSelectedLang()
+        var text = ""
+        
+        
+        
+        
+        var utterLang = Language.arabic.rawValue
+        
+        switch sharedParams.selectedLang{
+        case .arabic:
+            text = getTextOfMessageInSelectedLang(lang:Language.swedish)
+            utterLang = Language.swedish.rawValue
+            
+        case .swedish:
+            text = getTextOfMessageInSelectedLang(lang:Language.arabic)
+            utterLang = Language.arabic.rawValue
+        default:
+            break
+        }
+        
         
         //action
         let utter = AVSpeechUtterance(string: text)
-        
-        let selectedLang = sharedParams.selectedLang.rawValue
-        //print(selectedLang)
-        utter.voice = AVSpeechSynthesisVoice(language: selectedLang)
+        utter.voice = AVSpeechSynthesisVoice(language: utterLang)
         synthesizer.speak(utter)
         
     }
