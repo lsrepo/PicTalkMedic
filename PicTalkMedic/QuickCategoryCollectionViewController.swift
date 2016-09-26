@@ -19,6 +19,10 @@ class QuickCategoryCollectionView: ContextCollectionView {
         selectedCategoryIndexPath = indexPath
         selectedIndexPath = selectedCategoryIndexPath
         childCollectionView.reloadData()
+        
+        // utter
+        utter(selectedItem: dataItems[tappedIndex])
+        
         self.reloadData()
     }
     

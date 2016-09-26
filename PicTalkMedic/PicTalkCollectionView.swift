@@ -39,4 +39,11 @@ class PicTalkCollectionView:UICollectionView, UICollectionViewDelegate, UICollec
         }
     }
   
+    
+    // MARK: Synthesizer
+    func utter(selectedItem:DataItem){
+        let utterManager = UtterManager.sharedInstance
+        //utterManager.synthesizer.stopSpeaking(at: .immediate)
+        utterManager.utter(sharedParams: sharedParams, selectedItem: selectedItem)
+    }
 }

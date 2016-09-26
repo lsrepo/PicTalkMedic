@@ -17,6 +17,7 @@
 		271929E91D7774F9004383E3 /* WordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */; };
 		272C4CD51D9934F40029C909 /* Pic.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272C4CD41D9934F40029C909 /* Pic.xcassets */; };
 		272C4CD71D9946420029C909 /* PicTalkSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C4CD61D9946420029C909 /* PicTalkSynthesizer.swift */; };
+		272C4CD91D996F570029C909 /* UtterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C4CD81D996F570029C909 /* UtterManager.swift */; };
 		2735629C1D7A1AD700302289 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735629B1D7A1AD700302289 /* DataItem.swift */; };
 		273562A11D7A267D00302289 /* MessageColelctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562A01D7A267D00302289 /* MessageColelctionView.swift */; };
 		273562A51D7AD47E00302289 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562A41D7AD47E00302289 /* MessageCollectionViewCell.swift */; };
@@ -56,6 +57,7 @@
 		271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCollectionViewCell.swift; sourceTree = "<group>"; };
 		272C4CD41D9934F40029C909 /* Pic.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Pic.xcassets; sourceTree = "<group>"; };
 		272C4CD61D9946420029C909 /* PicTalkSynthesizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicTalkSynthesizer.swift; sourceTree = "<group>"; };
+		272C4CD81D996F570029C909 /* UtterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtterManager.swift; sourceTree = "<group>"; };
 		2735629B1D7A1AD700302289 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
 		273562A01D7A267D00302289 /* MessageColelctionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageColelctionView.swift; sourceTree = "<group>"; };
 		273562A41D7AD47E00302289 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		2703E1361D83540F00B149A5 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				272C4CD81D996F570029C909 /* UtterManager.swift */,
 				2703E13B1D84233900B149A5 /* Helper.swift */,
 				2703E13D1D8424A900B149A5 /* SharedParams.swift */,
 				27A367C11D7F4F9C0015A4BB /* Category.swift */,
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				273562A71D7AFB1200302289 /* WordCollectionView.swift in Sources */,
+				272C4CD91D996F570029C909 /* UtterManager.swift in Sources */,
 				277FD8971D76379F009FE0BA /* ContextCollectionViewCell.swift in Sources */,
 				271929E91D7774F9004383E3 /* WordCollectionViewCell.swift in Sources */,
 				2706A0EC1D7C579E0031F76A /* DataManager.swift in Sources */,

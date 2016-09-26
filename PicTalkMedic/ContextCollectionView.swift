@@ -56,8 +56,12 @@ class ContextCollectionView: PicTalkCollectionView
 
         let tappedIndex = (indexPath as NSIndexPath).item
         
+        // 0. utter
+        utter(selectedItem: dataItems[tappedIndex])
+        
         // 1. Distinguish the level we are at : main or sub
         if (contextIsSelected){
+            
             selectedCategoryIndexPath = indexPath
             contextDidSelectWithIndexOf(tappedIndex)
             selectedEventIndexPath = IndexPath(item: 1, section: 0)
@@ -150,6 +154,9 @@ class ContextCollectionView: PicTalkCollectionView
         
         // 4. prevent forgetting the selected context
         selectedIndexPath = selectedCategoryIndexPath
+        
+       
+        
     }
     
     
