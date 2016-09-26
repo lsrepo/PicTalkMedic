@@ -9,6 +9,8 @@
 import UIKit
 
 class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate  {
+    
+   
     var questionMarkItem:DataItem {
         get{
             
@@ -54,8 +56,15 @@ class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate
     
     override var dataItems:[DataItem] {
         didSet{
-            //print("In dataItems, getMessageText():",getMessageText())
             messageDataDelegate?.updateMessageDisplay(getMessageText(lang:sharedParams.selectedLang))
+            
+            print("heheh")
+            
+            if(dataItems.count > 0 ){
+                messageDataDelegate?.activateClearButton()
+            }else{
+                messageDataDelegate?.deactivateClearButton()
+            }
         }
     }
     

@@ -439,6 +439,7 @@
                     <size key="freeformSize" width="1024" height="768"/>
                     <connections>
                         <outlet property="bubbleImageView" destination="SX0-Nx-c1Q" id="mve-8r-u2N"/>
+                        <outlet property="clearButton" destination="iRr-R2-WUU" id="o5P-2x-e8U"/>
                         <outlet property="contextCollectionView" destination="s7r-X9-9RT" id="PL8-wW-RAx"/>
                         <outlet property="messageCollectionView" destination="Tdo-sA-g9J" id="xlA-Hy-deL"/>
                         <outlet property="messageDisplay" destination="8AE-oh-mV2" id="7cJ-Fm-DrZ"/>

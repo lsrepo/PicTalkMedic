@@ -101,6 +101,7 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         messageCollectionView.reloadData()
     }
     
+    @IBOutlet weak var clearButton: UIButton!
     
     @IBAction func clearMessage(_ sender: UIButton) {
         messageCollectionView.dataItems.removeAll()
@@ -185,6 +186,7 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     override func viewWillAppear(_ animated: Bool) {
         // set-up initial appearance
         speakerAButton.alpha = 0.5
+        deactivateClearButton()
     }
     // MARK: VidedidLoad
 
@@ -340,7 +342,21 @@ extension MainViewController:MessageDataDelegate{
     func updateMessageDisplay(_ message:String){
         messageDisplay.text = message
     }
-
+    
+    func deactivateClearButton(){
+        
+        UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseInOut, animations: {
+             self.clearButton.alpha = 0
+            }, completion: nil)
+       
+    }
+    
+    func activateClearButton(){
+        UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseInOut, animations: {
+            self.clearButton.alpha = 1
+            }, completion: nil)
+        
+    }
     
 }
 
@@ -349,5 +365,9 @@ protocol  MessageDataDelegate: class {
     func updateMessageDisplay(_ message:String)
     
     func deactivateQuestionMode()
+    
+    func activateClearButton()
+    
+    func deactivateClearButton()
     
 }
