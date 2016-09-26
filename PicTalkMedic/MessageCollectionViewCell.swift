@@ -28,4 +28,5 @@ class MessageCollectionViewCell: UICollectionViewCell{
     }
     
     var data:DataItem!
+    var itemIndex:Int!
 }

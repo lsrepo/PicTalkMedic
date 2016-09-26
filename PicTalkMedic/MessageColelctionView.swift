@@ -124,7 +124,7 @@ class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate
             let dataItem = dataItems[(indexPath as NSIndexPath).item]
             cell.data = dataItem
             cell.imageView.image = dataItem.pic
-            
+            cell.itemIndex = (indexPath as NSIndexPath).item
             
             // handle question mark
             if ( indexPath.item == dataItems.count-1 && isQuestion  ){
@@ -151,13 +151,15 @@ class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate
     func swipeToRemove(gestureReconizer:UISwipeGestureRecognizer){
         print(gestureReconizer)
         if let cell = gestureReconizer.view as? MessageCollectionViewCell{
-            print(self.dataSource)
+            print("-------")
+            print(cell)
             
             
             if (cell.data.swedish == "?"){
                 messageDataDelegate?.deactivateQuestionMode()
             }else{
-                self.dataItems = self.dataItems.filter{$0 != cell.data}
+                self.dataItems.remove(at: cell.itemIndex)
+                
             }
             
             
