@@ -149,7 +149,8 @@ class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate
         upSwipe.direction = UISwipeGestureRecognizerDirection.up
         
         let downSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeToRemove(gestureReconizer:)))
-        upSwipe.direction = UISwipeGestureRecognizerDirection.down
+        downSwipe.direction = UISwipeGestureRecognizerDirection.down
+        
         
         cell.addGestureRecognizer(upSwipe)
         cell.addGestureRecognizer(downSwipe)
