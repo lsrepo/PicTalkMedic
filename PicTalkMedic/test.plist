@@ -54,7 +54,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أهْلاً!</string>
+		<string>أهلاً!</string>
 		<key>english</key>
 		<string>Hello!</string>
 		<key>parent</key>
@@ -86,7 +86,7 @@
 		<key>arabic</key>
 		<string>أنا بخير.</string>
 		<key>english</key>
-		<string>I&#39;m fine.</string>
+		<string>I&apos;m fine.</string>
 		<key>parent</key>
 		<string>greet</string>
 		<key>swedish</key>
@@ -750,7 +750,7 @@
 		<key>arabic</key>
 		<string>لا أعرف.</string>
 		<key>english</key>
-		<string>I don&#39;t know.</string>
+		<string>I don&apos;t know.</string>
 		<key>parent</key>
 		<string>basic</string>
 		<key>swedish</key>
@@ -1020,7 +1020,7 @@
 		<key>arabic</key>
 		<string>الساعة</string>
 		<key>english</key>
-		<string>o&#39;clock</string>
+		<string>o&apos;clock</string>
 		<key>parent</key>
 		<string>time</string>
 		<key>swedish</key>
@@ -1252,16 +1252,6 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مترجم</string>
-		<key>english</key>
-		<string>interpreter</string>
-		<key>parent</key>
-		<string>professions</string>
-		<key>swedish</key>
-		<string>tolk</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
 		<string>طبيب</string>
 		<key>english</key>
 		<string>doctor</string>
@@ -1272,13 +1262,13 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ممرض</string>
+		<string>مترجم</string>
 		<key>english</key>
-		<string>nurse</string>
+		<string>interpreter</string>
 		<key>parent</key>
 		<string>professions</string>
 		<key>swedish</key>
-		<string>sjuksköterska</string>
+		<string>tolk</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -1322,16 +1312,6 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أخصائي العلاج الوظيفي</string>
-		<key>english</key>
-		<string>occupational therapist</string>
-		<key>parent</key>
-		<string>professions</string>
-		<key>swedish</key>
-		<string>arbetsterapeut</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
 		<string>طَبيب أَمْراضِ النِساءِ</string>
 		<key>english</key>
 		<string>gynaecologist</string>
@@ -1357,6 +1337,8 @@
 		<string>قَريب</string>
 		<key>english</key>
 		<string>relative</string>
+		<key>missing</key>
+		<string>missing pic</string>
 		<key>parent</key>
 		<string>family</string>
 		<key>swedish</key>
@@ -1364,7 +1346,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>صديق</string>
+		<string>رفيف</string>
 		<key>english</key>
 		<string>friend</string>
 		<key>parent</key>
@@ -1387,6 +1369,8 @@
 		<string>الموصي</string>
 		<key>english</key>
 		<string>trustee</string>
+		<key>missing</key>
+		<string>missing pic</string>
 		<key>parent</key>
 		<string>family</string>
 		<key>swedish</key>
@@ -1434,7 +1418,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>بنت</string>
+		<string>ابْنة</string>
 		<key>english</key>
 		<string>daughter</string>
 		<key>parent</key>
@@ -1494,7 +1478,17 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>صاحبة</string>
+		<string>رفيق</string>
+		<key>english</key>
+		<string>friend</string>
+		<key>parent</key>
+		<string>family</string>
+		<key>swedish</key>
+		<string>vaen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صديقة</string>
 		<key>english</key>
 		<string>girlfriend</string>
 		<key>parent</key>
@@ -1504,7 +1498,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>صاحب</string>
+		<string>صديق</string>
 		<key>english</key>
 		<string>boyfriend</string>
 		<key>parent</key>

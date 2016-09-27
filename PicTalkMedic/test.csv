@@ -1,9 +1,9 @@
 parent,child,picName,english,swedish,arabic,missing
 context,reception,reception,reception,reception,استقبال,
 context,consultation,medical examination,medical examination,undersökning,فحص طبي,
-system,,,back,tillbaka,العودة,
+context,,,back,tillbaka,العودة,
 reception,greet,,greet,hälsa ,تَحيّة,
-greet,,,Hello!,Hej!,أهْلاً!,
+greet,,,Hello!,Hej!,أهلاً!,
 greet,,,Welcome!,Välkommen!,مرحباً!,
 greet,,,How are you?,Hur mår du?,كيف حالك؟,"
 "
@@ -140,37 +140,33 @@ pronouns,,,we,vi,نحن,
 pronouns,,,you ,ni,أنتم,
 pronouns,,,they,de ,هم,
 Quick,professions,,professions,yrken,المِهَن,
-professions,,,interpreter,tolk,مترجم,
 professions,,,doctor,läkare,طبيب,
-professions,,,nurse,sjuksköterska,ممرض,"
-"
+professions,,,nurse,sjuksköterska,ممرض,
+professions,,,interpreter,tolk,مترجم,
 professions,,,receptionist,receptionist ,موظّف استقبال,
 professions,,,psychologist,psykolog,طبيب نفسي,
 professions,,,physiotherapist,sjukgymnast,علاج طبيعي,
-professions,,,speech therapist,logoped,معالج النطق,"
-"
-professions,,,occupational therapist,arbetsterapeut,أخصائي العلاج الوظيفي,
+professions,,,speech therapist,logoped,معالج النطق,
 professions,,,gynaecologist,gynekolog,طَبيب أَمْراضِ النِساءِ,
 Quick ,"family
 ",,family,familj,عائلة,
-family,,,relative,anhörig,قَريب,"
-"
-family,,,friend,vän,صديق,
+family,,,relative,anhörig,قَريب,missing pic
+family,,,friend,vän,رفيف,
 family,,,family,familj,عائلة,
-family,,,trustee,god man,الموصي,"
-"
+family,,,trustee,god man,الموصي,missing pic
 family,,,mother,mamma,أمّ,
 family,,,father,pappa,أب,
 family,,,children,barn,أولاد,
 family,,,son,son,إبن,
-family,,,daughter,dotter,بنت,
+family,,,daughter,dotter,ابْنة,
 family,,,baby,baby,رضيع,
 family,,,brother,bror,أخ,
 family,,,sister,syster,أخت,
 family,,,husband,man,زوج,
 family,,,wife,fru,زوجة,
-family,,,girlfriend,flickvän,صاحبة,
-family,,,boyfriend,pojkvän,صاحب,
+family,,,friend,vaen,رفيق,
+family,,,girlfriend,flickvän,صديقة,
+family,,,boyfriend,pojkvän,صديق ,
 family,,,grandmother,mormor/farmor,جدّة,
 family,,,grandfather,morfar/farfar,جدّ,
 Quick,directions,,find,hitta,بَحْث,
