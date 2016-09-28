@@ -123,6 +123,7 @@ class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate
             let dataItem = dataItems[maxIndex - (indexPath as NSIndexPath).item]
             cell.data = dataItem
             cell.imageView.image = dataItem.pic
+            cell.itemIndex = maxIndex - (indexPath as NSIndexPath).item
             
             // handle question mark
             if ( indexPath.item == 0 && isQuestion ){
