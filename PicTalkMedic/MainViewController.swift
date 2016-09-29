@@ -67,11 +67,11 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     func switchEmojiButtonTitle(){
         switch sharedParams.selectedLang {
         case .swedish:
-            speakerAButton.titleLabel!.text = "🙎🏻arabiska"
-            speakerBButton.titleLabel!.text = "👨🏻svenska"
+            speakerAButton.titleLabel!.text = "👨🏻arabiska"
+            speakerBButton.titleLabel!.text = "🙎🏻svenska"
         case .arabic:
-            speakerAButton.titleLabel!.text = " العربية🙎🏻"
-            speakerBButton.titleLabel!.text = " السويدية👨🏻"
+            speakerAButton.titleLabel!.text = " العربية👨🏻"
+            speakerBButton.titleLabel!.text = " السويدية🙎🏻"
         default:
             break
         }
