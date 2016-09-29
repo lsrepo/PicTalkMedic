@@ -18,21 +18,19 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>فحص طبي</string>
+		<string>تَحْليل الدَم</string>
 		<key>child</key>
-		<string>consultation</string>
+		<string>blood test</string>
 		<key>english</key>
-		<string>medical examination</string>
+		<string>blood test</string>
 		<key>parent</key>
 		<string>context</string>
-		<key>picName</key>
-		<string>medical examination</string>
 		<key>swedish</key>
-		<string>undersökning</string>
+		<string>blodprov</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>العودة</string>
+		<string>رُجوع</string>
 		<key>english</key>
 		<string>back</string>
 		<key>parent</key>
@@ -54,7 +52,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أهلاً!</string>
+		<string>أهْلاً!</string>
 		<key>english</key>
 		<string>Hello!</string>
 		<key>parent</key>
@@ -64,7 +62,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مرحباً!</string>
+		<string>مرحباً بك!</string>
 		<key>english</key>
 		<string>Welcome!</string>
 		<key>parent</key>
@@ -74,7 +72,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>كيف حالك؟</string>
+		<string>كَيفَ حالك؟</string>
 		<key>english</key>
 		<string>How are you?</string>
 		<key>parent</key>
@@ -86,7 +84,7 @@
 		<key>arabic</key>
 		<string>أنا بخير.</string>
 		<key>english</key>
-		<string>I&apos;m fine.</string>
+		<string>I&#39;m fine.</string>
 		<key>parent</key>
 		<string>greet</string>
 		<key>swedish</key>
@@ -104,7 +102,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أنا إسمي</string>
+		<string>أنا إِسمي</string>
 		<key>english</key>
 		<string>My name is</string>
 		<key>parent</key>
@@ -114,7 +112,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>تشرفنا!</string>
+		<string>تَشَرَّفْنا!</string>
 		<key>english</key>
 		<string>Nice to meet you!</string>
 		<key>parent</key>
@@ -156,7 +154,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>موعد</string>
+		<string>مَوعِد</string>
 		<key>english</key>
 		<string>appointment</string>
 		<key>parent</key>
@@ -176,7 +174,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>إحالة</string>
+		<string>إِحالة</string>
 		<key>english</key>
 		<string>referral</string>
 		<key>missing</key>
@@ -198,7 +196,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أشعة سينية</string>
+		<string>أَشِعّة سينيّة</string>
 		<key>english</key>
 		<string>X-ray</string>
 		<key>parent</key>
@@ -208,7 +206,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يحدّد موعداً</string>
+		<string>يحدّد مَوعِداً</string>
 		<key>english</key>
 		<string>make appointment</string>
 		<key>parent</key>
@@ -218,7 +216,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مَن تبحث؟</string>
+		<string>مَن تَبحَث؟</string>
 		<key>english</key>
 		<string>Who are you looking for?</string>
 		<key>parent</key>
@@ -228,7 +226,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ينتظر</string>
+		<string>يَنتَظِر</string>
 		<key>english</key>
 		<string>wait</string>
 		<key>parent</key>
@@ -238,7 +236,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>إثبات الهويّة</string>
+		<string>إِثبات الهويّة</string>
 		<key>child</key>
 		<string>identify</string>
 		<key>english</key>
@@ -278,7 +276,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>بـطاقة ل م أ</string>
+		<string>بـطاقة اللجوء</string>
 		<key>english</key>
 		<string>LMA-card</string>
 		<key>parent</key>
@@ -314,7 +312,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>دفع</string>
+		<string>دَفْع</string>
 		<key>child</key>
 		<string>pay</string>
 		<key>english</key>
@@ -358,7 +356,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>إيصال</string>
+		<string>إِيصال</string>
 		<key>english</key>
 		<string>receipt</string>
 		<key>parent</key>
@@ -378,13 +376,13 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>بطاقة الائتمان</string>
+		<string>بطاقة الائْتِمان</string>
 		<key>english</key>
 		<string>credit card</string>
 		<key>parent</key>
 		<string>pay</string>
 		<key>swedish</key>
-		<string>kort</string>
+		<string>kreditkort</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -446,7 +444,17 @@
 		<key>parent</key>
 		<string>re-schedule</string>
 		<key>swedish</key>
-		<string>tid</string>
+		<string>ny</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَوعِد</string>
+		<key>english</key>
+		<string>appointment</string>
+		<key>parent</key>
+		<string>re-schedule</string>
+		<key>swedish</key>
+		<string>avtalad tid</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -460,7 +468,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>شرح</string>
+		<string>شَرْح</string>
 		<key>child</key>
 		<string>explain</string>
 		<key>english</key>
@@ -512,7 +520,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>إحالة ذاتية</string>
+		<string>إِحالة ذاتية</string>
 		<key>english</key>
 		<string>self-referral</string>
 		<key>parent</key>
@@ -532,7 +540,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يكتب</string>
+		<string>يَكْتُب</string>
 		<key>english</key>
 		<string>write</string>
 		<key>parent</key>
@@ -582,7 +590,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>نهاية</string>
+		<string>نِهاية</string>
 		<key>child</key>
 		<string>closing</string>
 		<key>english</key>
@@ -604,7 +612,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>إلى اللقاء!</string>
+		<string>إِلى اللقاء!</string>
 		<key>english</key>
 		<string>See you!</string>
 		<key>parent</key>
@@ -614,13 +622,297 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>كلمات أساسيّة</string>
+		<string>تَحيّة</string>
+		<key>child</key>
+		<string>blood test-greet</string>
+		<key>english</key>
+		<string>greet</string>
+		<key>parent</key>
+		<string>blood test</string>
+		<key>swedish</key>
+		<string>hälsa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أهْلاً!</string>
+		<key>english</key>
+		<string>Hello!</string>
+		<key>parent</key>
+		<string>blood test-greet</string>
+		<key>swedish</key>
+		<string>Hej!</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مرحباً بك!</string>
+		<key>english</key>
+		<string>Welcome!</string>
+		<key>parent</key>
+		<string>blood test-greet</string>
+		<key>swedish</key>
+		<string>Välkommen!</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كَيفَ حالك؟</string>
+		<key>english</key>
+		<string>How are you?</string>
+		<key>parent</key>
+		<string>blood test-greet</string>
+		<key>swedish</key>
+		<string>Hur mår du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أنا بخير.</string>
+		<key>english</key>
+		<string>I&#39;m fine.</string>
+		<key>parent</key>
+		<string>blood test-greet</string>
+		<key>swedish</key>
+		<string>Jag mår bra.</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ما اسمك؟</string>
+		<key>english</key>
+		<string>What’s your name?</string>
+		<key>parent</key>
+		<string>blood test-greet</string>
+		<key>swedish</key>
+		<string>Vad heter du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أنا إِسمي</string>
+		<key>english</key>
+		<string>My name is</string>
+		<key>parent</key>
+		<string>blood test-greet</string>
+		<key>swedish</key>
+		<string>Jag heter</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>إِثبات الهويّة</string>
+		<key>child</key>
+		<string>blood test-identify</string>
+		<key>english</key>
+		<string>identify</string>
+		<key>parent</key>
+		<string>blood test</string>
+		<key>picName</key>
+		<string>identify</string>
+		<key>swedish</key>
+		<string>legitimera</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بطاقة هويّة</string>
+		<key>english</key>
+		<string>identification</string>
+		<key>parent</key>
+		<string>blood test-identify</string>
+		<key>picName</key>
+		<string>identification</string>
+		<key>swedish</key>
+		<string>legitimation</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>رقم الهوية</string>
+		<key>english</key>
+		<string>personal identity number</string>
+		<key>parent</key>
+		<string>blood test-identify</string>
+		<key>picName</key>
+		<string>personal identity number</string>
+		<key>swedish</key>
+		<string>personnummer</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بـطاقة اللجوء</string>
+		<key>english</key>
+		<string>LMA-card</string>
+		<key>parent</key>
+		<string>blood test-identify</string>
+		<key>picName</key>
+		<string>LMA-card</string>
+		<key>swedish</key>
+		<string>LMA-kort</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هل لَدَيْكَ</string>
+		<key>english</key>
+		<string>Do you have</string>
+		<key>parent</key>
+		<string>blood test-identify</string>
+		<key>swedish</key>
+		<string>Har du</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>غَرَض</string>
+		<key>child</key>
+		<string>blood test-intention</string>
+		<key>english</key>
+		<string>intention</string>
+		<key>parent</key>
+		<string>blood test</string>
+		<key>swedish</key>
+		<string>avsikt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تَفَضَّلْ بالجُلوسِ</string>
+		<key>english</key>
+		<string>Please have a seat.</string>
+		<key>parent</key>
+		<string>blood test-intention</string>
+		<key>swedish</key>
+		<string>Varsågod och sitt.</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سَأُجْري تَحْليل الدَم.</string>
+		<key>english</key>
+		<string>I will do a blood test.</string>
+		<key>parent</key>
+		<string>blood test-intention</string>
+		<key>swedish</key>
+		<string>Jag ska ta ett blodprov.</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هَلْ أَنْتَ صائِمم؟</string>
+		<key>english</key>
+		<string>Are you fasting?</string>
+		<key>parent</key>
+		<string>blood test-intention</string>
+		<key>swedish</key>
+		<string>Fastar du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ذِراع</string>
+		<key>english</key>
+		<string>arm</string>
+		<key>parent</key>
+		<string>blood test-intention</string>
+		<key>swedish</key>
+		<string>arm</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>إِصْبَع</string>
+		<key>english</key>
+		<string>finger</string>
+		<key>parent</key>
+		<string>blood test-intention</string>
+		<key>swedish</key>
+		<string>finger</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تَحْليل السُكَّرِ</string>
+		<key>english</key>
+		<string>blood sugar test</string>
+		<key>parent</key>
+		<string>blood test-intention</string>
+		<key>swedish</key>
+		<string>blodsockerprov</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لَزْقة</string>
+		<key>english</key>
+		<string>band aid</string>
+		<key>parent</key>
+		<string>blood test-intention</string>
+		<key>swedish</key>
+		<string>plåster</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كْرِيم التخدير الموضعي</string>
+		<key>english</key>
+		<string>local anesthetic</string>
+		<key>parent</key>
+		<string>blood test-intention</string>
+		<key>swedish</key>
+		<string>bedövningssalva</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أنا انْتَهَيْتُ!</string>
+		<key>english</key>
+		<string>I am done!</string>
+		<key>parent</key>
+		<string>blood test-intention</string>
+		<key>swedish</key>
+		<string>Jag är klar!</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ستتلقى نتيجة التَحْليل عن طريق البريد.</string>
+		<key>english</key>
+		<string>The results are sent home.</string>
+		<key>parent</key>
+		<string>blood test-intention</string>
+		<key>swedish</key>
+		<string>Provsvaren skickas hem.</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هل لديك أي أسئلة؟</string>
+		<key>english</key>
+		<string>Do you have any quesitons?</string>
+		<key>parent</key>
+		<string>blood test-intention</string>
+		<key>swedish</key>
+		<string>Har du några frågor?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>نِهاية</string>
+		<key>child</key>
+		<string>blood test-closing</string>
+		<key>english</key>
+		<string>closing</string>
+		<key>parent</key>
+		<string>blood test</string>
+		<key>swedish</key>
+		<string>avsluta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وداعاً!</string>
+		<key>english</key>
+		<string>Bye!</string>
+		<key>parent</key>
+		<string>blood test-closing</string>
+		<key>swedish</key>
+		<string>Hej då!</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>إِلى اللقاء!</string>
+		<key>english</key>
+		<string>See you!</string>
+		<key>parent</key>
+		<string>blood test-closing</string>
+		<key>swedish</key>
+		<string>Vi ses!</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كلمات أَساسيّة</string>
 		<key>child</key>
 		<string>basic</string>
 		<key>english</key>
 		<string>basic words</string>
-		<key>missing</key>
-		<string>missing pic</string>
 		<key>parent</key>
 		<string>Quick</string>
 		<key>swedish</key>
@@ -638,7 +930,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أنت</string>
+		<string>أَنْتَ</string>
 		<key>english</key>
 		<string>you</string>
 		<key>parent</key>
@@ -668,7 +960,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يريد</string>
+		<string>يُريد</string>
 		<key>english</key>
 		<string>want</string>
 		<key>parent</key>
@@ -678,7 +970,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يحتاج إلى</string>
+		<string>يحتاج إِلى</string>
 		<key>english</key>
 		<string>need</string>
 		<key>parent</key>
@@ -704,11 +996,11 @@
 		<key>parent</key>
 		<string>basic</string>
 		<key>swedish</key>
-		<string>kunna</string>
+		<string>kan</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>موافق</string>
+		<string>مُوْافِق</string>
 		<key>english</key>
 		<string>OK</string>
 		<key>parent</key>
@@ -718,13 +1010,33 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>لا/ليس</string>
+		<string>لا/لَيْسَ</string>
 		<key>english</key>
 		<string>not</string>
 		<key>parent</key>
 		<string>basic</string>
 		<key>swedish</key>
 		<string>inte</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>جَيِّد</string>
+		<key>english</key>
+		<string>good</string>
+		<key>parent</key>
+		<string>basic</string>
+		<key>swedish</key>
+		<string>bra</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سَيِّئ</string>
+		<key>english</key>
+		<string>bad</string>
+		<key>parent</key>
+		<string>basic</string>
+		<key>swedish</key>
+		<string>dåligt</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -750,7 +1062,7 @@
 		<key>arabic</key>
 		<string>لا أعرف.</string>
 		<key>english</key>
-		<string>I don&apos;t know.</string>
+		<string>I don&#39;t know.</string>
 		<key>parent</key>
 		<string>basic</string>
 		<key>swedish</key>
@@ -780,7 +1092,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أين</string>
+		<string>أَينَ</string>
 		<key>english</key>
 		<string>where</string>
 		<key>parent</key>
@@ -830,7 +1142,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>كيف</string>
+		<string>كيفَ</string>
 		<key>english</key>
 		<string>how</string>
 		<key>parent</key>
@@ -840,7 +1152,57 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أرقام</string>
+		<string>هل أًنتَ بِحاجة إِلى مساعدة؟</string>
+		<key>english</key>
+		<string>Do you need help?</string>
+		<key>parent</key>
+		<string>question</string>
+		<key>swedish</key>
+		<string>Behöver du hjälp?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هل تفهم؟</string>
+		<key>english</key>
+		<string>Do you understand?</string>
+		<key>parent</key>
+		<string>question</string>
+		<key>swedish</key>
+		<string>Förstår du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هل لديك أي أسئلة؟</string>
+		<key>english</key>
+		<string>Do you have any questions?</string>
+		<key>parent</key>
+		<string>question</string>
+		<key>swedish</key>
+		<string>Har du några frågor?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَن تبحث؟</string>
+		<key>english</key>
+		<string>Who are you looking for?</string>
+		<key>parent</key>
+		<string>question</string>
+		<key>swedish</key>
+		<string>Vem söker du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هل يُمكِنك تُرَدِّد؟</string>
+		<key>english</key>
+		<string>Can you repeat?</string>
+		<key>parent</key>
+		<string>question</string>
+		<key>swedish</key>
+		<string>Kan du upprepa?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أَرْقَام</string>
 		<key>child</key>
 		<string>numbers</string>
 		<key>english</key>
@@ -894,7 +1256,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أربعة</string>
+		<string>أَرْبَعة</string>
 		<key>english</key>
 		<string>four</string>
 		<key>parent</key>
@@ -904,7 +1266,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>خمسة</string>
+		<string>خَمْسة</string>
 		<key>english</key>
 		<string>five</string>
 		<key>parent</key>
@@ -914,7 +1276,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ستة</string>
+		<string>ستّة</string>
 		<key>english</key>
 		<string>six</string>
 		<key>parent</key>
@@ -924,7 +1286,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>سبعة</string>
+		<string>سَبْعة</string>
 		<key>english</key>
 		<string>seven</string>
 		<key>parent</key>
@@ -934,7 +1296,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ثمانية</string>
+		<string>ثَمانِية</string>
 		<key>english</key>
 		<string>eight</string>
 		<key>parent</key>
@@ -944,7 +1306,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>تسعة</string>
+		<string>تِسْعة</string>
 		<key>english</key>
 		<string>nine</string>
 		<key>parent</key>
@@ -954,7 +1316,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>عشرة</string>
+		<string>عَشَرة</string>
 		<key>english</key>
 		<string>ten</string>
 		<key>parent</key>
@@ -998,7 +1360,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>دقيقة</string>
+		<string>دَقيقة</string>
 		<key>english</key>
 		<string>minute</string>
 		<key>parent</key>
@@ -1020,7 +1382,7 @@
 		<key>arabic</key>
 		<string>الساعة</string>
 		<key>english</key>
-		<string>o&apos;clock</string>
+		<string>o&#39;clock</string>
 		<key>parent</key>
 		<string>time</string>
 		<key>swedish</key>
@@ -1068,7 +1430,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>سنة</string>
+		<string>سَنة</string>
 		<key>english</key>
 		<string>year</string>
 		<key>parent</key>
@@ -1078,7 +1440,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>قبل</string>
+		<string>قَبْلَ</string>
 		<key>english</key>
 		<string>before</string>
 		<key>parent</key>
@@ -1108,6 +1470,16 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
+		<string>الآن</string>
+		<key>english</key>
+		<string>now</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>nu</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
 		<string>أحياناً</string>
 		<key>english</key>
 		<string>sometimes</string>
@@ -1118,13 +1490,13 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>الآن</string>
+		<string>أَبَداً</string>
 		<key>english</key>
-		<string>now</string>
+		<string>never</string>
 		<key>parent</key>
 		<string>time</string>
 		<key>swedish</key>
-		<string>nu</string>
+		<string>aldrig</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -1158,6 +1530,76 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
+		<string>الإِثنَين</string>
+		<key>english</key>
+		<string>Monday</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>måndag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الثُّلاَثَاء</string>
+		<key>english</key>
+		<string>Tuesday</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>tisdag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الأَربِعَاء</string>
+		<key>english</key>
+		<string>Wednesday</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>onsdag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الخَمِيس</string>
+		<key>english</key>
+		<string>Thursday</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>torsdag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الجُمعَة</string>
+		<key>english</key>
+		<string>Friday</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>fredag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>السَبْت</string>
+		<key>english</key>
+		<string>Saturday</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>lördag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الأَحَد</string>
+		<key>english</key>
+		<string>Sunday</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>söndag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
 		<string>ضمائر</string>
 		<key>child</key>
 		<string>pronouns</string>
@@ -1180,7 +1622,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أنت</string>
+		<string>أًنْتَ</string>
 		<key>english</key>
 		<string>you</string>
 		<key>parent</key>
@@ -1190,7 +1632,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>هو</string>
+		<string>هُوَ</string>
 		<key>english</key>
 		<string>he</string>
 		<key>parent</key>
@@ -1200,7 +1642,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>هي</string>
+		<string>هِيَ</string>
 		<key>english</key>
 		<string>she</string>
 		<key>parent</key>
@@ -1210,7 +1652,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>نحن</string>
+		<string>نَحْنُ</string>
 		<key>english</key>
 		<string>we</string>
 		<key>parent</key>
@@ -1220,7 +1662,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أنتم</string>
+		<string>أَنْتُمْ</string>
 		<key>english</key>
 		<string>you</string>
 		<key>parent</key>
@@ -1230,7 +1672,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>هم</string>
+		<string>هُم</string>
 		<key>english</key>
 		<string>they</string>
 		<key>parent</key>
@@ -1252,6 +1694,16 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
+		<string>مترجم</string>
+		<key>english</key>
+		<string>interpreter</string>
+		<key>parent</key>
+		<string>professions</string>
+		<key>swedish</key>
+		<string>tolk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
 		<string>طبيب</string>
 		<key>english</key>
 		<string>doctor</string>
@@ -1262,13 +1714,13 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مترجم</string>
+		<string>مُمَرِّض</string>
 		<key>english</key>
-		<string>interpreter</string>
+		<string>nurse</string>
 		<key>parent</key>
 		<string>professions</string>
 		<key>swedish</key>
-		<string>tolk</string>
+		<string>sjuksköterska</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -1292,6 +1744,16 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
+		<string>سكرتيرة طبية</string>
+		<key>english</key>
+		<string>medical secretary</string>
+		<key>parent</key>
+		<string>professions</string>
+		<key>swedish</key>
+		<string>medicinsk sekreterare</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
 		<string>علاج طبيعي</string>
 		<key>english</key>
 		<string>physiotherapist</string>
@@ -1309,6 +1771,26 @@
 		<string>professions</string>
 		<key>swedish</key>
 		<string>logoped</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أخصائي العلاج الوظيفي</string>
+		<key>english</key>
+		<string>occupational therapist</string>
+		<key>parent</key>
+		<string>professions</string>
+		<key>swedish</key>
+		<string>arbetsterapeut</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قابِلة</string>
+		<key>english</key>
+		<string>midwife</string>
+		<key>parent</key>
+		<string>professions</string>
+		<key>swedish</key>
+		<string>barnmorska</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -1337,8 +1819,6 @@
 		<string>قَريب</string>
 		<key>english</key>
 		<string>relative</string>
-		<key>missing</key>
-		<string>missing pic</string>
 		<key>parent</key>
 		<string>family</string>
 		<key>swedish</key>
@@ -1346,7 +1826,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>رفيف</string>
+		<string>صديق</string>
 		<key>english</key>
 		<string>friend</string>
 		<key>parent</key>
@@ -1369,8 +1849,6 @@
 		<string>الموصي</string>
 		<key>english</key>
 		<string>trustee</string>
-		<key>missing</key>
-		<string>missing pic</string>
 		<key>parent</key>
 		<string>family</string>
 		<key>swedish</key>
@@ -1398,9 +1876,9 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أولاد</string>
+		<string>طِفل</string>
 		<key>english</key>
-		<string>children</string>
+		<string>child</string>
 		<key>parent</key>
 		<string>family</string>
 		<key>swedish</key>
@@ -1408,7 +1886,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>إبن</string>
+		<string>إِبن</string>
 		<key>english</key>
 		<string>son</string>
 		<key>parent</key>
@@ -1418,7 +1896,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ابْنة</string>
+		<string>بنت</string>
 		<key>english</key>
 		<string>daughter</string>
 		<key>parent</key>
@@ -1438,7 +1916,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أخ</string>
+		<string>أَخ</string>
 		<key>english</key>
 		<string>brother</string>
 		<key>parent</key>
@@ -1448,7 +1926,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أخت</string>
+		<string>أُخْت</string>
 		<key>english</key>
 		<string>sister</string>
 		<key>parent</key>
@@ -1478,17 +1956,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>رفيق</string>
-		<key>english</key>
-		<string>friend</string>
-		<key>parent</key>
-		<string>family</string>
-		<key>swedish</key>
-		<string>vaen</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>صديقة</string>
+		<string>صاحبة</string>
 		<key>english</key>
 		<string>girlfriend</string>
 		<key>parent</key>
@@ -1498,7 +1966,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>صديق</string>
+		<string>صاحب</string>
 		<key>english</key>
 		<string>boyfriend</string>
 		<key>parent</key>
@@ -1540,7 +2008,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>اتجاهات</string>
+		<string>اتِّجاهَات</string>
 		<key>english</key>
 		<string>directions</string>
 		<key>parent</key>
@@ -1550,7 +2018,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أين</string>
+		<string>أينَ</string>
 		<key>english</key>
 		<string>where is</string>
 		<key>parent</key>
@@ -1560,7 +2028,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يذهب</string>
+		<string>يَذْهَب</string>
 		<key>english</key>
 		<string>go</string>
 		<key>parent</key>
@@ -1570,7 +2038,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>إلى</string>
+		<string>إِلى</string>
 		<key>english</key>
 		<string>to</string>
 		<key>parent</key>
@@ -1580,7 +2048,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يسار</string>
+		<string>يَسار</string>
 		<key>english</key>
 		<string>left</string>
 		<key>parent</key>
@@ -1620,7 +2088,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>بعد ذلك</string>
+		<string>بعد ذَلِكَ</string>
 		<key>english</key>
 		<string>then</string>
 		<key>parent</key>
@@ -1640,7 +2108,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مصعد</string>
+		<string>مِصْعَد</string>
 		<key>english</key>
 		<string>elevator</string>
 		<key>parent</key>
@@ -1650,7 +2118,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مدخل</string>
+		<string>مَدْخَل</string>
 		<key>english</key>
 		<string>entrance</string>
 		<key>parent</key>
@@ -1660,7 +2128,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>سلّم</string>
+		<string>سُلَّم</string>
 		<key>english</key>
 		<string>stairs</string>
 		<key>parent</key>
@@ -1702,7 +2170,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>غرفة الانتظار</string>
+		<string>غُرفة الانتظار</string>
 		<key>english</key>
 		<string>waiting room</string>
 		<key>parent</key>
@@ -1722,7 +2190,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مرحاض</string>
+		<string>مِرحَاض</string>
 		<key>english</key>
 		<string>toilet</string>
 		<key>parent</key>
@@ -1760,5 +2228,169 @@
 		<key>swedish</key>
 		<string>hem</string>
 	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَشاعِرُ</string>
+		<key>child</key>
+		<string>feelings</string>
+		<key>english</key>
+		<string>feelings</string>
+		<key>parent</key>
+		<string>Quick</string>
+		<key>swedish</key>
+		<string>känslor</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كيف حالك؟</string>
+		<key>english</key>
+		<string>How are you?</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>Hur mår du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أنا بخير.</string>
+		<key>english</key>
+		<string>I&#39;m fine.</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>Jag mår bra.</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أنا</string>
+		<key>english</key>
+		<string>I am</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>Jag är</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سَعيد</string>
+		<key>english</key>
+		<string>happy</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>glad</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حَزين</string>
+		<key>english</key>
+		<string>sad</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>ledsen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>غاضِب</string>
+		<key>english</key>
+		<string>angry</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>arg</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>آمِن</string>
+		<key>english</key>
+		<string>safe</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>trygg</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>خائِف</string>
+		<key>english</key>
+		<string>afraid</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>rädd</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قَلِق</string>
+		<key>english</key>
+		<string>worried</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>orolig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُكْتَئِب</string>
+		<key>english</key>
+		<string>depressed</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>nedstämd</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حَرَّان</string>
+		<key>english</key>
+		<string>feeling hot</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>varm</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بَرْدَان</string>
+		<key>english</key>
+		<string>feeling cold</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>fryser</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُتَعَرِّق</string>
+		<key>english</key>
+		<string>sweaty</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>svettig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تَعْبان</string>
+		<key>english</key>
+		<string>tired</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>trött</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُتَحَيِّر</string>
+		<key>english</key>
+		<string>confused</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>förvirrad</string>
+	</dict>
+	<dict/>
+	<dict/>
 </array>
 </plist>

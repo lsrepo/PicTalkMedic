@@ -50,6 +50,9 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         
         //reset questionMarkButton title
         switchQuestionMarkButtonTitle()
+        
+        //switch emojiLanguage
+        switchEmojiButtonTitle()
     }
     
     func switchQuestionMarkButtonTitle(){
@@ -61,6 +64,20 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         }
     }
     
+    func switchEmojiButtonTitle(){
+        switch sharedParams.selectedLang {
+        case .swedish:
+            speakerAButton.titleLabel!.text = "🙎🏻arabiska"
+            speakerBButton.titleLabel!.text = "👨🏻svenska"
+        case .arabic:
+            speakerAButton.titleLabel!.text = " العربية🙎🏻"
+            speakerBButton.titleLabel!.text = " السويدية👨🏻"
+        default:
+            break
+        }
+        
+        
+    }
     
     
     @IBOutlet weak var bubbleImageView: UIImageView!
@@ -186,6 +203,9 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     override func viewWillAppear(_ animated: Bool) {
         // set-up initial appearance
         speakerAButton.alpha = 0.5
+       
+        
+        
         deactivateClearButton()
     }
     // MARK: VidedidLoad

@@ -35,7 +35,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeadCell" id="aPj-2d-QXc" customClass="ContextCollectionViewCell" customModule="PicTalkMedic" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                        <rect key="frame" x="0.0" y="8" width="90" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
@@ -135,7 +135,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeadCell" id="vYr-zI-gQR" customClass="ContextCollectionViewCell" customModule="PicTalkMedic" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                        <rect key="frame" x="0.0" y="8" width="90" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
@@ -242,7 +242,7 @@
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MsgCell" id="5e6-r5-A90" customClass="MessageCollectionViewCell" customModule="PicTalkMedic" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                                <rect key="frame" x="0.0" y="4" width="75" height="75"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                     <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
@@ -316,21 +316,19 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ez7-JI-L36" customClass="SpeakerButton" customModule="PicTalkMedic" customModuleProvider="target">
-                                        <color key="backgroundColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="48" id="Ps1-q9-LUS"/>
+                                            <constraint firstAttribute="height" constant="43" id="Ps1-q9-LUS"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                        <state key="normal" title="👨🏻🇸🇪→🇸🇦"/>
-                                        <state key="disabled">
-                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="👨🏻svenska">
+                                            <color key="titleColor" red="0.99607843139999996" green="0.41960784309999999" blue="0.0078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
-                                                <real key="value" value="12"/>
+                                                <real key="value" value="20"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="1"/>
+                                                <real key="value" value="2"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
@@ -339,16 +337,16 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2G-BA-bZF" customClass="SpeakerButton" customModule="PicTalkMedic" customModuleProvider="target">
                                         <color key="backgroundColor" red="0.99194461109999998" green="0.99615627529999995" blue="0.99600595240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                        <state key="normal" title="🙎🏻🇸🇦→🇸🇪">
-                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="🙎🏻arabiska">
+                                            <color key="titleColor" red="0.99607843139999996" green="0.41960784309999999" blue="0.0078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
-                                                <real key="value" value="12"/>
+                                                <real key="value" value="20"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="1"/>
+                                                <real key="value" value="2"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
@@ -367,7 +365,6 @@
                                             <constraint firstAttribute="height" constant="50" id="DTK-h5-MBM"/>
                                             <constraint firstAttribute="width" constant="50" id="Yx5-HM-f88"/>
                                         </constraints>
-                                        <color key="tintColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" image="switch"/>
                                         <connections>
                                             <action selector="switchSpeakerButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JAH-sa-Nnt"/>
@@ -394,11 +391,12 @@
                                     <constraint firstAttribute="bottom" secondItem="8AE-oh-mV2" secondAttribute="bottom" id="YSf-Bf-qnH"/>
                                     <constraint firstItem="SX0-Nx-c1Q" firstAttribute="centerX" secondItem="Tdo-sA-g9J" secondAttribute="centerX" id="Z8j-zh-XPo"/>
                                     <constraint firstItem="e2G-BA-bZF" firstAttribute="centerX" secondItem="wYw-Dk-qzm" secondAttribute="centerX" id="ZKW-Qw-sIB"/>
+                                    <constraint firstItem="e2G-BA-bZF" firstAttribute="height" secondItem="ez7-JI-L36" secondAttribute="height" id="ZXE-Q7-hLy"/>
                                     <constraint firstItem="SX0-Nx-c1Q" firstAttribute="centerY" secondItem="Tdo-sA-g9J" secondAttribute="centerY" id="c4z-Vx-eWE"/>
                                     <constraint firstItem="Asa-42-xpj" firstAttribute="top" secondItem="3hI-e2-9bo" secondAttribute="top" constant="41" id="cmF-PT-5a8"/>
                                     <constraint firstItem="SX0-Nx-c1Q" firstAttribute="top" secondItem="3hI-e2-9bo" secondAttribute="top" constant="1" id="dL0-UQ-JJM"/>
                                     <constraint firstItem="e2G-BA-bZF" firstAttribute="leading" secondItem="ez7-JI-L36" secondAttribute="leading" id="fZp-pO-taL"/>
-                                    <constraint firstItem="ez7-JI-L36" firstAttribute="top" secondItem="wYw-Dk-qzm" secondAttribute="bottom" constant="3" id="fg5-Ae-lTV"/>
+                                    <constraint firstItem="ez7-JI-L36" firstAttribute="top" secondItem="wYw-Dk-qzm" secondAttribute="bottom" constant="8" id="fg5-Ae-lTV"/>
                                     <constraint firstItem="SX0-Nx-c1Q" firstAttribute="leading" secondItem="e2G-BA-bZF" secondAttribute="trailing" constant="8" symbolic="YES" id="gmj-Ua-bmE"/>
                                     <constraint firstItem="pJ0-Go-Aet" firstAttribute="leading" secondItem="Asa-42-xpj" secondAttribute="trailing" constant="14" id="kpd-QA-BxZ"/>
                                     <constraint firstItem="Tdo-sA-g9J" firstAttribute="centerY" secondItem="pJ0-Go-Aet" secondAttribute="centerY" id="mce-bP-nb8"/>

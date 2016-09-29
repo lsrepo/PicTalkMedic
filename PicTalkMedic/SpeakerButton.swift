@@ -11,9 +11,10 @@ import UIKit
 @IBDesignable
 class SpeakerButton: UIButton {
 
-    @IBInspectable var borderRadius: CGFloat = Style.borderRadius
-    @IBInspectable var borderWidth: CGFloat = Style.borderWidth
-
+    @IBInspectable var borderRadius: CGFloat = 3
+    @IBInspectable var borderWidth: CGFloat = 3
+    @IBInspectable var borderColor: CGColor = Style.primaryColor.cgColor
+    
     
     override func draw(_ rect: CGRect) {
         super.draw(rect)
@@ -21,6 +22,7 @@ class SpeakerButton: UIButton {
         
         self.layer.borderWidth = self.borderWidth
         self.layer.cornerRadius = self.borderRadius
+        self.layer.borderColor = self.borderColor
         self.titleLabel?.numberOfLines = 2
     }
 }
