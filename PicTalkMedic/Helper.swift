@@ -14,3 +14,8 @@ enum Language: String {
     case english = "en-GB"
 }
 
+enum Gender: String{
+    case male = "-m"
+    case female = "-f"
+    case neutral = "-n"
+}

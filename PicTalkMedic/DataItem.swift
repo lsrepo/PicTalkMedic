@@ -13,30 +13,51 @@ import UIKit
 class DataItem :Equatable {
     var swedish : String?
     var arabic : String?
+    var arabicFemale :String?
     var picName: String?
     var parent: String?
     var child: String?
     
     var pic:UIImage
   
-    init(swedish:String?, arabic:String?,picName:String?,parent:String?,child:String?) {
+    init(swedish:String?, arabic:String?,arabicFemale:String?,picName:String?,parent:String?,child:String?) {
         self.swedish = swedish
         self.arabic = arabic
+        self.arabicFemale = arabicFemale
         self.picName = picName
         self.parent = parent
         self.child = child
-        
-        if let pic = UIImage(named: self.picName!){
-            self.pic = pic
-        }else{
-            self.pic = UIImage(named: "fallback")!
-        }
+        self.pic = UIImage(named: "fallback")!
+      
         
     }
     
-    
+    func getPic(selectedGender:Gender)-> UIImage{
+        
+        //A. find the name first
+        
+        //find the corresponding gender
+        if let pic = UIImage(named: self.picName! + selectedGender.rawValue){
+            self.pic = pic
+        }else if let pic = UIImage(named: self.picName! + Gender.neutral.rawValue){
+            // fin a neutral pic
+            self.pic = pic
+        }else if let pic = UIImage(named: self.picName!){
+            // fin a neutral pic
+            self.pic = pic
+        }
+        
+        //B. return a pic
+        return self.pic
+    }
 }
 
 func ==(lhs: DataItem, rhs: DataItem) -> Bool {
     return lhs.swedish == rhs.swedish && lhs.picName == rhs.picName
 }
+
+//class ArabicWord{
+//    var hasMaleForm:Bool
+//    var hasFemaleForm:Bool
+//    var hasNeutralForm:Bool
+//}

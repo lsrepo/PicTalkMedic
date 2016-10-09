@@ -16,11 +16,11 @@ class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate
             
             switch sharedParams.selectedLang{
             case .swedish:
-                return DataItem(swedish: "?", arabic: "⸮", picName: "questionMark", parent: nil, child: nil)
+                return DataItem(swedish: "?", arabic: "⸮",arabicFemale: nil, picName: "questionMark", parent: nil, child: nil)
             case .arabic:
-                return DataItem(swedish: "?", arabic: "⸮", picName: "questionMarkReversed", parent: nil, child: nil)
+                return DataItem(swedish: "?", arabic: "⸮", arabicFemale: nil, picName: "questionMarkReversed", parent: nil, child: nil)
             default:
-                return DataItem(swedish: "?", arabic: "⸮", picName: "questionMark", parent: nil, child: nil)
+                return DataItem(swedish: "?", arabic: "⸮",arabicFemale: nil, picName: "questionMark", parent: nil, child: nil)
             }
             
         }

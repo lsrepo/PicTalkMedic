@@ -12,5 +12,6 @@ import Foundation
 class SharedParams {
     
     var selectedLang = Language.swedish
+    var selectedGender = Gender.male
 
 }

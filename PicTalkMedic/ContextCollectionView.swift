@@ -128,7 +128,7 @@ class ContextCollectionView: PicTalkCollectionView
             
             // B. Insert backButton
             //----------------------------------------------------
-            let backButton = DataItem(swedish: "tillbaka", arabic: "العودة", picName: "tillbaka", parent: "system", child: nil)
+            let backButton = DataItem(swedish: "tillbaka",  arabic: "⸮",arabicFemale: nil ,picName: "tillbaka", parent: "system", child: nil)
             self.dataItems.insert(backButton, at: 0)
             
             

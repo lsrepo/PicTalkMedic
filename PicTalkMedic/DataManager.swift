@@ -73,11 +73,12 @@ class DataManager{
         //create one data item
         let swedish = item["swedish"] as? String
         let arabic = item["arabic"] as? String
+        let arabicFemale = item["arabic-female"] as? String
         let picName =  swedish != nil ? swedish!.applyNamingRule()  : ""
         let parent = item["parent"]  as? String
         let child = item["child"] as? String
         
-        let dataItem = DataItem(swedish: swedish, arabic: arabic, picName: picName, parent: parent, child: child)
+        let dataItem = DataItem(swedish: swedish, arabic: arabic,arabicFemale:arabicFemale, picName: picName, parent: parent, child: child)
         //print("", swedish,picName)
         return dataItem
     }
