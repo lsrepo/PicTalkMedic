@@ -45,11 +45,16 @@ class DataItem :Equatable {
         }else if let pic = UIImage(named: self.picName!){
             // fin a neutral pic
             self.pic = pic
+        }else if let pic = UIImage(named: self.picName! +  Gender.male.rawValue){
+            // last resort: use the male one
+            self.pic = pic
         }
         
         //B. return a pic
         return self.pic
     }
+    
+    //TO-DO: get arabic of correct gender
 }
 
 func ==(lhs: DataItem, rhs: DataItem) -> Bool {

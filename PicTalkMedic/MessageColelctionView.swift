@@ -112,7 +112,7 @@ class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MsgCell", for: indexPath) as! MessageCollectionViewCell
         
         // Configure the cell
-       
+        var dataItem:DataItem!
         
         // sequence
         switch sharedParams.selectedLang{
@@ -120,9 +120,11 @@ class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate
             // reverse the pic
             let maxIndex = dataItems.count - 1
             
-            let dataItem = dataItems[maxIndex - (indexPath as NSIndexPath).item]
+             dataItem = dataItems[maxIndex - (indexPath as NSIndexPath).item]
             cell.data = dataItem
-            cell.imageView.image = dataItem.pic
+            //cell.imageView.image = dataItem.pic
+            
+            
             cell.itemIndex = maxIndex - (indexPath as NSIndexPath).item
             
             // handle question mark
@@ -131,9 +133,9 @@ class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate
                 cell.imageView.image = questionMarkItem.pic
             }
         case .swedish:
-            let dataItem = dataItems[(indexPath as NSIndexPath).item]
+             dataItem = dataItems[(indexPath as NSIndexPath).item]
             cell.data = dataItem
-            cell.imageView.image = dataItem.pic
+           // cell.imageView.image = dataItem.pic
             cell.itemIndex = (indexPath as NSIndexPath).item
             
             // handle question mark
@@ -144,6 +146,9 @@ class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate
         default:
             break
         }
+        // set image
+        cell.imageView.image = dataItem.getPic(selectedGender: sharedParams.selectedGender)
+        
         
         // add gestures
         let upSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeToRemove(gestureReconizer:)))

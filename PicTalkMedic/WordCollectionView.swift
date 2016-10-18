@@ -21,7 +21,7 @@ class WordCollectionView: PicTalkCollectionView {
         // Configure the cell
         
         cell.text.text = textInSelectedLang(dataItems[(indexPath as NSIndexPath).item])
-        cell.imageView.image = dataItems[(indexPath as NSIndexPath).item].pic
+        cell.imageView.image = dataItems[(indexPath as NSIndexPath).item].getPic(selectedGender: sharedParams.selectedGender)
         
         return cell
     }

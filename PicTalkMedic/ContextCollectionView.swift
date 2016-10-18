@@ -35,7 +35,7 @@ class ContextCollectionView: PicTalkCollectionView
         
         //image
         
-        cell.imageView.image = dataItems[(indexPath as NSIndexPath).item].pic
+        cell.imageView.image = dataItems[(indexPath as NSIndexPath).item].getPic(selectedGender: sharedParams.selectedGender)
         
         // need this when language is changed
         
