@@ -318,25 +318,20 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         
         let sentence = text.components(separatedBy: Constants.textSeperator)
         for word in sentence{
-            //action
+            // configure
             let utter = AVSpeechUtterance(string: word)
             utter.voice = AVSpeechSynthesisVoice(language: utterLang)
+            UtterManager().configureUtterance(utter: utter, sharedParams: sharedParams)
             
-            utter.rate = 0.35
-            
-            // min: 0  max:1  default:0.5
-            print("default rate: \(AVSpeechUtteranceDefaultSpeechRate)")
-            print("set rate: \(utter.rate)")
-            // pitch: default 1
-            // post delay default 0
-            // sounds quite weird
-            //utter.pitchMultiplier = 1.2
-            
-            print("pitch: \(utter.pitchMultiplier)  ")
-            print("post delay \(utter.postUtteranceDelay)")
-            
+
             // speak
             synthesizer.speak(utter)
+            
+            // min: 0  max:1  default:0.5
+            // pitch: default 1
+            // pre, post delay default 0
+            // sounds quite weird
+            //utter.pitchMultiplier = 1.2
         }
         
  

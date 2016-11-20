@@ -28,6 +28,10 @@ class DataItem :Equatable {
         
         if let pic = UIImage(named: self.picName!){
             self.pic = pic
+        }else if let pic = UIImage(named: self.picName! + "-f"){
+            self.pic = pic
+        }else if let pic = UIImage(named: self.picName!  + "-m"){
+            self.pic = pic
         }else{
             self.pic = UIImage(named: "fallback")!
         }

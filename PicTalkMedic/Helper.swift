@@ -18,3 +18,5 @@ enum Language: String {
 struct Constants {
     static let textSeperator = "   /   "
 }
+
+

@@ -40,13 +40,15 @@ class UtterManager{
         //action
         let utter = AVSpeechUtterance(string: text)
         utter.voice = AVSpeechSynthesisVoice(language: utterLang)
+        configureUtterance(utter: utter, sharedParams: sharedParams)
         
         synthesizer.stopSpeaking(at: .immediate)
         synthesizer.speak(utter)
     }
     
-    func configureUtterance(text:String){
-        
+    func configureUtterance(utter:AVSpeechUtterance,sharedParams:SharedParams){
+        utter.rate = sharedParams.utteranceRate
     }
+
     
 }

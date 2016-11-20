@@ -12,5 +12,7 @@ import Foundation
 class SharedParams {
     
     var selectedLang = Language.swedish
+    
+    var utteranceRate:Float = 0.35
 
 }
