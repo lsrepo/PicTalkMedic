@@ -14,3 +14,7 @@ enum Language: String {
     case english = "en-GB"
 }
 
+
+struct Constants {
+    static let textSeperator = "   /   "
+}

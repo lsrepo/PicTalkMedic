@@ -14,7 +14,7 @@
 		2706A0EC1D7C579E0031F76A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0EB1D7C579E0031F76A /* DataManager.swift */; };
 		2706A0EE1D7C58DB0031F76A /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0ED1D7C58DB0031F76A /* Style.swift */; };
 		2706A0F01D7C5A6A0031F76A /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2706A0EF1D7C5A6A0031F76A /* test.plist */; };
-		270C6D261D9D040C00295308 /* Pic.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270C6D251D9D040C00295308 /* Pic.xcassets */; };
+		270B87BD1DB5D08E00C2162B /* Pic.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270B87BC1DB5D08E00C2162B /* Pic.xcassets */; };
 		271929E91D7774F9004383E3 /* WordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */; };
 		272C4CD71D9946420029C909 /* PicTalkSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C4CD61D9946420029C909 /* PicTalkSynthesizer.swift */; };
 		272C4CD91D996F570029C909 /* UtterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C4CD81D996F570029C909 /* UtterManager.swift */; };
@@ -54,7 +54,7 @@
 		2706A0EB1D7C579E0031F76A /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		2706A0ED1D7C58DB0031F76A /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		2706A0EF1D7C5A6A0031F76A /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
-		270C6D251D9D040C00295308 /* Pic.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Pic.xcassets; sourceTree = "<group>"; };
+		270B87BC1DB5D08E00C2162B /* Pic.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Pic.xcassets; sourceTree = "<group>"; };
 		271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCollectionViewCell.swift; sourceTree = "<group>"; };
 		272C4CD61D9946420029C909 /* PicTalkSynthesizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicTalkSynthesizer.swift; sourceTree = "<group>"; };
 		272C4CD81D996F570029C909 /* UtterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtterManager.swift; sourceTree = "<group>"; };
@@ -189,10 +189,10 @@
 			isa = PBXGroup;
 			children = (
 				276284FB1D74D282001F8039 /* Assets.xcassets */,
-				270C6D251D9D040C00295308 /* Pic.xcassets */,
 				2706A0EF1D7C5A6A0031F76A /* test.plist */,
 				276284FD1D74D282001F8039 /* LaunchScreen.storyboard */,
 				276284F11D74D282001F8039 /* AppDelegate.swift */,
+				270B87BC1DB5D08E00C2162B /* Pic.xcassets */,
 				276285001D74D282001F8039 /* Info.plist */,
 				276284F81D74D282001F8039 /* PicTalkMedic.xcdatamodeld */,
 			);
@@ -285,7 +285,7 @@
 			files = (
 				2706A0F01D7C5A6A0031F76A /* test.plist in Resources */,
 				276284FF1D74D282001F8039 /* LaunchScreen.storyboard in Resources */,
-				270C6D261D9D040C00295308 /* Pic.xcassets in Resources */,
+				270B87BD1DB5D08E00C2162B /* Pic.xcassets in Resources */,
 				276284FC1D74D282001F8039 /* Assets.xcassets in Resources */,
 				276284F71D74D282001F8039 /* Main.storyboard in Resources */,
 			);

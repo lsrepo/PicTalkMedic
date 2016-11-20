@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -22,6 +25,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" alwaysBounceHorizontal="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="s7r-X9-9RT" customClass="ContextCollectionView" customModule="PicTalkMedic" customModuleProvider="target">
+                                <rect key="frame" x="20" y="208" width="485" height="105"/>
                                 <color key="backgroundColor" red="0.69710063934326172" green="0.93596869707107544" blue="0.72702497243881226" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="105" id="0Un-rA-3ke"/>
@@ -35,13 +39,14 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeadCell" id="aPj-2d-QXc" customClass="ContextCollectionViewCell" customModule="PicTalkMedic" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="7.5" width="90" height="90"/>
+                                        <rect key="frame" x="0.0" y="8" width="90" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="251" text="Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zMc-jy-taY">
+                                                    <rect key="frame" x="8" y="72" width="74" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="74" id="G2b-On-Ypo"/>
                                                     </constraints>
@@ -49,7 +54,9 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8c7-qK-2Yj"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8c7-qK-2Yj">
+                                                    <rect key="frame" x="13" y="8" width="64" height="65"/>
+                                                </imageView>
                                             </subviews>
                                         </view>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -75,6 +82,7 @@
                                 </variation>
                             </collectionView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="AH5-y5-7UX" customClass="WordCollectionView" customModule="PicTalkMedic" customModuleProvider="target">
+                                <rect key="frame" x="20" y="313" width="485" height="435"/>
                                 <color key="backgroundColor" red="0.7436327338218689" green="0.94056528806686401" blue="0.77540665864944458" alpha="0.28170483732876711" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="S8A-mO-scJ">
                                     <size key="itemSize" width="115" height="138"/>
@@ -91,11 +99,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NfK-nQ-bkW">
+                                                    <rect key="frame" x="8" y="113" width="99" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bau-Mv-MBl">
+                                                    <rect key="frame" x="5.5" y="6" width="104" height="104"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="104" id="7Zt-Ae-K08"/>
                                                         <constraint firstAttribute="width" secondItem="bau-Mv-MBl" secondAttribute="height" multiplier="1:1" id="CnH-nW-mBj"/>
@@ -122,6 +132,7 @@
                                 </cells>
                             </collectionView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" alwaysBounceHorizontal="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="iED-Ac-wz1" userLabel="Quick Category Colelction View" customClass="QuickCategoryCollectionView" customModule="PicTalkMedic" customModuleProvider="target">
+                                <rect key="frame" x="519" y="208" width="485" height="105"/>
                                 <color key="backgroundColor" red="0.81538230180740356" green="0.80897843837738037" blue="0.94527322053909302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="105" id="Nb9-U1-WwI"/>
@@ -135,13 +146,14 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeadCell" id="vYr-zI-gQR" customClass="ContextCollectionViewCell" customModule="PicTalkMedic" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="7.5" width="90" height="90"/>
+                                        <rect key="frame" x="0.0" y="8" width="90" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="251" text="Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gA0-Hj-3Kg">
+                                                    <rect key="frame" x="8" y="72" width="74" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="74" id="Pz6-84-MTB"/>
                                                     </constraints>
@@ -149,7 +161,9 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fx3-F7-JCk"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fx3-F7-JCk">
+                                                    <rect key="frame" x="13" y="8" width="64" height="65"/>
+                                                </imageView>
                                             </subviews>
                                         </view>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -175,6 +189,7 @@
                                 </variation>
                             </collectionView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="75h-im-LKI" userLabel="Quick Word Collection View" customClass="WordCollectionView" customModule="PicTalkMedic" customModuleProvider="target">
+                                <rect key="frame" x="519" y="313" width="485" height="435"/>
                                 <color key="backgroundColor" red="0.8505474328994751" green="0.8489837646484375" blue="0.9567221999168396" alpha="0.2481003852739726" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="s2V-uw-cR2">
                                     <size key="itemSize" width="115" height="138"/>
@@ -191,11 +206,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7a8-bQ-z6n">
+                                                    <rect key="frame" x="8" y="113" width="99" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Oxr-oa-pJ7">
+                                                    <rect key="frame" x="5.5" y="6" width="104" height="104"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="104" id="IQw-rO-ojs"/>
                                                         <constraint firstAttribute="width" secondItem="Oxr-oa-pJ7" secondAttribute="height" multiplier="1:1" id="cHk-Hd-Qtt"/>
@@ -222,9 +239,13 @@
                                 </cells>
                             </collectionView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3hI-e2-9bo">
+                                <rect key="frame" x="20" y="20" width="984" height="168"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubble" translatesAutoresizingMaskIntoConstraints="NO" id="SX0-Nx-c1Q"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubble" translatesAutoresizingMaskIntoConstraints="NO" id="SX0-Nx-c1Q">
+                                        <rect key="frame" x="194" y="1" width="719" height="166"/>
+                                    </imageView>
                                     <collectionView clipsSubviews="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Tdo-sA-g9J" customClass="MessageColelctionView" customModule="PicTalkMedic" customModuleProvider="target">
+                                        <rect key="frame" x="232" y="43" width="643" height="82"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <gestureRecognizers/>
                                         <constraints>
@@ -242,13 +263,14 @@
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MsgCell" id="5e6-r5-A90" customClass="MessageCollectionViewCell" customModule="PicTalkMedic" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                                <rect key="frame" x="0.0" y="4" width="75" height="75"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                     <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LvN-Uo-fxs">
+                                                            <rect key="frame" x="5" y="5" width="65" height="65"/>
                                                             <gestureRecognizers/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="LvN-Uo-fxs" secondAttribute="height" multiplier="1:1" id="9dt-gr-HRu"/>
@@ -287,6 +309,7 @@
                                         </variation>
                                     </collectionView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRr-R2-WUU">
+                                        <rect key="frame" x="914" y="138" width="39" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="aac-QH-jUD"/>
                                             <constraint firstAttribute="width" constant="39" id="k3h-uS-bgr"/>
@@ -297,8 +320,10 @@
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Asa-42-xpj">
+                                        <rect key="frame" x="856" y="41" width="44" height="88"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yb8-wx-G3p">
+                                                <rect key="frame" x="14" y="8" width="30" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="?">
                                                     <color key="titleColor" red="0.076293058693408966" green="0.053975045680999756" blue="0.034039225429296494" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -316,6 +341,7 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ez7-JI-L36" customClass="SpeakerButton" customModule="PicTalkMedic" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="123" width="178" height="43"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="43" id="Ps1-q9-LUS"/>
                                         </constraints>
@@ -336,6 +362,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2G-BA-bZF" customClass="SpeakerButton" customModule="PicTalkMedic" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="8" width="178" height="43"/>
                                         <color key="backgroundColor" red="0.99194461109999998" green="0.99615627529999995" blue="0.99600595240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="👨🏻arabiska">
@@ -351,6 +378,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJ0-Go-Aet">
+                                        <rect key="frame" x="914" y="49" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="YPz-Bh-OSK"/>
                                             <constraint firstAttribute="width" constant="70" id="smf-nM-5Yy"/>
@@ -361,6 +389,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYw-Dk-qzm">
+                                        <rect key="frame" x="72" y="65" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="DTK-h5-MBM"/>
                                             <constraint firstAttribute="width" constant="50" id="Yx5-HM-f88"/>
@@ -371,6 +400,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8AE-oh-mV2">
+                                        <rect key="frame" x="232" y="133" width="668" height="35"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>

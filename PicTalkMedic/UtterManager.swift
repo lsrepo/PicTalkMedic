@@ -9,6 +9,7 @@
 import Foundation
 import AVFoundation
 /// a singletone that handles utterence
+
 class UtterManager{
     
   static let sharedInstance = UtterManager()
@@ -42,6 +43,10 @@ class UtterManager{
         
         synthesizer.stopSpeaking(at: .immediate)
         synthesizer.speak(utter)
+    }
+    
+    func configureUtterance(text:String){
+        
     }
     
 }

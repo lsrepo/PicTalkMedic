@@ -94,9 +94,9 @@ class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate
             //print(" item is ", item.swedish )
             switch lang{
             case .swedish:
-                text += item.swedish! + "   /   "
+                text += item.swedish! + Constants.textSeperator
             case .arabic:
-                text += item.arabic! + "   /   "
+                text += item.arabic! + Constants.textSeperator
             default:
                 break
             }
