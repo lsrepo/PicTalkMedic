@@ -15,10 +15,3 @@ enum Language: String {
 }
 
 
-struct Constants {
-    static let textSeperator = "   /   "
-}
-
-struct Configs {
-    static let
-}

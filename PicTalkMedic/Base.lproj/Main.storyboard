@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -242,10 +242,10 @@
                                 <rect key="frame" x="20" y="20" width="984" height="168"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubble" translatesAutoresizingMaskIntoConstraints="NO" id="SX0-Nx-c1Q">
-                                        <rect key="frame" x="194" y="1" width="719" height="166"/>
+                                        <rect key="frame" x="162" y="8" width="719" height="154"/>
                                     </imageView>
                                     <collectionView clipsSubviews="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Tdo-sA-g9J" customClass="MessageColelctionView" customModule="PicTalkMedic" customModuleProvider="target">
-                                        <rect key="frame" x="232" y="43" width="643" height="82"/>
+                                        <rect key="frame" x="200" y="44" width="643" height="82"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <gestureRecognizers/>
                                         <constraints>
@@ -308,22 +308,11 @@
                                             </mask>
                                         </variation>
                                     </collectionView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRr-R2-WUU">
-                                        <rect key="frame" x="914" y="138" width="39" height="22"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="aac-QH-jUD"/>
-                                            <constraint firstAttribute="width" constant="39" id="k3h-uS-bgr"/>
-                                        </constraints>
-                                        <state key="normal" image="clear"/>
-                                        <connections>
-                                            <action selector="clearMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z2C-F4-uFP"/>
-                                        </connections>
-                                    </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Asa-42-xpj">
-                                        <rect key="frame" x="856" y="41" width="44" height="88"/>
+                                        <rect key="frame" x="824" y="48" width="44" height="82"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yb8-wx-G3p">
-                                                <rect key="frame" x="14" y="8" width="30" height="31"/>
+                                                <rect key="frame" x="14" y="8" width="30" height="25"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="?">
                                                     <color key="titleColor" red="0.076293058693408966" green="0.053975045680999756" blue="0.034039225429296494" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -340,45 +329,8 @@
                                             <constraint firstAttribute="bottom" secondItem="Yb8-wx-G3p" secondAttribute="bottom" constant="49" id="QYi-qP-f8F"/>
                                         </constraints>
                                     </view>
-                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ez7-JI-L36" customClass="SpeakerButton" customModule="PicTalkMedic" customModuleProvider="target">
-                                        <rect key="frame" x="8" y="123" width="178" height="43"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="43" id="Ps1-q9-LUS"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <state key="normal" title="🙎🏻 svenska">
-                                            <color key="titleColor" red="0.99607843139999996" green="0.41960784309999999" blue="0.0078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
-                                                <real key="value" value="20"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="2"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <action selector="speakerBButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yeW-Nz-29U"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2G-BA-bZF" customClass="SpeakerButton" customModule="PicTalkMedic" customModuleProvider="target">
-                                        <rect key="frame" x="8" y="8" width="178" height="43"/>
-                                        <color key="backgroundColor" red="0.99194461109999998" green="0.99615627529999995" blue="0.99600595240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <state key="normal" title="👨🏻arabiska">
-                                            <color key="titleColor" red="0.99607843139999996" green="0.41960784309999999" blue="0.0078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
-                                                <real key="value" value="20"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="2"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJ0-Go-Aet">
-                                        <rect key="frame" x="914" y="49" width="70" height="70"/>
+                                        <rect key="frame" x="906" y="54" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="YPz-Bh-OSK"/>
                                             <constraint firstAttribute="width" constant="70" id="smf-nM-5Yy"/>
@@ -388,55 +340,179 @@
                                             <action selector="utterMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sdo-FB-MaQ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYw-Dk-qzm">
-                                        <rect key="frame" x="72" y="65" width="50" height="50"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8AE-oh-mV2">
+                                        <rect key="frame" x="200" y="140" width="629" height="35"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXU-1n-1VX" userLabel="SettingsBtn">
+                                        <rect key="frame" x="930" y="134" width="38" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="settings"/>
+                                        <connections>
+                                            <action selector="configureVoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xLI-Vr-1Ad"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ez7-JI-L36" customClass="SpeakerButton" customModule="PicTalkMedic" customModuleProvider="target">
+                                        <rect key="frame" x="-8" y="121" width="162" height="43"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="DTK-h5-MBM"/>
-                                            <constraint firstAttribute="width" constant="50" id="Yx5-HM-f88"/>
+                                            <constraint firstAttribute="height" constant="43" id="Ps1-q9-LUS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="🙎🏻 svenska">
+                                            <color key="titleColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
+                                                <real key="value" value="9"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="speakerBButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yeW-Nz-29U"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2G-BA-bZF" customClass="SpeakerButton" customModule="PicTalkMedic" customModuleProvider="target">
+                                        <rect key="frame" x="-8" y="9" width="162" height="43"/>
+                                        <color key="backgroundColor" red="0.99194461109999998" green="0.99615627529999995" blue="0.99600595240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="👨🏻arabiska">
+                                            <color key="titleColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
+                                                <real key="value" value="9"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYw-Dk-qzm">
+                                        <rect key="frame" x="63" y="67" width="37" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="DTK-h5-MBM">
+                                                <variation key="widthClass=regular" constant="37"/>
+                                            </constraint>
+                                            <constraint firstAttribute="width" constant="50" id="Yx5-HM-f88">
+                                                <variation key="widthClass=regular" constant="37"/>
+                                            </constraint>
                                         </constraints>
                                         <state key="normal" image="switch"/>
                                         <connections>
                                             <action selector="switchSpeakerButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JAH-sa-Nnt"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8AE-oh-mV2">
-                                        <rect key="frame" x="232" y="133" width="668" height="35"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="40" minimumValue="30" maximumValue="50" stepValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="Pcn-zt-Tsn">
+                                        <rect key="frame" x="890" y="140" width="94" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="configureUtterRate:" destination="BYZ-38-t0r" eventType="valueChanged" id="46e-SE-YIq"/>
+                                        </connections>
+                                    </stepper>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRr-R2-WUU">
+                                        <rect key="frame" x="824" y="140" width="51" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="aac-QH-jUD"/>
+                                            <constraint firstAttribute="width" constant="51" id="k3h-uS-bgr"/>
+                                        </constraints>
+                                        <state key="normal" image="clear"/>
+                                        <connections>
+                                            <action selector="clearMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z2C-F4-uFP"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="SX0-Nx-c1Q" firstAttribute="leading" secondItem="wYw-Dk-qzm" secondAttribute="trailing" constant="72" id="4zl-oR-K8z"/>
+                                    <constraint firstItem="SX0-Nx-c1Q" firstAttribute="leading" secondItem="wYw-Dk-qzm" secondAttribute="trailing" constant="72" id="4zl-oR-K8z">
+                                        <variation key="widthClass=regular" constant="62"/>
+                                    </constraint>
                                     <constraint firstAttribute="width" constant="984" id="CLu-dP-NfO"/>
                                     <constraint firstItem="Tdo-sA-g9J" firstAttribute="leading" secondItem="8AE-oh-mV2" secondAttribute="leading" id="DXy-ps-xKl"/>
-                                    <constraint firstItem="8AE-oh-mV2" firstAttribute="top" secondItem="Asa-42-xpj" secondAttribute="bottom" constant="4" id="J0y-ij-bjK"/>
-                                    <constraint firstItem="pJ0-Go-Aet" firstAttribute="leading" secondItem="Tdo-sA-g9J" secondAttribute="trailing" constant="39" id="Js3-Hf-zHq"/>
-                                    <constraint firstItem="e2G-BA-bZF" firstAttribute="leading" secondItem="3hI-e2-9bo" secondAttribute="leadingMargin" id="LFB-4K-pBN"/>
-                                    <constraint firstItem="pJ0-Go-Aet" firstAttribute="leading" secondItem="iRr-R2-WUU" secondAttribute="leading" id="MwV-Kd-NjE"/>
-                                    <constraint firstItem="SX0-Nx-c1Q" firstAttribute="centerY" secondItem="3hI-e2-9bo" secondAttribute="centerY" id="NBo-Wf-RjW"/>
-                                    <constraint firstItem="Tdo-sA-g9J" firstAttribute="leading" secondItem="e2G-BA-bZF" secondAttribute="trailing" constant="46" id="OMM-NE-1DR"/>
-                                    <constraint firstItem="8AE-oh-mV2" firstAttribute="top" secondItem="Tdo-sA-g9J" secondAttribute="bottom" constant="8" symbolic="YES" id="R7F-Jf-U38"/>
-                                    <constraint firstItem="iRr-R2-WUU" firstAttribute="leading" secondItem="8AE-oh-mV2" secondAttribute="trailing" constant="14" id="Rgk-1E-PKK"/>
-                                    <constraint firstAttribute="bottom" secondItem="8AE-oh-mV2" secondAttribute="bottom" id="YSf-Bf-qnH"/>
+                                    <constraint firstItem="8AE-oh-mV2" firstAttribute="top" secondItem="Asa-42-xpj" secondAttribute="bottom" constant="4" id="J0y-ij-bjK">
+                                        <variation key="widthClass=regular" constant="10"/>
+                                    </constraint>
+                                    <constraint firstItem="pJ0-Go-Aet" firstAttribute="leading" secondItem="Tdo-sA-g9J" secondAttribute="trailing" constant="39" id="Js3-Hf-zHq">
+                                        <variation key="widthClass=regular" constant="63"/>
+                                    </constraint>
+                                    <constraint firstItem="e2G-BA-bZF" firstAttribute="leading" secondItem="3hI-e2-9bo" secondAttribute="leadingMargin" id="LFB-4K-pBN">
+                                        <variation key="widthClass=regular" constant="-16"/>
+                                    </constraint>
+                                    <constraint firstItem="pJ0-Go-Aet" firstAttribute="leading" secondItem="iRr-R2-WUU" secondAttribute="leading" id="MwV-Kd-NjE">
+                                        <variation key="widthClass=regular" constant="82"/>
+                                    </constraint>
+                                    <constraint firstItem="SX0-Nx-c1Q" firstAttribute="centerY" secondItem="3hI-e2-9bo" secondAttribute="centerY" id="NBo-Wf-RjW">
+                                        <variation key="widthClass=regular" constant="1"/>
+                                    </constraint>
+                                    <constraint firstItem="Tdo-sA-g9J" firstAttribute="leading" secondItem="e2G-BA-bZF" secondAttribute="trailing" constant="46" id="OMM-NE-1DR">
+                                        <variation key="widthClass=regular" constant="46"/>
+                                    </constraint>
+                                    <constraint firstItem="8AE-oh-mV2" firstAttribute="top" secondItem="Tdo-sA-g9J" secondAttribute="bottom" constant="8" symbolic="YES" id="R7F-Jf-U38">
+                                        <variation key="widthClass=regular" constant="14"/>
+                                    </constraint>
+                                    <constraint firstItem="iRr-R2-WUU" firstAttribute="leading" secondItem="8AE-oh-mV2" secondAttribute="trailing" constant="14" id="Rgk-1E-PKK">
+                                        <variation key="widthClass=regular" constant="-5"/>
+                                    </constraint>
+                                    <constraint firstAttribute="bottom" secondItem="8AE-oh-mV2" secondAttribute="bottom" id="YSf-Bf-qnH">
+                                        <variation key="widthClass=regular" constant="-7"/>
+                                    </constraint>
                                     <constraint firstItem="SX0-Nx-c1Q" firstAttribute="centerX" secondItem="Tdo-sA-g9J" secondAttribute="centerX" id="Z8j-zh-XPo"/>
-                                    <constraint firstItem="e2G-BA-bZF" firstAttribute="centerX" secondItem="wYw-Dk-qzm" secondAttribute="centerX" id="ZKW-Qw-sIB"/>
+                                    <constraint firstItem="e2G-BA-bZF" firstAttribute="centerX" secondItem="wYw-Dk-qzm" secondAttribute="centerX" id="ZKW-Qw-sIB">
+                                        <variation key="widthClass=regular" constant="-8.5"/>
+                                    </constraint>
                                     <constraint firstItem="e2G-BA-bZF" firstAttribute="height" secondItem="ez7-JI-L36" secondAttribute="height" id="ZXE-Q7-hLy"/>
                                     <constraint firstItem="SX0-Nx-c1Q" firstAttribute="centerY" secondItem="Tdo-sA-g9J" secondAttribute="centerY" id="c4z-Vx-eWE"/>
-                                    <constraint firstItem="Asa-42-xpj" firstAttribute="top" secondItem="3hI-e2-9bo" secondAttribute="top" constant="41" id="cmF-PT-5a8"/>
-                                    <constraint firstItem="SX0-Nx-c1Q" firstAttribute="top" secondItem="3hI-e2-9bo" secondAttribute="top" constant="1" id="dL0-UQ-JJM"/>
+                                    <constraint firstItem="Asa-42-xpj" firstAttribute="top" secondItem="3hI-e2-9bo" secondAttribute="top" constant="41" id="cmF-PT-5a8">
+                                        <variation key="widthClass=regular" constant="48"/>
+                                    </constraint>
+                                    <constraint firstItem="SX0-Nx-c1Q" firstAttribute="top" secondItem="3hI-e2-9bo" secondAttribute="top" constant="1" id="dL0-UQ-JJM">
+                                        <variation key="widthClass=regular" constant="8"/>
+                                    </constraint>
                                     <constraint firstItem="e2G-BA-bZF" firstAttribute="leading" secondItem="ez7-JI-L36" secondAttribute="leading" id="fZp-pO-taL"/>
-                                    <constraint firstItem="ez7-JI-L36" firstAttribute="top" secondItem="wYw-Dk-qzm" secondAttribute="bottom" constant="8" id="fg5-Ae-lTV"/>
-                                    <constraint firstItem="SX0-Nx-c1Q" firstAttribute="leading" secondItem="e2G-BA-bZF" secondAttribute="trailing" constant="8" symbolic="YES" id="gmj-Ua-bmE"/>
-                                    <constraint firstItem="pJ0-Go-Aet" firstAttribute="leading" secondItem="Asa-42-xpj" secondAttribute="trailing" constant="14" id="kpd-QA-BxZ"/>
-                                    <constraint firstItem="Tdo-sA-g9J" firstAttribute="centerY" secondItem="pJ0-Go-Aet" secondAttribute="centerY" id="mce-bP-nb8"/>
-                                    <constraint firstItem="SX0-Nx-c1Q" firstAttribute="leading" secondItem="ez7-JI-L36" secondAttribute="trailing" constant="8" symbolic="YES" id="nTS-CT-8kf"/>
-                                    <constraint firstItem="iRr-R2-WUU" firstAttribute="top" secondItem="pJ0-Go-Aet" secondAttribute="bottom" constant="19" id="pHG-Pt-x2Y"/>
+                                    <constraint firstItem="ez7-JI-L36" firstAttribute="top" secondItem="wYw-Dk-qzm" secondAttribute="bottom" constant="8" id="fg5-Ae-lTV">
+                                        <variation key="widthClass=regular" constant="17"/>
+                                    </constraint>
+                                    <constraint firstItem="SX0-Nx-c1Q" firstAttribute="leading" secondItem="e2G-BA-bZF" secondAttribute="trailing" constant="8" symbolic="YES" id="gmj-Ua-bmE">
+                                        <variation key="widthClass=regular" constant="8"/>
+                                    </constraint>
+                                    <constraint firstItem="pJ0-Go-Aet" firstAttribute="leading" secondItem="Asa-42-xpj" secondAttribute="trailing" constant="14" id="kpd-QA-BxZ">
+                                        <variation key="widthClass=regular" constant="38"/>
+                                    </constraint>
+                                    <constraint firstItem="Tdo-sA-g9J" firstAttribute="centerY" secondItem="pJ0-Go-Aet" secondAttribute="centerY" id="mce-bP-nb8">
+                                        <variation key="widthClass=regular" constant="-4"/>
+                                    </constraint>
+                                    <constraint firstItem="SX0-Nx-c1Q" firstAttribute="leading" secondItem="ez7-JI-L36" secondAttribute="trailing" constant="8" symbolic="YES" id="nTS-CT-8kf">
+                                        <variation key="widthClass=regular" constant="8"/>
+                                    </constraint>
+                                    <constraint firstItem="iRr-R2-WUU" firstAttribute="top" secondItem="pJ0-Go-Aet" secondAttribute="bottom" constant="19" id="pHG-Pt-x2Y">
+                                        <variation key="widthClass=regular" constant="16"/>
+                                    </constraint>
                                     <constraint firstAttribute="height" constant="168" id="pa1-3v-ghc"/>
-                                    <constraint firstItem="e2G-BA-bZF" firstAttribute="top" secondItem="3hI-e2-9bo" secondAttribute="topMargin" id="s2H-bd-HSk"/>
-                                    <constraint firstItem="wYw-Dk-qzm" firstAttribute="centerY" secondItem="Asa-42-xpj" secondAttribute="centerY" constant="5" id="vMa-fw-1VJ"/>
-                                    <constraint firstItem="iRr-R2-WUU" firstAttribute="bottom" secondItem="3hI-e2-9bo" secondAttribute="bottomMargin" id="xDI-zX-dLf"/>
+                                    <constraint firstItem="e2G-BA-bZF" firstAttribute="top" secondItem="3hI-e2-9bo" secondAttribute="topMargin" id="s2H-bd-HSk">
+                                        <variation key="widthClass=regular" constant="1"/>
+                                    </constraint>
+                                    <constraint firstItem="wYw-Dk-qzm" firstAttribute="centerY" secondItem="Asa-42-xpj" secondAttribute="centerY" constant="5" id="vMa-fw-1VJ">
+                                        <variation key="widthClass=regular" constant="-3.5"/>
+                                    </constraint>
+                                    <constraint firstItem="iRr-R2-WUU" firstAttribute="bottom" secondItem="3hI-e2-9bo" secondAttribute="bottomMargin" id="xDI-zX-dLf">
+                                        <variation key="widthClass=regular" constant="8"/>
+                                    </constraint>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="nXU-1n-1VX"/>
+                                        <exclude reference="Pcn-zt-Tsn"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=regular">
+                                    <mask key="subviews">
+                                        <exclude reference="nXU-1n-1VX"/>
+                                        <include reference="Pcn-zt-Tsn"/>
+                                    </mask>
+                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -484,17 +560,19 @@
                         <outlet property="speakerAButton" destination="e2G-BA-bZF" id="3fA-X6-zoN"/>
                         <outlet property="speakerAButtonTapped" destination="e2G-BA-bZF" id="nzv-jo-4a2"/>
                         <outlet property="speakerBButton" destination="ez7-JI-L36" id="wLI-Rj-O2R"/>
+                        <outlet property="stepper" destination="Pcn-zt-Tsn" id="L5B-Uc-gM9"/>
                         <outlet property="wordCollectionView" destination="AH5-y5-7UX" id="NQN-AG-Ybs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="252.56222547584184" y="14.062499999999998"/>
+            <point key="canvasLocation" x="252.34375" y="14.062499999999998"/>
         </scene>
     </scenes>
     <resources>
         <image name="bubble" width="818" height="128"/>
         <image name="clear" width="112" height="62"/>
+        <image name="settings" width="100" height="100"/>
         <image name="speak" width="100" height="100"/>
         <image name="switch" width="100" height="100"/>
     </resources>

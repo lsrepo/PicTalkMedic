@@ -13,6 +13,15 @@ class SharedParams {
     
     var selectedLang = Language.swedish
     
-    var utteranceRate:Float = 0.35
+    //0.35 is too slow
+    var utteranceRate:Float = 0.4
 
+}
+
+struct Constants {
+    static let textSeperator = "   /   "
+}
+
+struct Configs {
+    static let touchVisualizerIsOn = false
 }

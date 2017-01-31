@@ -8,10 +8,17 @@
 
 import UIKit
 import AVFoundation
-//import TouchVisualizer
+import TouchVisualizer
 
 class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     
+    @IBOutlet weak var stepper: UIStepper!
+  
+    @IBAction func configureUtterRate(_ sender: UIStepper) {
+        print(sender.value,sender.value/100)
+       sharedParams.utteranceRate = Float(sender.value/100)
+        
+    }
    
     @IBAction func switchSpeakerButtonTapped(_ sender: UIButton) {
  
@@ -216,6 +223,9 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         
         
         func setUpFingertips(){
+            guard Configs.touchVisualizerIsOn else {
+                return
+            }
             var config = Configuration()
             config.color = UIColor.darkGray
             //config.image = UIImage(named: "YOUR-IMAGE")
@@ -247,6 +257,10 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         
         //Synthesizer
         synthesizer.delegate = self
+        
+        //SetupStepper
+        stepper.value = Double(sharedParams.utteranceRate * 100)
+       // stepper.setDecrementImage(<#T##image: UIImage?##UIImage?#>, for: <#T##UIControlState#>)
     }
     
    
@@ -356,6 +370,8 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
        //print("finsih speaking")
     }
     
+    
+ 
     
 }
 

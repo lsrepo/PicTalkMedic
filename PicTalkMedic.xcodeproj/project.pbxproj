@@ -16,7 +16,6 @@
 		2706A0F01D7C5A6A0031F76A /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2706A0EF1D7C5A6A0031F76A /* test.plist */; };
 		270B87BD1DB5D08E00C2162B /* Pic.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270B87BC1DB5D08E00C2162B /* Pic.xcassets */; };
 		271929E91D7774F9004383E3 /* WordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */; };
-		272C4CD71D9946420029C909 /* PicTalkSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C4CD61D9946420029C909 /* PicTalkSynthesizer.swift */; };
 		272C4CD91D996F570029C909 /* UtterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C4CD81D996F570029C909 /* UtterManager.swift */; };
 		2735629C1D7A1AD700302289 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735629B1D7A1AD700302289 /* DataItem.swift */; };
 		273562A11D7A267D00302289 /* MessageColelctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562A01D7A267D00302289 /* MessageColelctionView.swift */; };
@@ -33,6 +32,7 @@
 		277FD8971D76379F009FE0BA /* ContextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277FD8961D76379F009FE0BA /* ContextCollectionViewCell.swift */; };
 		27A367C21D7F4F9C0015A4BB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A367C11D7F4F9C0015A4BB /* Category.swift */; };
 		27B23FB91D80B72F00A11F95 /* PicTalkCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */; };
+		27D397EB1E40689300B9A581 /* ConfigureUtterRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D397EA1E40689300B9A581 /* ConfigureUtterRateViewController.swift */; };
 		27DB5E3F1DFEED8D001D11D8 /* TouchVisualizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DB5E3A1DFEED0A001D11D8 /* TouchVisualizer.framework */; };
 		27DB5E401DFEED8D001D11D8 /* TouchVisualizer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27DB5E3A1DFEED0A001D11D8 /* TouchVisualizer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		27DDD7391D98B49B00F70267 /* SpeakerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDD7381D98B49B00F70267 /* SpeakerButton.swift */; };
@@ -72,7 +72,6 @@
 		2706A0EF1D7C5A6A0031F76A /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
 		270B87BC1DB5D08E00C2162B /* Pic.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Pic.xcassets; sourceTree = "<group>"; };
 		271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCollectionViewCell.swift; sourceTree = "<group>"; };
-		272C4CD61D9946420029C909 /* PicTalkSynthesizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicTalkSynthesizer.swift; sourceTree = "<group>"; };
 		272C4CD81D996F570029C909 /* UtterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtterManager.swift; sourceTree = "<group>"; };
 		2735629B1D7A1AD700302289 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
 		273562A01D7A267D00302289 /* MessageColelctionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageColelctionView.swift; sourceTree = "<group>"; };
@@ -93,6 +92,7 @@
 		277FD8961D76379F009FE0BA /* ContextCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextCollectionViewCell.swift; sourceTree = "<group>"; };
 		27A367C11D7F4F9C0015A4BB /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicTalkCollectionView.swift; sourceTree = "<group>"; };
+		27D397EA1E40689300B9A581 /* ConfigureUtterRateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureUtterRateViewController.swift; sourceTree = "<group>"; };
 		27DB5E3A1DFEED0A001D11D8 /* TouchVisualizer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TouchVisualizer.framework; path = Carthage/Build/iOS/TouchVisualizer.framework; sourceTree = "<group>"; };
 		27DDD7381D98B49B00F70267 /* SpeakerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -183,9 +183,9 @@
 			isa = PBXGroup;
 			children = (
 				276284F51D74D282001F8039 /* Main.storyboard */,
+				27D397EA1E40689300B9A581 /* ConfigureUtterRateViewController.swift */,
 				27DDD7381D98B49B00F70267 /* SpeakerButton.swift */,
 				276284F31D74D282001F8039 /* MainViewController.swift */,
-				272C4CD61D9946420029C909 /* PicTalkSynthesizer.swift */,
 				2703E1361D83540F00B149A5 /* Helper */,
 				273562AA1D7B034700302289 /* Context */,
 				273562A91D7AFCDB00302289 /* Words */,
@@ -333,7 +333,6 @@
 				2706A0EE1D7C58DB0031F76A /* Style.swift in Sources */,
 				2703E1381D8380C300B149A5 /* QuickCategoryCollectionViewController.swift in Sources */,
 				2703E13A1D83883A00B149A5 /* SmartExtension.swift in Sources */,
-				272C4CD71D9946420029C909 /* PicTalkSynthesizer.swift in Sources */,
 				2703E13C1D84233900B149A5 /* Helper.swift in Sources */,
 				27A367C21D7F4F9C0015A4BB /* Category.swift in Sources */,
 				276284F41D74D282001F8039 /* MainViewController.swift in Sources */,
@@ -342,6 +341,7 @@
 				276284FA1D74D282001F8039 /* PicTalkMedic.xcdatamodeld in Sources */,
 				273562A51D7AD47E00302289 /* MessageCollectionViewCell.swift in Sources */,
 				2703E13E1D8424A900B149A5 /* SharedParams.swift in Sources */,
+				27D397EB1E40689300B9A581 /* ConfigureUtterRateViewController.swift in Sources */,
 				276284F21D74D282001F8039 /* AppDelegate.swift in Sources */,
 				2735629C1D7A1AD700302289 /* DataItem.swift in Sources */,
 				273562A11D7A267D00302289 /* MessageColelctionView.swift in Sources */,
