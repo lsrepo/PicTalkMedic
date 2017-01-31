@@ -33,8 +33,6 @@
 		27A367C21D7F4F9C0015A4BB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A367C11D7F4F9C0015A4BB /* Category.swift */; };
 		27B23FB91D80B72F00A11F95 /* PicTalkCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */; };
 		27D397EB1E40689300B9A581 /* ConfigureUtterRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D397EA1E40689300B9A581 /* ConfigureUtterRateViewController.swift */; };
-		27DB5E3F1DFEED8D001D11D8 /* TouchVisualizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DB5E3A1DFEED0A001D11D8 /* TouchVisualizer.framework */; };
-		27DB5E401DFEED8D001D11D8 /* TouchVisualizer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27DB5E3A1DFEED0A001D11D8 /* TouchVisualizer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		27DDD7391D98B49B00F70267 /* SpeakerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDD7381D98B49B00F70267 /* SpeakerButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,20 +45,6 @@
 			remoteInfo = PicTalkMedic;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		27DB5E411DFEED8D001D11D8 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				27DB5E401DFEED8D001D11D8 /* TouchVisualizer.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2703E1371D8380C300B149A5 /* QuickCategoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickCategoryCollectionViewController.swift; sourceTree = "<group>"; };
@@ -102,7 +86,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27DB5E3F1DFEED8D001D11D8 /* TouchVisualizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +211,6 @@
 				276284EA1D74D282001F8039 /* Sources */,
 				276284EB1D74D282001F8039 /* Frameworks */,
 				276284EC1D74D282001F8039 /* Resources */,
-				27DB5E411DFEED8D001D11D8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

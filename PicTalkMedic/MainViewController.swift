@@ -8,7 +8,7 @@
 
 import UIKit
 import AVFoundation
-import TouchVisualizer
+//import TouchVisualizer
 
 class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
     
@@ -222,20 +222,20 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         super.viewDidLoad()
         
         
-        func setUpFingertips(){
-            guard Configs.touchVisualizerIsOn else {
-                return
-            }
-            var config = Configuration()
-            config.color = UIColor.darkGray
-            //config.image = UIImage(named: "YOUR-IMAGE")
-            config.showsTouchRadius = false
-            config.showsLog = false
-            config.defaultSize = CGSize(width: 50 , height: 50)
-            Visualizer.start(config)
-        }
-       
-        setUpFingertips()
+//        func setUpFingertips(){
+//            guard Configs.touchVisualizerIsOn else {
+//                return
+//            }
+//            var config = Configuration()
+//            config.color = UIColor.darkGray
+//            //config.image = UIImage(named: "YOUR-IMAGE")
+//            config.showsTouchRadius = false
+//            config.showsLog = false
+//            config.defaultSize = CGSize(width: 50 , height: 50)
+//            Visualizer.start(config)
+//        }
+//       
+//        setUpFingertips()
         
         //all views
       collectionViews =  [messageCollectionView,contextCollectionView,wordCollectionView,quickCategoryCollectionView,quickWordCollectionView]
