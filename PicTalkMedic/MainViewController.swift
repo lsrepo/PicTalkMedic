@@ -260,7 +260,10 @@ class MainViewController: UIViewController, AVSpeechSynthesizerDelegate  {
         
         //SetupStepper
         stepper.value = Double(sharedParams.utteranceRate * 100)
-       // stepper.setDecrementImage(<#T##image: UIImage?##UIImage?#>, for: <#T##UIControlState#>)
+        let slowerImg = UIImage(named: "slower")
+        let fasterImg = UIImage(named: "faster")
+        stepper.setDecrementImage(slowerImg, for: .normal)
+        stepper.setIncrementImage(fasterImg, for: .normal)
     }
     
    

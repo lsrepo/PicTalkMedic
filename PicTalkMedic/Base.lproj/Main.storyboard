@@ -409,7 +409,7 @@
                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="40" minimumValue="30" maximumValue="50" stepValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="Pcn-zt-Tsn">
                                         <rect key="frame" x="890" y="140" width="94" height="29"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="tintColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="0.90103505710659904" green="0.6079050765979862" blue="0.10243900490508355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="configureUtterRate:" destination="BYZ-38-t0r" eventType="valueChanged" id="46e-SE-YIq"/>
                                         </connections>
