@@ -19,4 +19,6 @@ struct Constants {
     static let textSeperator = "   /   "
 }
 
-
+struct Configs {
+    static let
+}

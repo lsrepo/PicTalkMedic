@@ -58,8 +58,6 @@ class MessageColelctionView:  PicTalkCollectionView, UIGestureRecognizerDelegate
         didSet{
             messageDataDelegate?.updateMessageDisplay(getMessageText(lang:sharedParams.selectedLang))
             
-            print("heheh")
-            
             if(dataItems.count > 0 ){
                 messageDataDelegate?.activateClearButton()
             }else{
