@@ -7,19 +7,38 @@
 //
 
 import UIKit
+import AVFoundation
 
-class WordCollectionView: KDDragAndDropCollectionView {
-
-    var dataItems:[DataItem] = {
-        var dataItem = [DataItem]()
-        dataItem.append( DataItem(swedish: "cash", arabic: "arr1", picName: "cash") )
-        dataItem.append( DataItem(swedish: "bill", arabic: "arr2", picName: "bill") )
-        dataItem.append( DataItem(swedish: "credit card", arabic: "arr3", picName: "credit_card") )
-        dataItem.append( DataItem(swedish: "receipt", arabic: "arr4", picName: "receipt") )
-        
-        return dataItem
-    }()
+class WordCollectionView: PicTalkCollectionView {
     
-    //[["Red","Blue","Yellow"],["Greet","Intend","Identify","Pay"]]
+    var messageView:MessageColelctionView!
+   
+
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SubCell", for: indexPath) as! WordCollectionViewCell
+        
+        // Configure the cell
+        
+        cell.text.text = textInSelectedLang(dataItems[(indexPath as NSIndexPath).item])
+        cell.imageView.image = dataItems[(indexPath as NSIndexPath).item].pic
+        
+        return cell
+    }
+    
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: IndexPath) {
+
+        //print("a word is selected")
+        let selectedItem =  dataItems[(indexPath as NSIndexPath).item]
+        messageView.addItem(selectedItem)
+        messageView.reloadData()
+        
+        
+        utter(selectedItem: selectedItem)
+      
+    }
+    
+   
     
 }

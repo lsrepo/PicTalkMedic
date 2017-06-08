@@ -2,30 +2,21 @@
 //  Helper.swift
 //  PicTalkMedic
 //
-//  Created by Pak on 02/09/16.
+//  Created by Pak on 10/09/16.
 //  Copyright © 2016 pictalk.se. All rights reserved.
 //
 
 import Foundation
-import UIKit
 
-
-class DataItem :Equatable {
-    var swedish : String = ""
-    var arabic : String = ""
-    var picName: String = ""
-    var pic:UIImage
-  
-    init(swedish:String, arabic:String,picName:String) {
-        self.swedish = swedish
-        self.arabic = arabic
-        self.picName = picName
-        self.pic = UIImage(named: self.picName)!
-    }
-    
-    
+enum Language: String {
+    case swedish = "sv-SE"
+    case arabic = "ar-SA"
+    case english = "en-GB"
 }
 
-func ==(lhs: DataItem, rhs: DataItem) -> Bool {
-    return lhs.swedish == rhs.swedish && lhs.picName == rhs.picName
+
+struct Constants {
+    static let textSeperator = "   /   "
 }
+
+

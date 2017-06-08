@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		271929E71D776E42004383E3 /* picData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 271929E61D776E42004383E3 /* picData.plist */; };
+		2703E1381D8380C300B149A5 /* QuickCategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703E1371D8380C300B149A5 /* QuickCategoryCollectionViewController.swift */; };
+		2703E13A1D83883A00B149A5 /* SmartExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703E1391D83883A00B149A5 /* SmartExtension.swift */; };
+		2703E13C1D84233900B149A5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703E13B1D84233900B149A5 /* Helper.swift */; };
+		2703E13E1D8424A900B149A5 /* SharedParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703E13D1D8424A900B149A5 /* SharedParams.swift */; };
+		2706A0EC1D7C579E0031F76A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0EB1D7C579E0031F76A /* DataManager.swift */; };
+		2706A0EE1D7C58DB0031F76A /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0ED1D7C58DB0031F76A /* Style.swift */; };
+		2706A0F01D7C5A6A0031F76A /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2706A0EF1D7C5A6A0031F76A /* test.plist */; };
+		270B87BD1DB5D08E00C2162B /* Pic.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270B87BC1DB5D08E00C2162B /* Pic.xcassets */; };
 		271929E91D7774F9004383E3 /* WordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */; };
-		2735629C1D7A1AD700302289 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735629B1D7A1AD700302289 /* Helper.swift */; };
-		2735629F1D7A25A300302289 /* KDDragAndDropManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735629E1D7A25A300302289 /* KDDragAndDropManager.swift */; };
+		272C4CD71D9946420029C909 /* PicTalkSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C4CD61D9946420029C909 /* PicTalkSynthesizer.swift */; };
+		272C4CD91D996F570029C909 /* UtterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C4CD81D996F570029C909 /* UtterManager.swift */; };
+		2735629C1D7A1AD700302289 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735629B1D7A1AD700302289 /* DataItem.swift */; };
 		273562A11D7A267D00302289 /* MessageColelctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562A01D7A267D00302289 /* MessageColelctionView.swift */; };
-		273562A31D7A282E00302289 /* KDDragAndDropCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562A21D7A282E00302289 /* KDDragAndDropCollectionView.swift */; };
 		273562A51D7AD47E00302289 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562A41D7AD47E00302289 /* MessageCollectionViewCell.swift */; };
 		273562A71D7AFB1200302289 /* WordCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562A61D7AFB1200302289 /* WordCollectionView.swift */; };
 		273562AC1D7B03D600302289 /* ContextCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273562AB1D7B03D600302289 /* ContextCollectionView.swift */; };
@@ -24,6 +31,9 @@
 		276284FF1D74D282001F8039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276284FD1D74D282001F8039 /* LaunchScreen.storyboard */; };
 		2762850A1D74D282001F8039 /* PicTalkMedicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276285091D74D282001F8039 /* PicTalkMedicTests.swift */; };
 		277FD8971D76379F009FE0BA /* ContextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277FD8961D76379F009FE0BA /* ContextCollectionViewCell.swift */; };
+		27A367C21D7F4F9C0015A4BB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A367C11D7F4F9C0015A4BB /* Category.swift */; };
+		27B23FB91D80B72F00A11F95 /* PicTalkCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */; };
+		27DDD7391D98B49B00F70267 /* SpeakerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDD7381D98B49B00F70267 /* SpeakerButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		271929E61D776E42004383E3 /* picData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = picData.plist; sourceTree = "<group>"; };
+		2703E1371D8380C300B149A5 /* QuickCategoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickCategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		2703E1391D83883A00B149A5 /* SmartExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartExtension.swift; sourceTree = "<group>"; };
+		2703E13B1D84233900B149A5 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		2703E13D1D8424A900B149A5 /* SharedParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedParams.swift; sourceTree = "<group>"; };
+		2706A0EB1D7C579E0031F76A /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		2706A0ED1D7C58DB0031F76A /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		2706A0EF1D7C5A6A0031F76A /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
+		270B87BC1DB5D08E00C2162B /* Pic.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Pic.xcassets; sourceTree = "<group>"; };
 		271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCollectionViewCell.swift; sourceTree = "<group>"; };
-		2735629B1D7A1AD700302289 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		2735629E1D7A25A300302289 /* KDDragAndDropManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDDragAndDropManager.swift; sourceTree = "<group>"; };
+		272C4CD61D9946420029C909 /* PicTalkSynthesizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicTalkSynthesizer.swift; sourceTree = "<group>"; };
+		272C4CD81D996F570029C909 /* UtterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtterManager.swift; sourceTree = "<group>"; };
+		2735629B1D7A1AD700302289 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
 		273562A01D7A267D00302289 /* MessageColelctionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageColelctionView.swift; sourceTree = "<group>"; };
-		273562A21D7A282E00302289 /* KDDragAndDropCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDDragAndDropCollectionView.swift; sourceTree = "<group>"; };
 		273562A41D7AD47E00302289 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
 		273562A61D7AFB1200302289 /* WordCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCollectionView.swift; sourceTree = "<group>"; };
 		273562AB1D7B03D600302289 /* ContextCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextCollectionView.swift; sourceTree = "<group>"; };
@@ -58,6 +75,9 @@
 		276285091D74D282001F8039 /* PicTalkMedicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicTalkMedicTests.swift; sourceTree = "<group>"; };
 		2762850B1D74D282001F8039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		277FD8961D76379F009FE0BA /* ContextCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextCollectionViewCell.swift; sourceTree = "<group>"; };
+		27A367C11D7F4F9C0015A4BB /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicTalkCollectionView.swift; sourceTree = "<group>"; };
+		27DDD7381D98B49B00F70267 /* SpeakerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,13 +98,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2735629D1D7A259800302289 /* Extension */ = {
+		2703E1361D83540F00B149A5 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				2735629E1D7A25A300302289 /* KDDragAndDropManager.swift */,
-				273562A21D7A282E00302289 /* KDDragAndDropCollectionView.swift */,
+				272C4CD81D996F570029C909 /* UtterManager.swift */,
+				2703E13B1D84233900B149A5 /* Helper.swift */,
+				2703E13D1D8424A900B149A5 /* SharedParams.swift */,
+				27A367C11D7F4F9C0015A4BB /* Category.swift */,
+				2706A0EB1D7C579E0031F76A /* DataManager.swift */,
+				2735629B1D7A1AD700302289 /* DataItem.swift */,
+				27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */,
 			);
-			name = Extension;
+			name = Helper;
 			sourceTree = "<group>";
 		};
 		273562A81D7AFCCB00302289 /* Message */ = {
@@ -100,7 +125,9 @@
 			isa = PBXGroup;
 			children = (
 				273562A61D7AFB1200302289 /* WordCollectionView.swift */,
+				2703E1391D83883A00B149A5 /* SmartExtension.swift */,
 				271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */,
+				2706A0ED1D7C58DB0031F76A /* Style.swift */,
 			);
 			name = Words;
 			sourceTree = "<group>";
@@ -110,6 +137,7 @@
 			children = (
 				273562AB1D7B03D600302289 /* ContextCollectionView.swift */,
 				277FD8961D76379F009FE0BA /* ContextCollectionViewCell.swift */,
+				2703E1371D8380C300B149A5 /* QuickCategoryCollectionViewController.swift */,
 			);
 			name = Context;
 			sourceTree = "<group>";
@@ -117,7 +145,6 @@
 		276284E51D74D282001F8039 = {
 			isa = PBXGroup;
 			children = (
-				271929E61D776E42004383E3 /* picData.plist */,
 				276284F01D74D282001F8039 /* PicTalkMedic */,
 				276285081D74D282001F8039 /* PicTalkMedicTests */,
 				276284EF1D74D282001F8039 /* Products */,
@@ -136,18 +163,15 @@
 		276284F01D74D282001F8039 /* PicTalkMedic */ = {
 			isa = PBXGroup;
 			children = (
-				2735629D1D7A259800302289 /* Extension */,
-				276284F11D74D282001F8039 /* AppDelegate.swift */,
-				2735629B1D7A1AD700302289 /* Helper.swift */,
-				276284F31D74D282001F8039 /* MainViewController.swift */,
 				276284F51D74D282001F8039 /* Main.storyboard */,
+				27DDD7381D98B49B00F70267 /* SpeakerButton.swift */,
+				276284F31D74D282001F8039 /* MainViewController.swift */,
+				272C4CD61D9946420029C909 /* PicTalkSynthesizer.swift */,
+				2703E1361D83540F00B149A5 /* Helper */,
 				273562AA1D7B034700302289 /* Context */,
 				273562A91D7AFCDB00302289 /* Words */,
 				273562A81D7AFCCB00302289 /* Message */,
-				276284FB1D74D282001F8039 /* Assets.xcassets */,
-				276284FD1D74D282001F8039 /* LaunchScreen.storyboard */,
-				276285001D74D282001F8039 /* Info.plist */,
-				276284F81D74D282001F8039 /* PicTalkMedic.xcdatamodeld */,
+				278A97A11D7B115900617A5D /* Others */,
 			);
 			path = PicTalkMedic;
 			sourceTree = "<group>";
@@ -159,6 +183,20 @@
 				2762850B1D74D282001F8039 /* Info.plist */,
 			);
 			path = PicTalkMedicTests;
+			sourceTree = "<group>";
+		};
+		278A97A11D7B115900617A5D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				276284FB1D74D282001F8039 /* Assets.xcassets */,
+				2706A0EF1D7C5A6A0031F76A /* test.plist */,
+				276284FD1D74D282001F8039 /* LaunchScreen.storyboard */,
+				276284F11D74D282001F8039 /* AppDelegate.swift */,
+				270B87BC1DB5D08E00C2162B /* Pic.xcassets */,
+				276285001D74D282001F8039 /* Info.plist */,
+				276284F81D74D282001F8039 /* PicTalkMedic.xcdatamodeld */,
+			);
+			name = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,14 +244,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = pictalk.se;
 				TargetAttributes = {
 					276284ED1D74D282001F8039 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JFRSPHJ244;
+						LastSwiftMigration = 0800;
 					};
 					276285041D74D282001F8039 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 276284ED1D74D282001F8039;
 					};
 				};
@@ -242,8 +283,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2706A0F01D7C5A6A0031F76A /* test.plist in Resources */,
 				276284FF1D74D282001F8039 /* LaunchScreen.storyboard in Resources */,
-				271929E71D776E42004383E3 /* picData.plist in Resources */,
+				270B87BD1DB5D08E00C2162B /* Pic.xcassets in Resources */,
 				276284FC1D74D282001F8039 /* Assets.xcassets in Resources */,
 				276284F71D74D282001F8039 /* Main.storyboard in Resources */,
 			);
@@ -264,17 +306,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				273562A71D7AFB1200302289 /* WordCollectionView.swift in Sources */,
+				272C4CD91D996F570029C909 /* UtterManager.swift in Sources */,
 				277FD8971D76379F009FE0BA /* ContextCollectionViewCell.swift in Sources */,
 				271929E91D7774F9004383E3 /* WordCollectionViewCell.swift in Sources */,
-				2735629F1D7A25A300302289 /* KDDragAndDropManager.swift in Sources */,
+				2706A0EC1D7C579E0031F76A /* DataManager.swift in Sources */,
+				2706A0EE1D7C58DB0031F76A /* Style.swift in Sources */,
+				2703E1381D8380C300B149A5 /* QuickCategoryCollectionViewController.swift in Sources */,
+				2703E13A1D83883A00B149A5 /* SmartExtension.swift in Sources */,
+				272C4CD71D9946420029C909 /* PicTalkSynthesizer.swift in Sources */,
+				2703E13C1D84233900B149A5 /* Helper.swift in Sources */,
+				27A367C21D7F4F9C0015A4BB /* Category.swift in Sources */,
 				276284F41D74D282001F8039 /* MainViewController.swift in Sources */,
-				273562A31D7A282E00302289 /* KDDragAndDropCollectionView.swift in Sources */,
 				273562AC1D7B03D600302289 /* ContextCollectionView.swift in Sources */,
+				27B23FB91D80B72F00A11F95 /* PicTalkCollectionView.swift in Sources */,
 				276284FA1D74D282001F8039 /* PicTalkMedic.xcdatamodeld in Sources */,
 				273562A51D7AD47E00302289 /* MessageCollectionViewCell.swift in Sources */,
+				2703E13E1D8424A900B149A5 /* SharedParams.swift in Sources */,
 				276284F21D74D282001F8039 /* AppDelegate.swift in Sources */,
-				2735629C1D7A1AD700302289 /* Helper.swift in Sources */,
+				2735629C1D7A1AD700302289 /* DataItem.swift in Sources */,
 				273562A11D7A267D00302289 /* MessageColelctionView.swift in Sources */,
+				27DDD7391D98B49B00F70267 /* SpeakerButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,8 +381,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -376,8 +429,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -396,6 +451,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -405,10 +461,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JFRSPHJ244;
 				INFOPLIST_FILE = PicTalkMedic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pictalk.se.PicTalkMedic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -416,10 +475,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JFRSPHJ244;
 				INFOPLIST_FILE = PicTalkMedic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pictalk.se.PicTalkMedic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -431,6 +493,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pictalk.se.PicTalkMedicTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicTalkMedic.app/PicTalkMedic";
 			};
 			name = Debug;
@@ -443,6 +506,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pictalk.se.PicTalkMedicTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicTalkMedic.app/PicTalkMedic";
 			};
 			name = Release;
