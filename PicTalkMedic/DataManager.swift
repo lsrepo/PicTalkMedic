@@ -112,6 +112,6 @@ extension String {
     }
     
     func applyNamingRule()->String{
-        return self.removePunctuations.replaceBlankSpace.replaceSwedish.lowercased()
+        return self.lowercased().removePunctuations.replaceBlankSpace.replaceSwedish
     }
 }

@@ -14,7 +14,6 @@
 		2706A0EC1D7C579E0031F76A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0EB1D7C579E0031F76A /* DataManager.swift */; };
 		2706A0EE1D7C58DB0031F76A /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706A0ED1D7C58DB0031F76A /* Style.swift */; };
 		2706A0F01D7C5A6A0031F76A /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2706A0EF1D7C5A6A0031F76A /* test.plist */; };
-		270B87BD1DB5D08E00C2162B /* Pic.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270B87BC1DB5D08E00C2162B /* Pic.xcassets */; };
 		271929E91D7774F9004383E3 /* WordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */; };
 		272C4CD91D996F570029C909 /* UtterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C4CD81D996F570029C909 /* UtterManager.swift */; };
 		2735629C1D7A1AD700302289 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735629B1D7A1AD700302289 /* DataItem.swift */; };
@@ -30,6 +29,7 @@
 		276284FF1D74D282001F8039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276284FD1D74D282001F8039 /* LaunchScreen.storyboard */; };
 		2762850A1D74D282001F8039 /* PicTalkMedicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276285091D74D282001F8039 /* PicTalkMedicTests.swift */; };
 		277FD8971D76379F009FE0BA /* ContextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277FD8961D76379F009FE0BA /* ContextCollectionViewCell.swift */; };
+		2780C8DD1F6E0F3400385304 /* Pic.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2780C8DC1F6E0F3400385304 /* Pic.xcassets */; };
 		27A367C21D7F4F9C0015A4BB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A367C11D7F4F9C0015A4BB /* Category.swift */; };
 		27B23FB91D80B72F00A11F95 /* PicTalkCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */; };
 		27D397EB1E40689300B9A581 /* ConfigureUtterRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D397EA1E40689300B9A581 /* ConfigureUtterRateViewController.swift */; };
@@ -54,7 +54,6 @@
 		2706A0EB1D7C579E0031F76A /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		2706A0ED1D7C58DB0031F76A /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		2706A0EF1D7C5A6A0031F76A /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
-		270B87BC1DB5D08E00C2162B /* Pic.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Pic.xcassets; sourceTree = "<group>"; };
 		271929E81D7774F9004383E3 /* WordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCollectionViewCell.swift; sourceTree = "<group>"; };
 		272C4CD81D996F570029C909 /* UtterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtterManager.swift; sourceTree = "<group>"; };
 		2735629B1D7A1AD700302289 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		276285091D74D282001F8039 /* PicTalkMedicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicTalkMedicTests.swift; sourceTree = "<group>"; };
 		2762850B1D74D282001F8039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		277FD8961D76379F009FE0BA /* ContextCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextCollectionViewCell.swift; sourceTree = "<group>"; };
+		2780C8DC1F6E0F3400385304 /* Pic.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Pic.xcassets; sourceTree = "<group>"; };
 		27A367C11D7F4F9C0015A4BB /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		27B23FB81D80B72F00A11F95 /* PicTalkCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicTalkCollectionView.swift; sourceTree = "<group>"; };
 		27D397EA1E40689300B9A581 /* ConfigureUtterRateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureUtterRateViewController.swift; sourceTree = "<group>"; };
@@ -191,10 +191,10 @@
 			isa = PBXGroup;
 			children = (
 				276284FB1D74D282001F8039 /* Assets.xcassets */,
+				2780C8DC1F6E0F3400385304 /* Pic.xcassets */,
 				2706A0EF1D7C5A6A0031F76A /* test.plist */,
 				276284FD1D74D282001F8039 /* LaunchScreen.storyboard */,
 				276284F11D74D282001F8039 /* AppDelegate.swift */,
-				270B87BC1DB5D08E00C2162B /* Pic.xcassets */,
 				276285001D74D282001F8039 /* Info.plist */,
 				276284F81D74D282001F8039 /* PicTalkMedic.xcdatamodeld */,
 			);
@@ -287,7 +287,7 @@
 			files = (
 				2706A0F01D7C5A6A0031F76A /* test.plist in Resources */,
 				276284FF1D74D282001F8039 /* LaunchScreen.storyboard in Resources */,
-				270B87BD1DB5D08E00C2162B /* Pic.xcassets in Resources */,
+				2780C8DD1F6E0F3400385304 /* Pic.xcassets in Resources */,
 				276284FC1D74D282001F8039 /* Assets.xcassets in Resources */,
 				276284F71D74D282001F8039 /* Main.storyboard in Resources */,
 			);

@@ -4,29 +4,111 @@
 <array>
 	<dict>
 		<key>arabic</key>
-		<string>مكتب الاستقبال</string>
+		<string>طِبّّ القلب للأطفال</string>
 		<key>child</key>
-		<string>reception</string>
+		<string>pediatric-cardiology</string>
 		<key>english</key>
-		<string>reception</string>
+		<string>pediatric-cardiology</string>
 		<key>parent</key>
 		<string>context</string>
-		<key>picName</key>
-		<string>reception</string>
 		<key>swedish</key>
-		<string>reception</string>
+		<string>Barnkardiologi</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>طب القلب للأطفال</string>
+		<string>الرعاية النفسية للأطفال والشباب</string>
 		<key>child</key>
-		<string>pediatric-cardiology</string>
+		<string>bup</string>
 		<key>english</key>
-		<string>pediatric-cardiology</string>
+		<string>bup</string>
 		<key>parent</key>
 		<string>context</string>
 		<key>swedish</key>
-		<string>barnkardiologi</string>
+		<string>BUP</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>العيادة الطبية للاجئين</string>
+		<key>child</key>
+		<string>refugee-medical-centre</string>
+		<key>english</key>
+		<string>refugee-medical-centre</string>
+		<key>parent</key>
+		<string>context</string>
+		<key>swedish</key>
+		<string>Flyktingmedicinsk mottagning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وِلادة</string>
+		<key>child</key>
+		<string>childbirth</string>
+		<key>english</key>
+		<string>childbirth</string>
+		<key>parent</key>
+		<string>context</string>
+		<key>swedish</key>
+		<string>Förlossning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>التأهيل</string>
+		<key>child</key>
+		<string>habilitation</string>
+		<key>english</key>
+		<string>habilitation</string>
+		<key>parent</key>
+		<string>context</string>
+		<key>swedish</key>
+		<string>Habilitering</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فريق رعاية طبية متنقل</string>
+		<key>child</key>
+		<string>mobile-team</string>
+		<key>english</key>
+		<string>mobile-team</string>
+		<key>parent</key>
+		<string>context</string>
+		<key>swedish</key>
+		<string>Mobilt team</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طب حديثي الوِلادة</string>
+		<key>child</key>
+		<string>neonatal</string>
+		<key>english</key>
+		<string>neonatal</string>
+		<key>parent</key>
+		<string>context</string>
+		<key>swedish</key>
+		<string>Neonatal</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>رعاية الأسنان</string>
+		<key>child</key>
+		<string>dental-care</string>
+		<key>english</key>
+		<string>dental care</string>
+		<key>parent</key>
+		<string>context</string>
+		<key>swedish</key>
+		<string>Tandvård</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وحدة صحية</string>
+		<key>child</key>
+		<string>health-centre</string>
+		<key>english</key>
+		<string>health-centre</string>
+		<key>parent</key>
+		<string>context</string>
+		<key>swedish</key>
+		<string>Vårdcentral</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -40,566 +122,6 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>وحدة صحية</string>
-		<key>child</key>
-		<string>health-center</string>
-		<key>english</key>
-		<string>health-center</string>
-		<key>parent</key>
-		<string>reception</string>
-		<key>swedish</key>
-		<string>vårdcentral</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>نعم</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>ja</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>لا</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>nej</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>كَيفَ حالكْ؟</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>Hur mår du?</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>جَيِّد</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>bra</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>مَريد</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>sjuk</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>يَشعر بِالغثيان</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>må illa</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>صُعوبة على التَّنَفُّس</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>svårt att andas</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>سعال</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>hosta</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>وَجع / أَلَم</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>ont</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>أين</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>var</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>متى</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>när</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>يَجلِس</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>sitta</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>يَستَلقي</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>ligga</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>يَمشي</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>gå</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>يوم</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>dag</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>مساء</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>kväll</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>ليل</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>natt</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>سابِقاً</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>förut</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>الآن</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>nu</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>لاحِقاً</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>sedan</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>انتظر</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>vänta</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>قَريب</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>anhörig</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>مُتَرجِم شفوي</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>tolk</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>سُؤال</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>fråga</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>حَدَّثَني</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>berätta</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>العودة المنزل</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>gå hem</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>ورقة المعلومات</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>info papper</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>القدوم في وقت لاحق</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>komma senare</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>طبيب</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>sköterska</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>مُمَرِّضة</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>läkare</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>انتهي / تَمَّ</string>
-		<key>parent</key>
-		<string>health-center</string>
-		<key>swedish</key>
-		<string>färdig</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>العيادة الطبية للاجئين</string>
-		<key>child</key>
-		<string>refugee-medical-centre</string>
-		<key>english</key>
-		<string>refugee-medical-centre</string>
-		<key>parent</key>
-		<string>reception</string>
-		<key>swedish</key>
-		<string>Flyktingmedicinsk mottagning</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>نعم</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>ja</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>لا</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>nej</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>مرحباً</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>hej</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>شكراً</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>tack</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>لا أعْرِف</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>jag vet inte</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>كَيفَ حالكْ؟</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>Hur mår du?</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>لَيْسَ / لَيْسَت / لا</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>inte</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>انتهي / تَمَّ</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>färdig</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>مَن</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>vem</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>مرشد اجتماعي</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>kurator</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>طبيب</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>sjuksköterska</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>مُمَرِّضة</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>läkare</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>خبير نفسي</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>psykolog</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>شَخص آخَر</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>annan</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>أخد العينات</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>provtagning</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>ماذا تَختاج؟</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>Vad behöver du?</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>دفع</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>betala</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>الانتظار الخاصة بهم</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>sitt och vänta</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>مَشغول</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>upptagen</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>أَيّ لُغة؟</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>Vilket språk?</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>مُتَرجِم هُنا في المَكان</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>tolk på plats</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>مُتَرجِم عن طَريق الهاتِف</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>tolk per tel</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>واجب كتمان السر</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>tystnadsplikt</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>يوم خاطئ</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>fel dag</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>مَوعد خاطئ</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>fel tid</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>هُويّة</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>ID/legitimation</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>بِطاقة عاليِّة التَّكلفة</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>högkostnadsskort</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>مستشفى</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>sjukhus</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>وحدة صحية</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>vårdcentral</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>تبحث عن الوقت الجديد؟</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>Vill du ha ny tid?</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>متى</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>när</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>سُؤال</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>fråga</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>حَدَّثَني</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>berätta</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>وكالة توظيف</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>arbetsförmedling</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>دائرة الخدمة الاجتماعية</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>socialtjänst</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>الموظف المعلج للملف</string>
-		<key>parent</key>
-		<string>refugee-medical-centre</string>
-		<key>swedish</key>
-		<string>handläggare</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
 		<string>خريطة اجراء المحادثات</string>
 		<key>child</key>
 		<string>communication-board</string>
@@ -608,247 +130,5451 @@
 		<key>parent</key>
 		<string>pediatric-cardiology</string>
 		<key>swedish</key>
-		<string>samtalskarta</string>
+		<string>Samtalskarta</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>مرحباً</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>hej</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>مَعَ السَّلَامَة</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>hej då</string>
 	</dict>
 	<dict>
-		<key>parent</key>
-		<string>communication-board</string>
-		<key>swedish</key>
-		<string>bra</string>
-	</dict>
-	<dict>
+		<key>arabic</key>
+		<string>سيئ</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>dåligt</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>لَيْسَ / لَيْسَت / لا</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>inte</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>لا أعْرِف</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>vet inte</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>لا تأكل</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>inte äta</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>موظف</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>personal</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>الوالدين</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>föräldrar</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>أخوة/أخوات</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>syskon</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>عملية جراحية</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>operation</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>يَقِيس</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>mäta</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>مرهم</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>salva</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>النوم</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>sova</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>انتظر</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>vänta</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>هاتف</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>telefon</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>صامت</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>ljudlös</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>حوار</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>samtal</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>سَعيد</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>glad</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>حَزين</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>ledsen</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>وجع، ألَم</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>ont</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>بارد</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>fryser</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>حار</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>varm</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>حَرارة</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>tempen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>رأس</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>huvud</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أُذُن</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>öra</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عين</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>öga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أَنْف</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>näsa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فَم</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>mun</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>في حَلَق</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>i halsen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>على الرقبة</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>på halsen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>على الصَدْر</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>på bröstet</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>في الصَدْر</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>i bröstet</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كَتِف</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>axel</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تحت الإبط</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>armhåla</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ذراع</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>arm</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الكُوع</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>armbåge</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مِعْصَم</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>handled</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَد</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>hand</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بطن</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>mage</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>المعقدة</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>rumpa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الفَرْج</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>snippa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>العضو الذكرى</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>snopp</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>رِجْل</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>ben</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>رُكْبة</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>knä</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قدم صاييع القدم</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>fot</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أصابع القدم</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>tår</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>نحن</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>vi</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>يجب / يمكن</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
-		<string>ska/kan</string>
+		<string>ska, kan</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>حذف</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>ta bort</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>إعطاء</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>ge</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>تغير / تستبدل</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>byta</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>أنبوب</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>tub</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>تخطيط النشاط الكهريائي للقلب</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>EKG</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>قياس تشيع الاكسجين</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>POX</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>القسطرة الوريدية المركزية</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>CVK</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>قسطرة النزح</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>drän</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>الأنبوبة الأنفية المعدية</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
-		<string>v-sond</string>
+		<string>v sond</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>القسطرة الوريدية الطرفية</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>PVK</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>القسطر البولية</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>urinkateter</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>منظار المعدة عن طريق الجلد</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>peg</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>أشعة</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>röntgen</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>موجات فوق الصوتية</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>ultraljud</string>
 	</dict>
 	<dict>
+		<key>arabic</key>
+		<string>التوصير بالرنين المغناطيسى</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
 		<string>magnetröntgen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>التغذية الوريدية</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>dropp</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الحقنة</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>infusion</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>القرص</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>tablett</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>دواء يعطى بوايطة أنبوب التغذية</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>sondmedicin</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اللبوس</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>stolpiller</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>شربط لاصق</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>tejp</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>شربط لاصق مخدر</string>
+		<key>parent</key>
+		<string>communication-board</string>
+		<key>swedish</key>
+		<string>bedövningsplåster</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>خريطة أساسية</string>
+		<key>child</key>
+		<string>medical-basic</string>
+		<key>english</key>
+		<string>medical-basic</string>
+		<key>parent</key>
+		<string>pediatric-cardiology</string>
+		<key>swedish</key>
+		<string>Medicinsk baskarta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مراقبة متواصلة لنشاط القلب</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>telemetri</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ابرة شريانية</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>artärnål</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قياس مستوى الاكسجين</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>syresättning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الحقنة</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>spruta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الأنبوبة الأنفية المعدية</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>V sond</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حقنة</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>injektion</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حقنة شرجية</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>klyx</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تغوط</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>bajsar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صابون قاتل للجراثيم</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>Hibiscrub</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>التغذية الوريدية</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>dropp</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>منظار المعدة عن طريق الجلد</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>PEG</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>القرص</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>tablett</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قسطرة النزح</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>drän</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لا تلمس</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>rör inte</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سن</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>tand</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>التصوير بالرنين المغناطيسي</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>magnetröntgen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تخطيط النشاط الكهريائي للقلب</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>EKG</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>التحميلة / اللبوس</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>supp</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُحلل الطب الحيوي</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>BMA</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يتنفس</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>andas</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حبس النَّفَس</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>håll andan</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>زفير / انفخ</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>blås ut</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بطاقة الهوية</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>ID band</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أنبوب التغذية</string>
+		<key>parent</key>
+		<string>medical-basic</string>
+		<key>swedish</key>
+		<string>sond</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تنظيف اليدين</string>
+		<key>child</key>
+		<string>handwash</string>
+		<key>english</key>
+		<string>handwash</string>
+		<key>parent</key>
+		<string>pediatric-cardiology</string>
+		<key>swedish</key>
+		<string>Handtvätt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تنظيف</string>
+		<key>parent</key>
+		<string>handwash</string>
+		<key>swedish</key>
+		<string>skölj</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صابون</string>
+		<key>parent</key>
+		<string>handwash</string>
+		<key>swedish</key>
+		<string>tvål</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>غسيل</string>
+		<key>parent</key>
+		<string>handwash</string>
+		<key>swedish</key>
+		<string>tvätta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تجفيف</string>
+		<key>parent</key>
+		<string>handwash</string>
+		<key>swedish</key>
+		<string>torka</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تعقيم بالكُحُول</string>
+		<key>parent</key>
+		<string>handwash</string>
+		<key>swedish</key>
+		<string>sprita</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حالة الطوارئ</string>
+		<key>child</key>
+		<string>acute-situation</string>
+		<key>english</key>
+		<string>acute-situation</string>
+		<key>parent</key>
+		<string>pediatric-cardiology</string>
+		<key>swedish</key>
+		<string>Akut situation</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الاستماع إِلى القلب</string>
+		<key>parent</key>
+		<string>acute-situation</string>
+		<key>swedish</key>
+		<string>lyssna på hjärta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>التأكد من تخطيط القلب الكهربائي</string>
+		<key>parent</key>
+		<string>acute-situation</string>
+		<key>swedish</key>
+		<string>kontrollera EKG</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>دواء</string>
+		<key>parent</key>
+		<string>acute-situation</string>
+		<key>swedish</key>
+		<string>medicin</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سوف يأتي الطبيب</string>
+		<key>parent</key>
+		<string>acute-situation</string>
+		<key>swedish</key>
+		<string>läkare kommer</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>غادرْ الغرفة</string>
+		<key>parent</key>
+		<string>acute-situation</string>
+		<key>swedish</key>
+		<string>lämna rummet</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مقابلة للتقييم</string>
+		<key>child</key>
+		<string>assessment-visit</string>
+		<key>english</key>
+		<string>assessment-visit</string>
+		<key>parent</key>
+		<string>bup</string>
+		<key>swedish</key>
+		<string>Bedömningsbesök</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>محادثة</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>prata</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سؤال</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>fråga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الجلوس معاً</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>sitta ihop</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الجلوس وحيداً</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>sitta själv</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>واجب كتمان السر</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>tystnadsplikt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>واجب التبليغ</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>anmälningsplikt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عائلة</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>familj</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مدرسة</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>skola</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أصدقاء</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>vänner</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أوقات الفراغ</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>fritid</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مشكلة</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>problem</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>المشاعر</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>känslor</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طعام</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>mat</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>النوم</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>sömn</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أحداث مُرعبة</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>hänt hemskt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>المضايقات</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>mobbning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كُحُول</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>alkohol</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مخدّرات</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>droger</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>التعرض للعنف</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>utsatt för våld</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أن يشهد العنف</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>bevittnat våld</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اعتداء تحرش</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>övergrepp</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الإضرار بالنفس</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>självskada</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>خواطر عن الانتحار</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>självmordstankar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حالة وفاة</string>
+		<key>parent</key>
+		<string>assessment-visit</string>
+		<key>swedish</key>
+		<string>dödsfall</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كيف حالك؟</string>
+		<key>child</key>
+		<string>how-are-you</string>
+		<key>english</key>
+		<string>how-are-you</string>
+		<key>parent</key>
+		<string>bup</string>
+		<key>swedish</key>
+		<string>Hur mår du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قليل</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>lite</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كثير</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>mycket</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سعيد</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>glad</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُغرم</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>kär</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>متعجب</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>förvånad</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>غاضب</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>arg</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>خائف</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>rädd</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حَزين</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>ledsen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُتوتر</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>stressad</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قَلِق</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>orolig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ممل</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>tråkigt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ممتع</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>roligt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يخجل</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>skäms</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فَخور</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>stolt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تَعْبان</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>trött</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صعوبة في النوم</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>svårt sova</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كَوابيس</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>mardrömmar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الإضرار بالنفس</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>självskada</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>خواطر عن الانتحار</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>självmordstankar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فقدان الشهيّة</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>ingen aptit</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>خفقان القلب</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>hjärtklappning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صعوبة في التنفس</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>svårt andas</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يشعر بالغثيان</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>mår illa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الدوار، الإغماء</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>yr</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بارد</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>kall</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حار</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>varm</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صداع</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>huvudvärk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وجع, أَلَم</string>
+		<key>parent</key>
+		<string>how-are-you</string>
+		<key>swedish</key>
+		<string>ont</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مقترحات لأشياء يمكنك فعلها حين تشعر أنك لست على ما يرام</string>
+		<key>child</key>
+		<string>when-you-feel-bad</string>
+		<key>english</key>
+		<string>when-you-feel-bad</string>
+		<key>parent</key>
+		<string>bup</string>
+		<key>swedish</key>
+		<string>När du mår dåligt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اذهب في نزهة
+		سيرا علي الاقدام</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>ta en promenad</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>استمع إِلى الموسيقى</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>lyssna på musik</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اتصل بصديق</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>ringa en vän</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>شاهد فيلماً، أو اليوتيوب</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>se film, youtube</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يطلي / يلون</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>måla</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اكتب عن مشاعرك</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>skriva om dina känslor</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اركض</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>springa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يتحمم بالدُش, الاستحمام</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>duscha, bada</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>امسك مكعبات الثلج</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>hålla i isbitar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>داعب حيواناً</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>klappa ett djur</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>نَضِّف</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>städa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اشغل نفسك</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>pyssla</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>غَنّ</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>sjunga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اشتَمم شيئاً عَطِراً</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>lukta på något gott</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تحدث مع شخص بالغ</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>prata med en vuxen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اعزف على آلة موسيقية</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>spela instrument</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>العب ألعاب الكمبيوتر
+		أو ألعاب الفيديو</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>spela data, TV spel</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اقرأ كِتاباً / صَحيفة</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>läsa en bok, tidning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صنّف الأشياء</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>sortera saker</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تسوّق</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>shoppa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كُلْ شيئاً تحبه</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>äta något du gillar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صَلّ تأمل</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>be eller meditera</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اطبخ الطعام</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>laga mat eller baka</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قم بتمارين القوة البدنية</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>styrketräna</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>احضن أحداً ما</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>söka fysisk närhet</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اكتب قائمة</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>skriva en lista</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فكر بالأمور الحسنة</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>tänka på det som är bra</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اصنع معروفاً لشخص آخر</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>göra något för en annan</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ارقص</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>dansa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قم بتمارين التنفس</string>
+		<key>swedish</key>
+		<string>göra andningsövningar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ردد الأبجدية من النهاية إِلى البداية</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>säga alfabetet baklänges</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قابل أصدقاءك</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>träffa vänner</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>استخدم كريماً للجلد</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>använda hudkräm</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>البس ملابسك المفضلة</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>ta på favoritkläder</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اخرج إِلى الطبيعة</string>
+		<key>parent</key>
+		<string>when-you-feel-bad</string>
+		<key>swedish</key>
+		<string>gå i naturen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مكتب الاستقبال</string>
+		<key>child</key>
+		<string>reception</string>
+		<key>english</key>
+		<string>reception</string>
+		<key>parent</key>
+		<string>refugee-medical-centre</string>
+		<key>swedish</key>
+		<string>Reception</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مرحباً</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>hej</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>شكراً</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>tack</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لا أعْرِف</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>jag vet inte</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كَيفَ حالكْ؟</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>Hur mår du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لَيْسَ / لَيْسَت / لا</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>inte</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انتهي / تَمَّ</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>färdig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَن</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>vem</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مرشد اجتماعي</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>kurator</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُمَرِّضة</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>sjuksköterska</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طبيب</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>läkare</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>خبير نفسي</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>psykolog</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>شَخص آخَر</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>annan</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أخد العينات</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>provtagning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ماذا تَختاج؟</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>Vad behöver du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>دفع</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>betala</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الانتظار الخاصة بهم</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>sitt och vänta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَشغول</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>upptagen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أَيّ لُغة؟</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>Vilket språk?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُتَرجِم هُنا في المَكان</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>tolk på plats</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُتَرجِم عن طَريق الهاتِف</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>tolk per telefon</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>واجب كتمان السر</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>tystnadsplikt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يوم خاطئ</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>fel dag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَوعد خاطئ</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>fel tid</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هُويّة</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>legitimation</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بِطاقة عاليِّة التَّكلفة</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>högkostnadsskort</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مستشفى</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>sjukhus</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وحدة صحية</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>vårdcentral</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تبحث عن الوقت الجديد؟</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>Vill du ha ny tid?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>متى</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>när</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سُؤال</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>fråga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حَدَّثَني</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>berätta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وكالة توظيف</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>arbetsförmedling</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>دائرة الخدمة الاجتماعية</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>socialtjänst</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الموظف المعلج للملف</string>
+		<key>parent</key>
+		<string>reception</string>
+		<key>swedish</key>
+		<string>handläggare</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أخذ العينات</string>
+		<key>child</key>
+		<string>testing</string>
+		<key>english</key>
+		<string>testing</string>
+		<key>parent</key>
+		<string>refugee-medical-centre</string>
+		<key>swedish</key>
+		<string>Provtagning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كَيفَ حالك؟</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>Hur mår du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لا أعْرِف</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>jag vet inte</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صَغير / قَليل</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>lite</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كَثير</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>mycket</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لَيْسَ / لَيْسَت / لا</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>inte</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انتهي / تَمَّ</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>färdig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حَرارة</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>feber</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وَجع / أَلَم</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>smärta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>السعال</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>hosta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يشعر بالغثيان / يستفرغ</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>illamående</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الدوار / الإغماء</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>yr, svimma</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تَعْبان</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>trött</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>خائف</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>rädd</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قَلِق</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>orolig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>راضى / هادىء</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>nöjd, lugn</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قَد فَعَلْتُ ذلك من قبل</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>har gjort förut</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هل أكلت قبل ذلك؟</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>Ätit innan?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هل شربت سوائل قبل ذلك؟</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>Druckit innan?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أنا لا أريد</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>vill inte</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سُؤال</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>fråga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حَدَّثَني</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>berätta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لاحِقاً</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>sedan</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انتظر</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>vänta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>العودة المنزل</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>gå hem</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اختبار دم من الإصبع</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>blodprov finger</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اختبار دم من الذراع</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>blodprov arm</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فحص بول</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>urinprov</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فحص براز</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>avföringsprov</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فحص حمل</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>graviditetstest</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تخطيط النشاط الكهريائي للقلب</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>EKG</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>القليل من الدم</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>lite blod</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>غير خطير</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>inte farligt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>في البيت</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>hemma</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اجلب معك</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>ta med hit</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>احفظه في البرد</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>förvara i kyl</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ضغط الدم</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>blodtryck</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>إثبات الھویة</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>legitimation</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>شربط لاصق مخدر</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>bedövningsplåster</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بخاخ مخدر</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>bedövningsspray</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>إِبْرة الحقنة / الكانيولا</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>kanyl</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سداد الأوردة</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>stasband</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لاصقة جروح</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>plåster</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اجلس على الكرسي</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>sitta på stol</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يستلقي</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>ligga ner</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طبيب</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>läkare</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُمَرِّضة</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>sköterska</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قَريب</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>anhörig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُتَرجِم شفوي</string>
+		<key>parent</key>
+		<string>testing</string>
+		<key>swedish</key>
+		<string>tolk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>التاريخ المرضي</string>
+		<key>child</key>
+		<string>medical-history</string>
+		<key>english</key>
+		<string>medical-history</string>
+		<key>parent</key>
+		<string>childbirth</string>
+		<key>swedish</key>
+		<string>Anamnes</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هُويّة</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>ID</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حمل</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>graviditet</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>العدد في البطن</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>antal i mage</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طفل رضيع</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>bebis</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عدد الأطفال السابقين</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>antal barn</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>معافى</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>frisk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مريض</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>sjuk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>نزول الماء</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>fostervatten</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بِلا لَوْن، وَرْدي</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>ofärgat, rosa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أَصْفَر</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>gult</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أَخْضَر</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>grönt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يتبول</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>kissa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مِرْحاض</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>toalett</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سؤال</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>fråga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فوطة صحية</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>binda</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صَغير / قَليل</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>blod, lite</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كَثير</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>blod, mycket</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَسيل على الفخد</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>rinner på låret</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مخاط</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>slem</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ارمي في سلة المهملات</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>slänga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُساعدة</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>hjälp</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مخاض</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>värkar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>این؟ أشر</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>var? peka</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>متى</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>när</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عشر دقائق</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>1 värk på 10 minuter</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عشر دقائق</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>3 värkar på 10 minuter</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عشر دقائق</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>5 värkar på 10 minuter</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تشعر بالضغط</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>trycker på</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صَغير / قَليل</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>lite</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كَثير</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>mycket</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَرّة أخرى</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>igen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لَيْسَ / لَيْسَت / لا</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>inte</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انتهي / تَمَّ</string>
+		<key>parent</key>
+		<string>medical-history</string>
+		<key>swedish</key>
+		<string>färdig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فحص طِبّي</string>
+		<key>child</key>
+		<string>childbirth-examination</string>
+		<key>english</key>
+		<string>childbirth-examination</string>
+		<key>parent</key>
+		<string>childbirth</string>
+		<key>swedish</key>
+		<string>Undersökning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يجس البطن</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>känna på mage</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>جنين</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>foster</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تمدد على سرير المعاينة</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>ligga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قمع خشبي</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>trätratt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قِیاس نبضات قلب الجنین</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>CTG apparat</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>القلب</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>hjärta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سماعة لسماع دقات قلب الجنين</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>doppler</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يستمع</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>lyssna</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انظر</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>se</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>یفحص المھبل</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>känna i slida</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عنق الرحم غير مَفتوح</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>livmoderhals ej öppen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَفتوحة جزئياً</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>delvis öppen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَفتوح</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>öppen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>غاز الضحك</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>lustgas</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وجع</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>ont</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عطشان</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>törstig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>جائع</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>hungrig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>غير راض</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>missnöjd</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>خائف</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>rädd</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يشعر بالغثيان</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>mår illa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لا خطر على الجنين</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>inte farligt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أنا طَيِّبة</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>jag är snäll</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سأساعدك</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>jag vill hjälpa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اقرع الجرس وسياتي الموظف</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>ring personal</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>شريك</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>partner</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قريب</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>anhörig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَجاناً</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>gratis</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انتظر</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>vänta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>خُروج</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>gå ut</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هاتف</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>telefon</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صديق</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>vän</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُتَرجِم شفوي</string>
+		<key>parent</key>
+		<string>childbirth-examination</string>
+		<key>swedish</key>
+		<string>tolk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سير وِلادة طبيعي</string>
+		<key>child</key>
+		<string>normal-course</string>
+		<key>english</key>
+		<string>normal-course</string>
+		<key>parent</key>
+		<string>childbirth</string>
+		<key>swedish</key>
+		<string>Normalt förlopp</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وِلادة الطفل</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>föda</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>القسطرة الوريدية الطرفية</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>PVK</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عادةً / طبیعي</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>normalt, frisk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قِیاس نبضات قلب الجنین</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>CTG apparat</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يجس الرحم</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>känna</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>یفحص المھبل</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>känna i slida</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سماعة لسماع دقات قلب الجنين</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>doppler</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ثقب أغشیة الجنین</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>hål på hinnor</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الضغط لإخراج المولود</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>krysta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ضغط الدم</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>blodtryck</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فحص دم</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>blodprov</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الحقنة</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>spruta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>التغذیة الوریدیة</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>dropp</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تخدیر نصفي (في الظھر)</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>ryggbedövning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تسكین الأَلَم</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>smärtlindring</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>غاز الضحك</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>lustgas</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>یتحمم بالدُش</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>duscha</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الاستحمام</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>bada</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تدليك</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>massage</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وسادة تدفئة</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>värmedyna</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ما المدة؟</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>Hur länge?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وقت قصیر</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>kort tid</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وقت طویل</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>lång tid</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>غير خطير</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>inte farligt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انتھي/ تم</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>färdigt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لیس / لیست / لا</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>inte</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حساسية</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>allergi</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سعيد</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>glad</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>متشنج غیر مرتخي</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>spänd</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قلق</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>orolig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>راضي، هاديء</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>nöjd, lugn</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>آمن</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>trygg</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تعبان / مرھق</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>trött</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حار</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>varm</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يشعر بالغثيان</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>mår illa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كيف</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>hur</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اين</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>var</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أَلَم مثل الطمث</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>molande</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لطيف</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>skönt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عطشان</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>törstig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>جائع</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>hungrig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ابقى/ انتظر ھنا</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>stanna här</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قابلة</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>barnmorska</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قريب</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>anhörig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مترجم شفوي</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>doula, tolk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>النوم</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>sova</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يتبول</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>kissa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>یتنفس</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>andas</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مخاض</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>värkar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>شعور بالضغط</string>
+		<key>parent</key>
+		<string>normal-course</string>
+		<key>swedish</key>
+		<string>trycker på</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بعد الوِلادة</string>
+		<key>child</key>
+		<string>after-childbirth</string>
+		<key>english</key>
+		<string>after-childbirth</string>
+		<key>parent</key>
+		<string>childbirth</string>
+		<key>swedish</key>
+		<string>Efter födsel</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مخاض</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>värk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يضغط</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>trycka</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يجس الرحم</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>känna på livmoder</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الأوكسيتوسين</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>oxytocin</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>جروح بعد خروج المشيمة</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>sår efter moderkaka</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عادةً, طبيعي</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>normalt, ok</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>المشيمة خارجا</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>moderkaka ut</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تختفي من تلقاء نفسها في غضون أسبوعين</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>försvinner av sig själv inom 2 veckor</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انظر</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>titta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>المشيمة كاملة</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>hel placenta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الأغشية</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>hinnor</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>نزيف</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>blödning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مراقبة المهبل</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>titta slida</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فحص المستقيم</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>känna ändtarm</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>خياطة</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>bristning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تمزق</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>suturering</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مرهم مخدر</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>bedövningsgel</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بخاخ مخدر</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>bedövningsspray</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حقنة مخدرة</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>bedövningsinjektion</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قرص مسكن للأَلَم</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>värktablett</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>خيط جراحي</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>suturtråd</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صَغير / قَليل</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>lite</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كثير</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>mycket</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طري</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>mjuk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صلب</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>hård</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انتهي/ تم</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>färdig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فيتامين ك لتحفيذ التخثر عند الطفل</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>k vitamin för koagulation</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يفحصه طبيب أطفال</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>undersökning barnläkare</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طفل رضيع</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>baby</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حَرارة</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>temperatur</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حار</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>varm</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بارد</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>kall</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الوزن</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>vikt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الطول</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>längd</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>رأس</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>huvud</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سقف الحلق</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>gom</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>معافى</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>frisk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>امرآة</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>kvinna</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قابلة قانونية</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>barnmorska</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ممرضة</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>sköterska</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>شريك</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>partner</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قريب, صديق</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>anhörig, vän</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>البشرة على البشرة</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>hud mot hud</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الرضاعة الطبيعية</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>amning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>افتح فمك بشدة</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>gapa, stort</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أنف</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>näsa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حلمة الثدي</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>bröstvårta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يمص</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>suga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اللمس لا يؤلم</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>beröring, ej ont</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وجع، أَلَم - عادةً / طبيعي</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>ont, ok</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اللِّبَأُ / لبن السرسوب</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>råmjölk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حليب ناضج  بعد ٣-٥ أيام</string>
+		<key>parent</key>
+		<string>after-childbirth</string>
+		<key>swedish</key>
+		<string>mogen mjölk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مكتب الاستقبال</string>
+		<key>child</key>
+		<string>habilitation-reception</string>
+		<key>english</key>
+		<string>habilitation-reception</string>
+		<key>parent</key>
+		<string>habilitation</string>
+		<key>swedish</key>
+		<string>Reception</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الاسم</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>namn</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَن</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>vem</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يلتقي</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>träffa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُتَرجِم شفوي</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>tolk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قَريب</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>anhörig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>محاضرة</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>föreläsning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>یُحضر</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>hämta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يتصل هاتفيا</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>ringa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>یحجز موعد زیارة</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>boka besök</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انتظر</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>vänta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>العودة المنزل</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>gå hem</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>القدوم في وقت لاحق</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>komma senare</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>متى</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>när</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سابِقاً</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>förut</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الآن</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>nu</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لاحِقاً</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>sedan</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>١٥ دقيقة</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>15 minuter</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>٣٠ دقيقة</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>30 minuter</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>٤٥ دقیقة</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>45 minuter</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ساعة واحدة</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>1 timme</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حافلة</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>buss</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تذكرة</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>biljett</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سيارة</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>bil</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>إثبات الھویة</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>legitimation</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يدفع</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>betala</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مكان خطأ</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>fel plats</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مريض</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>sjuk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مِرْحاض</string>
+		<key>parent</key>
+		<string>habilitation-reception</string>
+		<key>swedish</key>
+		<string>toalett</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فريق رعاية طبية متنقل</string>
+		<key>child</key>
+		<string>medical-examination</string>
+		<key>english</key>
+		<string>medical-examination</string>
+		<key>parent</key>
+		<string>mobile-team</string>
+		<key>swedish</key>
+		<string>Hälsoundersökning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَجاناً</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>gratis</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اختياري</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>frivilligt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>واجب كتمان السر</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>tystnadsplikt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حجز موعد</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>få en tid</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انتظر</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>vänta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>متى</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>när</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سابِقاً</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>förut</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الآن</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>nu</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لاحِقاً</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>sedan</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَن</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>vem</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُتَرجِم شفوي</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>tolk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُمَرِّضة</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>sjuksköterska</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>موظف</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>personal</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قَريب</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>anhörig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بالغ</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>vuxen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أطفال</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>barn</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سؤال</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>fråga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حَدَّثَني</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>berätta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بقيس</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>väga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَقِيس</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>mäta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اختبار دم من الذراع</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>blodprov arm</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اختبار دم من الإصبع</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>blodprov finger</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سنتواصل معك إذا كان هناك شيء على غير ما يرام.</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>Vi återkommer om det är något fel.</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كَيفَ حالكْ؟</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>Hur mår du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>معافى</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>frisk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مريض</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>sjuk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هل تأخُد الأدوية بانتظام؟</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>Äter du medicin?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أجريت عملية كبيرة</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>stor operation</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لقاح / تطعيم</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>vaccin</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُحَيَّم لاجئين خارج السويد</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>flyktingläger utanför Sverige</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سجن خارج السويد</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>fängelse utanför Sverige</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>معاملة جيدة</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>bra behandlad</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يتشاجر</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>slå</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُظلم</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>mörkt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مزدحم</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>trångt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وَحيد</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>ensam</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سَعيد</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>glad</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>غاضِب</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>arg</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قَلِق</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>orolig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>خائف</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>rädd</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حَزين</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>ledsen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بارد</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>kall</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حار</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>varm</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أين</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>var</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وجع</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>ont</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يشعر بالغثيان</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>mår illa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>السعال</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>hosta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صعوبة في التنفس</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>svårt att andas</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تَعْبان</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>trött</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حَرارة</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>feber</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ممتع</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>roligt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ممل</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>tråkigt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>جائع</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>hungrig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عطشان</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>törstig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يأكل</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>äta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>النوم</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>sova</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>التفكير</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>tänka</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الاثْنَيْن</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>måndag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الثَلاثاء</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>tisdag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الأَرْبِعاء</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>onsdag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الخَميس</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>torsdag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الجُمُعة</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>fredag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>السَبْت</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>lördag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الأَحَد</string>
+		<key>parent</key>
+		<string>medical-examination</string>
+		<key>swedish</key>
+		<string>söndag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>خريطة اجراء المحادثات</string>
+		<key>child</key>
+		<string>neonatal-communication-board</string>
+		<key>english</key>
+		<string>neonatal-communication-board</string>
+		<key>parent</key>
+		<string>neonatal</string>
+		<key>swedish</key>
+		<string>Samtalskarta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طفل رضيع</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>baby</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الوالدين</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>föräldrar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أم / والدة</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>mamma</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أب / والد</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>pappa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>النوم</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>sova</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يصحي / يفيق</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>vakna</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سؤال</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>fråga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>البشرة على البشرة</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>hud mot hud</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لرضاعة الطبيعية</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>amning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طعام للتغذية عن طريق المعدة</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>sond</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اغسل يديك</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>tvätta händer</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يسحب او يضخ بالمضخة</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>pumpa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يأكل</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>äta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تبديل الحفاظة</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>byta blöja</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الاستحمام</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>bada</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَزِن</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>väga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَقِيس</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>mäta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حَرارة</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>temperatur</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>النظافة الشخصية</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>hygien</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>راضي، هاديء</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>lugn</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قلق</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>orolig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يبكي</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>gråter</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وجع، أَلَم</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>ont, smärta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يتكلم</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>prata</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يهدأ</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>lugna</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قياس مستوى الاكسجين</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>syremättnad</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>جهاز</string>
+		<key>parent</key>
+		<string>neonatal-communication-board</string>
+		<key>swedish</key>
+		<string>apparat</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>اقرار صحي</string>
+		<key>child</key>
+		<string>health-declaration</string>
+		<key>english</key>
+		<string>health-declaration</string>
+		<key>parent</key>
+		<string>dental-care</string>
+		<key>swedish</key>
+		<string>Hälsodeklaration</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مرحباً</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>välkommen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عَلِّق المعطف على علاقة الملابس</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>häng ytterkläder</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يجلس</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>sitt i stolen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كيف حالك؟</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>Hur mår du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>دواء منتظم؟</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>Mediciner regelbundet?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>هل أنت مصاب بأي أمراض؟</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>Har du några sjukdomar?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حساسية</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>allergi</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تحمل المضادات الحيوية؟</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>Tål du antibiotika?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تدخين</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>röker</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يستعمل السعوط</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>snusar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قَريب</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>anhörig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صديق</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>vän</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُتَرجِم شفوي</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>tolk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طبيب أسنان</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>tandläkare</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ممرضة طب الأسنان</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>tandsköterska</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فالِت</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>lös tand</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>نزیف</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>blödning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وَجع / أَلَم</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>smärta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أَيْنَ؟ أشر</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>var? peka</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ما المدة؟</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>Hur länge?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>یوم</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>dagar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صدید</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>fistel</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تورم</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>svullnad</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>متى</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>när</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حار</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>varmt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بارد</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>kallt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لیل</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>natt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>احیانا</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>ibland</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ثابت</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>hela tiden</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كَيفَ</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>hur</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ینبضق</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>pulserar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>یشعر بالم البرد بالاسنان</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>isar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تأثیر عام</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>allmänpåverkan</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حَرارة</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>feber</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ھل تأخذ الدواء بسبب الشكوي المؤقتة؟</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>Medicin mot tillfälligt besvär?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مرھم مخدر</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>bedövningssalva</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حقنة مخدرة</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>bedövningsspruta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مِثقاب</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>borr</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سفاط</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>sug</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>شفط اللعاب</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>salivsug</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أداة لنزة جذر الأسنان</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>hävel</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كناشة</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>tång</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يفحص الأسنان</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>undersökning</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انظر</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>titta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أشعة</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>röntgen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَعُض</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>bita</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الجلوس هادئاً</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>sitta stilla</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انتظر</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>vänta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يخرج الآخرون</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>andra går ut</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَجاناً</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>gratis</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كرونة ٥٠</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>50 kronor</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وضع معجون الفلورايد</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>fluorlacka</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ساعتين</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>2 timmar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طعام</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>mat</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>شراب</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>dryck</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مِرْحاض</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>toa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سَعيد</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>glad</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لَذيذ</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>لَذيذ</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أنا لا أريد</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>vill inte</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>غاضِب</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>arg</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حَزين</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>ledsen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تَعْبان</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>trött</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وجع</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>ont</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سُؤال</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>fråga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حَدَّثَني</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>berätta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَرّة أخرى</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>igen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انتهي/ تم</string>
+		<key>parent</key>
+		<string>health-declaration</string>
+		<key>swedish</key>
+		<string>färdig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مكتب الاستقبال</string>
+		<key>child</key>
+		<string>health-centre-reception</string>
+		<key>english</key>
+		<string>health-centre-reception</string>
+		<key>parent</key>
+		<string>health-centre</string>
+		<key>swedish</key>
+		<string>Reception</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كَيفَ حالكْ؟</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>Hur mår du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>جَيِّد</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>bra</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَريد</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>sjuk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَشعر بِال</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>må illa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صُعوبة على التَّنَفُّس</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>svårt att andas</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سعال</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>hosta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وَجع / أَلَم</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>ont</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أين</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>var</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>متى</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>när</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَجلِس</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>sitta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَستَلقي</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>ligga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَمشي</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>gå</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يوم</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>dag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مساء</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>kväll</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ليل</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>natt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سابِقاً</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>förut</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الآن</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>nu</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لاحِقاً</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>sedan</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انتظر</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>vänta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قَريب</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>anhörig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُتَرجِم شفوي</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>tolk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سُؤال</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>fråga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>حَدَّثَني</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>berätta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>العودة المنزل</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>gå hem</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ورقة المعلومات</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>info papper</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>القدوم في وقت لاحق</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>komma senare</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طبيب</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>sköterska</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُمَرِّضة</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>läkare</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>انتهي / تَمَّ</string>
+		<key>parent</key>
+		<string>health-centre-reception</string>
+		<key>swedish</key>
+		<string>färdig</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -860,7 +5586,7 @@
 		<key>parent</key>
 		<string>Quick</string>
 		<key>swedish</key>
-		<string>basord</string>
+		<string>Basord</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -877,6 +5603,30 @@
 		<string>basic</string>
 		<key>swedish</key>
 		<string>nej</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>جَيِّد</string>
+		<key>parent</key>
+		<string>basic</string>
+		<key>swedish</key>
+		<string>bra</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سيئ</string>
+		<key>parent</key>
+		<string>basic</string>
+		<key>swedish</key>
+		<string>dåligt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لَيْسَ / لَيْسَت / لا</string>
+		<key>parent</key>
+		<string>basic</string>
+		<key>swedish</key>
+		<string>inte</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -912,19 +5662,19 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>لَيْسَ / لَيْسَت / لا</string>
-		<key>parent</key>
-		<string>basic</string>
-		<key>swedish</key>
-		<string>inte</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
 		<string>مرحباً</string>
 		<key>parent</key>
 		<string>basic</string>
 		<key>swedish</key>
 		<string>hej</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مَعَ السَّلَامَة</string>
+		<key>parent</key>
+		<string>basic</string>
+		<key>swedish</key>
+		<string>hej då</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -968,19 +5718,11 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مَعَ السَّلَامَة</string>
-		<key>parent</key>
-		<string>basic</string>
-		<key>swedish</key>
-		<string>hej då</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
 		<string>خطأ / مشكلة</string>
 		<key>parent</key>
 		<string>basic</string>
 		<key>swedish</key>
-		<string>fel/problem</string>
+		<string>fel, problem</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -1024,7 +5766,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>هل تحتاج الى شيء؟</string>
+		<string>هل تحتاج إِلى شيء؟</string>
 		<key>parent</key>
 		<string>basic</string>
 		<key>swedish</key>
@@ -1044,7 +5786,7 @@
 		<key>parent</key>
 		<string>basic</string>
 		<key>swedish</key>
-		<string>toa</string>
+		<string>toalett</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -1160,6 +5902,280 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
+		<string>وقت</string>
+		<key>child</key>
+		<string>time</string>
+		<key>parent</key>
+		<string>Quick</string>
+		<key>swedish</key>
+		<string>Tid</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>متى</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>när</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سابِقاً</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>förut</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الآن</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>nu</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لاحِقاً</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>sedan</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يوم</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>dag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مساء</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>kväll</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ليل</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>natt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ساعة</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>timme</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>دَقيقة</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>minut</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>١٥ دقيقة</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>15 minuter</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>٣٠ دقيقة</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>30 minuter</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>٤٥ دقیقة</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>45 minuter</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ساعة واحدة</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>1 timme</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ساعتين</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>2 timmar</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أُسْبُوع</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>vecka</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>شَهْر</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>månad</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الاثْنَيْن</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>måndag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الثَلاثاء</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>tisdag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الأَرْبِعاء</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>onsdag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الخَميس</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>torsdag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الجُمُعة</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>fredag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>السَبْت</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>lördag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الأَحَد</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>söndag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>٠</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>١</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>٢</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>٣</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>٤</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>4</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>٥</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>5</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>٦</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>6</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>٧</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>7</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>٨</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>8</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>٩</string>
+		<key>parent</key>
+		<string>time</string>
+		<key>swedish</key>
+		<string>9</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
 		<string>اشخاص</string>
 		<key>child</key>
 		<string>people</string>
@@ -1168,7 +6184,7 @@
 		<key>parent</key>
 		<string>Quick</string>
 		<key>swedish</key>
-		<string>personer</string>
+		<string>Personer</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -1180,11 +6196,43 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
+		<string>يلتقي</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>träffa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قَريب</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>anhörig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
 		<string>عائلة</string>
 		<key>parent</key>
 		<string>people</string>
 		<key>swedish</key>
 		<string>familj</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أم / والدة</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>mamma</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أب / والد</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>pappa</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -1324,7 +6372,275 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>المَشاعِرُ</string>
+		<string>موظف</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>personal</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الأَنْشِطة</string>
+		<key>child</key>
+		<string>activities</string>
+		<key>parent</key>
+		<string>Quick</string>
+		<key>swedish</key>
+		<string>Aktiviteter</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَكْتُب</string>
+		<key>parent</key>
+		<string>activities</string>
+		<key>swedish</key>
+		<string>skriva</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تكلم في جهاز الايباد</string>
+		<key>parent</key>
+		<string>activities</string>
+		<key>swedish</key>
+		<string>prata i iPad</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يُتَلْفِن</string>
+		<key>parent</key>
+		<string>activities</string>
+		<key>swedish</key>
+		<string>ringa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَرْسِم</string>
+		<key>parent</key>
+		<string>activities</string>
+		<key>swedish</key>
+		<string>rita</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>َيقْرَأ</string>
+		<key>parent</key>
+		<string>activities</string>
+		<key>swedish</key>
+		<string>läsa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَلْعَب</string>
+		<key>parent</key>
+		<string>activities</string>
+		<key>swedish</key>
+		<string>spela, leka</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يبدل الملابس</string>
+		<key>parent</key>
+		<string>activities</string>
+		<key>swedish</key>
+		<string>byta kläder</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَجْلس</string>
+		<key>parent</key>
+		<string>activities</string>
+		<key>swedish</key>
+		<string>sitta</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يستلقي</string>
+		<key>parent</key>
+		<string>activities</string>
+		<key>swedish</key>
+		<string>ligga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَمْشي</string>
+		<key>parent</key>
+		<string>activities</string>
+		<key>swedish</key>
+		<string>gå</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يتحمم بالدُش</string>
+		<key>parent</key>
+		<string>activities</string>
+		<key>swedish</key>
+		<string>duscha</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الاستحمام</string>
+		<key>parent</key>
+		<string>activities</string>
+		<key>swedish</key>
+		<string>bada</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَغْسِل اسنانه</string>
+		<key>parent</key>
+		<string>activities</string>
+		<key>swedish</key>
+		<string>borsta tänder</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الأماكن</string>
+		<key>child</key>
+		<string>places</string>
+		<key>parent</key>
+		<string>Quick</string>
+		<key>swedish</key>
+		<string>Platser</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أين</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>var</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>إلى</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>till</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>علـى</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>på</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>في</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>i</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تحت</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>under</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بجانب</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>bredvid</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>في الداخل</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>inomhus</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>في الخارج</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>utomhus</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>في البيت</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>hemma</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مستشفى</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>sjukhus</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>وحدة صحية</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>vårdcentral</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>محل تجاري</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>affär</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مدرسة</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>skola</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>صيدلية</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>apotek</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>محطة</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>station</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>محطة / مكتب</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>terminal, kontor</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>دولة اخرى</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>annat land</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>المَشاعِر</string>
 		<key>child</key>
 		<string>feelings</string>
 		<key>english</key>
@@ -1332,7 +6648,7 @@
 		<key>parent</key>
 		<string>Quick</string>
 		<key>swedish</key>
-		<string>känslor</string>
+		<string>Känslor</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -1448,7 +6764,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>حرارة</string>
+		<string>حَرارة</string>
 		<key>parent</key>
 		<string>feelings</string>
 		<key>swedish</key>
@@ -1493,6 +6809,358 @@
 		<string>feelings</string>
 		<key>swedish</key>
 		<string>törstig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُغرم</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>kär</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>متعجب</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>förvånad</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُتوتر</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>stressad</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فَخور</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>stolt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يخجل</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>skäms</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الجِسْم</string>
+		<key>child</key>
+		<string>body</string>
+		<key>english</key>
+		<string>body</string>
+		<key>parent</key>
+		<string>Quick</string>
+		<key>swedish</key>
+		<string>Kroppen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>رأس</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>huvud</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أُذُن</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>öra</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عين</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>öga</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أَنْف</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>näsa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>فَم</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>mun</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>في حَلَق</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>i halsen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>على الرقبة</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>på halsen</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>على الصَدْر</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>på bröstet</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>في الصَدْر</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>i bröstet</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كَتِف</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>axel</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>تحت الإبط</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>armhåla</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ذراع</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>arm</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الكُوع</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>armbåge</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مِعْصَم</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>handled</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>يَد</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>hand</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>بطن</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>mage</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>المعقدة</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>rumpa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>الفَرْج</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>snippa</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>العضو الذكرى</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>snopp</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>رِجْل</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>ben</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>رُكْبة</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>knä</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قدم صاييع القدم</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>fot</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أصابع القدم</string>
+		<key>parent</key>
+		<string>body</string>
+		<key>swedish</key>
+		<string>tår</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طعام</string>
+		<key>child</key>
+		<string>food</string>
+		<key>english</key>
+		<string>food</string>
+		<key>parent</key>
+		<string>Quick</string>
+		<key>swedish</key>
+		<string>Mat</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>طعام</string>
+		<key>parent</key>
+		<string>food</string>
+		<key>swedish</key>
+		<string>mat</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>شراب</string>
+		<key>parent</key>
+		<string>food</string>
+		<key>swedish</key>
+		<string>dryck</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>جائع</string>
+		<key>parent</key>
+		<string>food</string>
+		<key>swedish</key>
+		<string>hungrig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عطشان</string>
+		<key>parent</key>
+		<string>food</string>
+		<key>swedish</key>
+		<string>törstig</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>لذیذ</string>
+		<key>parent</key>
+		<string>food</string>
+		<key>swedish</key>
+		<string>gott</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مقرف</string>
+		<key>parent</key>
+		<string>food</string>
+		<key>swedish</key>
+		<string>äckligt</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>ماء للشرب</string>
+		<key>parent</key>
+		<string>food</string>
+		<key>swedish</key>
+		<string>vatten</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>شاي</string>
+		<key>parent</key>
+		<string>food</string>
+		<key>swedish</key>
+		<string>te</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قَهْوة</string>
+		<key>parent</key>
+		<string>food</string>
+		<key>swedish</key>
+		<string>kaffe</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>عصیر</string>
+		<key>parent</key>
+		<string>food</string>
+		<key>swedish</key>
+		<string>saft</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>مُرَطِّبات</string>
+		<key>parent</key>
+		<string>food</string>
+		<key>swedish</key>
+		<string>läsk</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سَنْدْويتْش</string>
+		<key>parent</key>
+		<string>food</string>
+		<key>swedish</key>
+		<string>smörgås</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>سَكاكِر</string>
+		<key>parent</key>
+		<string>food</string>
+		<key>swedish</key>
+		<string>godis</string>
 	</dict>
 </array>
 </plist>
