@@ -76,7 +76,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>طب حديثي الوِلادة</string>
+		<string>طِبّ حديثي الوِلادة</string>
 		<key>child</key>
 		<string>neonatal</string>
 		<key>english</key>
@@ -131,38 +131,6 @@
 		<string>pediatric-cardiology</string>
 		<key>swedish</key>
 		<string>Samtalskarta</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>مرحباً</string>
-		<key>parent</key>
-		<string>communication-board</string>
-		<key>swedish</key>
-		<string>hej</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>مَعَ السَّلَامَة</string>
-		<key>parent</key>
-		<string>communication-board</string>
-		<key>swedish</key>
-		<string>hej då</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>سيئ</string>
-		<key>parent</key>
-		<string>communication-board</string>
-		<key>swedish</key>
-		<string>dåligt</string>
-	</dict>
-	<dict>
-		<key>arabic</key>
-		<string>لَيْسَ / لَيْسَت / لا</string>
-		<key>parent</key>
-		<string>communication-board</string>
-		<key>swedish</key>
-		<string>inte</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -222,7 +190,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مرهم</string>
+		<string>مَرْهَم</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
@@ -262,7 +230,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>حوار</string>
+		<string>حِوار</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
@@ -526,7 +494,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>إعطاء</string>
+		<string>إِعطاء</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
@@ -550,11 +518,11 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>تخطيط النشاط الكهريائي للقلب</string>
+		<string>تَخطيط النشاط الكهريائي للقلب</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
-		<string>EKG</string>
+		<string>تَخطيط النشاط الكهريائي للقلب</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -566,7 +534,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>القسطرة الوريدية المركزية</string>
+		<string>قَسْطَرة الوريدية المركزية</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
@@ -574,7 +542,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>قسطرة النزح</string>
+		<string>قَسْطَرة النزح</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
@@ -590,7 +558,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>القسطرة الوريدية الطرفية</string>
+		<string>القَسْطَرة الوريدية الطرفية</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
@@ -598,7 +566,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>القسطر البولية</string>
+		<string>القَسْطَر البولية</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
@@ -654,7 +622,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>القرص</string>
+		<string>القُرْص</string>
 		<key>parent</key>
 		<string>communication-board</string>
 		<key>swedish</key>
@@ -714,7 +682,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ابرة شريانية</string>
+		<string>إبْرة شريانية</string>
 		<key>parent</key>
 		<string>medical-basic</string>
 		<key>swedish</key>
@@ -730,7 +698,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>الحقنة</string>
+		<string>الحُقْنة</string>
 		<key>parent</key>
 		<string>medical-basic</string>
 		<key>swedish</key>
@@ -746,7 +714,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>حقنة</string>
+		<string>حُقْنة</string>
 		<key>parent</key>
 		<string>medical-basic</string>
 		<key>swedish</key>
@@ -754,7 +722,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>حقنة شرجية</string>
+		<string>حُقْنة شرجية</string>
 		<key>parent</key>
 		<string>medical-basic</string>
 		<key>swedish</key>
@@ -802,7 +770,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>قسطرة النزح</string>
+		<string>قَسْطَرة النزح</string>
 		<key>parent</key>
 		<string>medical-basic</string>
 		<key>swedish</key>
@@ -834,7 +802,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>تخطيط النشاط الكهريائي للقلب</string>
+		<string>تَخطيط النشاط الكهريائي للقلب</string>
 		<key>parent</key>
 		<string>medical-basic</string>
 		<key>swedish</key>
@@ -874,7 +842,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>زفير / انفخ</string>
+		<string>زَفير / انفخ</string>
 		<key>parent</key>
 		<string>medical-basic</string>
 		<key>swedish</key>
@@ -970,7 +938,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>التأكد من تخطيط القلب الكهربائي</string>
+		<string>التأكد من تَخطيط القلب الكهربائي</string>
 		<key>parent</key>
 		<string>acute-situation</string>
 		<key>swedish</key>
@@ -1218,7 +1186,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>قليل</string>
+		<string>قَليل</string>
 		<key>parent</key>
 		<string>how-are-you</string>
 		<key>swedish</key>
@@ -1314,7 +1282,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يخجل</string>
+		<string>يخجِل</string>
 		<key>parent</key>
 		<string>how-are-you</string>
 		<key>swedish</key>
@@ -1394,7 +1362,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يشعر بالغثيان</string>
+		<string>يشعر بالِغثيان</string>
 		<key>parent</key>
 		<string>how-are-you</string>
 		<key>swedish</key>
@@ -1402,7 +1370,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>الدوار، الإغماء</string>
+		<string>الدوار، الإغْماء</string>
 		<key>parent</key>
 		<string>how-are-you</string>
 		<key>swedish</key>
@@ -1426,7 +1394,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>صداع</string>
+		<string>صُداع</string>
 		<key>parent</key>
 		<string>how-are-you</string>
 		<key>swedish</key>
@@ -1454,8 +1422,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>اذهب في نزهة
-		سيرا علي الاقدام</string>
+		<string>اذهب في نُزْهة سَيْراً علي الاقدام</string>
 		<key>parent</key>
 		<string>when-you-feel-bad</string>
 		<key>swedish</key>
@@ -1487,7 +1454,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يطلي / يلون</string>
+		<string>يطلي / يُلَوِّن</string>
 		<key>parent</key>
 		<string>when-you-feel-bad</string>
 		<key>swedish</key>
@@ -1567,7 +1534,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>تحدث مع شخص بالغ</string>
+		<string>تحدث مع شخص بالِغ</string>
 		<key>parent</key>
 		<string>when-you-feel-bad</string>
 		<key>swedish</key>
@@ -1664,7 +1631,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>فكر بالأمور الحسنة</string>
+		<string>فَكِّر بالأمور الحسنة</string>
 		<key>parent</key>
 		<string>when-you-feel-bad</string>
 		<key>swedish</key>
@@ -1680,7 +1647,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ارقص</string>
+		<string>أُرْقُص</string>
 		<key>parent</key>
 		<string>when-you-feel-bad</string>
 		<key>swedish</key>
@@ -1842,7 +1809,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أخد العينات</string>
+		<string>أَخَد العينات</string>
 		<key>parent</key>
 		<string>reception</string>
 		<key>swedish</key>
@@ -1858,7 +1825,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>دفع</string>
+		<string>دَفْع</string>
 		<key>parent</key>
 		<string>reception</string>
 		<key>swedish</key>
@@ -1906,7 +1873,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>واجب كتمان السر</string>
+		<string>واجب كِتْمان السر</string>
 		<key>parent</key>
 		<string>reception</string>
 		<key>swedish</key>
@@ -1962,7 +1929,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>تبحث عن الوقت الجديد؟</string>
+		<string>تَبْحَث عن الوقت الجديد؟</string>
 		<key>parent</key>
 		<string>reception</string>
 		<key>swedish</key>
@@ -2102,7 +2069,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يشعر بالغثيان / يستفرغ</string>
+		<string>يشعر بالِغثيان / يستفرغ</string>
 		<key>parent</key>
 		<string>testing</string>
 		<key>swedish</key>
@@ -2150,7 +2117,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>قَد فَعَلْتُ ذلك من قبل</string>
+		<string>قَد فَعَلْتُ ذَلِكَ من قبل</string>
 		<key>parent</key>
 		<string>testing</string>
 		<key>swedish</key>
@@ -2158,7 +2125,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>هل أكلت قبل ذلك؟</string>
+		<string>هل أكلت قبل ذَلِكَ؟</string>
 		<key>parent</key>
 		<string>testing</string>
 		<key>swedish</key>
@@ -2166,7 +2133,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>هل شربت سوائل قبل ذلك؟</string>
+		<string>هل شربت سوائل قبل ذَلِكَ؟</string>
 		<key>parent</key>
 		<string>testing</string>
 		<key>swedish</key>
@@ -2222,7 +2189,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>اختبار دم من الإصبع</string>
+		<string>اختبار دم من الِإصبع</string>
 		<key>parent</key>
 		<string>testing</string>
 		<key>swedish</key>
@@ -2246,7 +2213,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>فحص براز</string>
+		<string>فحص بِراز</string>
 		<key>parent</key>
 		<string>testing</string>
 		<key>swedish</key>
@@ -2262,7 +2229,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>تخطيط النشاط الكهريائي للقلب</string>
+		<string>تَخْطيط النشاط الكهريائي للقلب</string>
 		<key>parent</key>
 		<string>testing</string>
 		<key>swedish</key>
@@ -2270,7 +2237,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>القليل من الدم</string>
+		<string>القَليل من الدم</string>
 		<key>parent</key>
 		<string>testing</string>
 		<key>swedish</key>
@@ -2310,7 +2277,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ضغط الدم</string>
+		<string>ضَغْط الدَمِ</string>
 		<key>parent</key>
 		<string>testing</string>
 		<key>swedish</key>
@@ -2350,7 +2317,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>سداد الأوردة</string>
+		<string>سَداد الأوردة</string>
 		<key>parent</key>
 		<string>testing</string>
 		<key>swedish</key>
@@ -2406,7 +2373,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مُتَرجِم شفوي</string>
+		<string>مُتَرجِم شَفَويّ</string>
 		<key>parent</key>
 		<string>testing</string>
 		<key>swedish</key>
@@ -2594,7 +2561,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مخاض</string>
+		<string>مَخاض</string>
 		<key>parent</key>
 		<string>medical-history</string>
 		<key>swedish</key>
@@ -2602,7 +2569,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>این؟ أشر</string>
+		<string>أَيْنَ؟ أَشِر</string>
 		<key>parent</key>
 		<string>medical-history</string>
 		<key>swedish</key>
@@ -2618,7 +2585,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>عشر دقائق</string>
+		<string>١ طَلْق في ١٥ دقائق</string>
 		<key>parent</key>
 		<string>medical-history</string>
 		<key>swedish</key>
@@ -2626,7 +2593,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>عشر دقائق</string>
+		<string>٣  مَخاض في عشر دقائق</string>
 		<key>parent</key>
 		<string>medical-history</string>
 		<key>swedish</key>
@@ -2634,7 +2601,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>عشر دقائق</string>
+		<string>٥  مَخاض في عشر دقائق</string>
 		<key>parent</key>
 		<string>medical-history</string>
 		<key>swedish</key>
@@ -2710,7 +2677,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>جنين</string>
+		<string>جَنين</string>
 		<key>parent</key>
 		<string>childbirth-examination</string>
 		<key>swedish</key>
@@ -2718,7 +2685,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>تمدد على سرير المعاينة</string>
+		<string>تمدد على سرير المعأَيْنَة</string>
 		<key>parent</key>
 		<string>childbirth-examination</string>
 		<key>swedish</key>
@@ -2750,7 +2717,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>سماعة لسماع دقات قلب الجنين</string>
+		<string>سماعة لسماع دقات قلب الجَنين</string>
 		<key>parent</key>
 		<string>childbirth-examination</string>
 		<key>swedish</key>
@@ -2766,7 +2733,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>انظر</string>
+		<string>اْنظُر</string>
 		<key>parent</key>
 		<string>childbirth-examination</string>
 		<key>swedish</key>
@@ -2854,7 +2821,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يشعر بالغثيان</string>
+		<string>يشعر بالِغثيان</string>
 		<key>parent</key>
 		<string>childbirth-examination</string>
 		<key>swedish</key>
@@ -2862,7 +2829,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>لا خطر على الجنين</string>
+		<string>لا خطر على الجَنين</string>
 		<key>parent</key>
 		<string>childbirth-examination</string>
 		<key>swedish</key>
@@ -2950,7 +2917,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مُتَرجِم شفوي</string>
+		<string>مُتَرجِم شَفَويّ</string>
 		<key>parent</key>
 		<string>childbirth-examination</string>
 		<key>swedish</key>
@@ -2978,7 +2945,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>القسطرة الوريدية الطرفية</string>
+		<string>قَسْطَرة النزح</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -2994,7 +2961,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>قِیاس نبضات قلب الجنین</string>
+		<string>قِیاس نبضات قلب الجَنين</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3018,7 +2985,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>سماعة لسماع دقات قلب الجنين</string>
+		<string>سماعة لسماع دقات قلب الجَنين</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3074,7 +3041,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>تخدیر نصفي (في الظھر)</string>
+		<string>تَخْدِیر نصفي (في الظھر)</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3082,7 +3049,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>تسكین الأَلَم</string>
+		<string>تسكِین الأَلَم</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3114,7 +3081,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>تدليك</string>
+		<string>تَدْليك</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3122,7 +3089,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>وسادة تدفئة</string>
+		<string>وِسادة تَدْفِئة</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3138,7 +3105,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>وقت قصیر</string>
+		<string>وقت قَصِیر</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3146,7 +3113,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>وقت طویل</string>
+		<string>وقت طَویل</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3194,7 +3161,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>متشنج غیر مرتخي</string>
+		<string>مُتَشَنِّج غَیْر مرتخي</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3202,7 +3169,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>قلق</string>
+		<string>قَلِق</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3242,7 +3209,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يشعر بالغثيان</string>
+		<string>يشعر بالِغثيان</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3258,7 +3225,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>اين</string>
+		<string>أَيْنَ</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3274,7 +3241,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>لطيف</string>
+		<string>لَطيف</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3298,7 +3265,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ابقى/ انتظر ھنا</string>
+		<string>ابقى/ انتظر ھُنا</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3322,7 +3289,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مترجم شفوي</string>
+		<string>مترجم شَفَويّ</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3362,7 +3329,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>شعور بالضغط</string>
+		<string>شُعور بالضغط</string>
 		<key>parent</key>
 		<string>normal-course</string>
 		<key>swedish</key>
@@ -3414,7 +3381,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>جروح بعد خروج المشيمة</string>
+		<string>جروح بعد خروج المَشيمة</string>
 		<key>parent</key>
 		<string>after-childbirth</string>
 		<key>swedish</key>
@@ -3430,7 +3397,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>المشيمة خارجا</string>
+		<string>المَشيمة خارجا</string>
 		<key>parent</key>
 		<string>after-childbirth</string>
 		<key>swedish</key>
@@ -3454,7 +3421,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>المشيمة كاملة</string>
+		<string>المَشيمة كاملة</string>
 		<key>parent</key>
 		<string>after-childbirth</string>
 		<key>swedish</key>
@@ -3470,7 +3437,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>نزيف</string>
+		<string>نَزيف</string>
 		<key>parent</key>
 		<string>after-childbirth</string>
 		<key>swedish</key>
@@ -3494,7 +3461,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>خياطة</string>
+		<string>خَيّاطة</string>
 		<key>parent</key>
 		<string>after-childbirth</string>
 		<key>swedish</key>
@@ -3510,7 +3477,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مرهم مخدر</string>
+		<string>مَرْهَم مخدر</string>
 		<key>parent</key>
 		<string>after-childbirth</string>
 		<key>swedish</key>
@@ -3542,7 +3509,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>خيط جراحي</string>
+		<string>خَيْط جِراحيّ</string>
 		<key>parent</key>
 		<string>after-childbirth</string>
 		<key>swedish</key>
@@ -3670,7 +3637,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>معافى</string>
+		<string>مُعافًى</string>
 		<key>parent</key>
 		<string>after-childbirth</string>
 		<key>swedish</key>
@@ -3678,7 +3645,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>امرآة</string>
+		<string>امْرآة</string>
 		<key>parent</key>
 		<string>after-childbirth</string>
 		<key>swedish</key>
@@ -3694,7 +3661,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ممرضة</string>
+		<string>مُمَرٌِضَة</string>
 		<key>parent</key>
 		<string>after-childbirth</string>
 		<key>swedish</key>
@@ -3734,7 +3701,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>افتح فمك بشدة</string>
+		<string>افْتَح فَمك بِشَدّة</string>
 		<key>parent</key>
 		<string>after-childbirth</string>
 		<key>swedish</key>
@@ -3750,7 +3717,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>حلمة الثدي</string>
+		<string>حَلَمة الثدي</string>
 		<key>parent</key>
 		<string>after-childbirth</string>
 		<key>swedish</key>
@@ -3790,7 +3757,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>حليب ناضج  بعد ٣-٥ أيام</string>
+		<string>حَليب ناضج  بعد ٣-٥ أيام</string>
 		<key>parent</key>
 		<string>after-childbirth</string>
 		<key>swedish</key>
@@ -3834,7 +3801,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مُتَرجِم شفوي</string>
+		<string>مُتَرجِم شَفَويّ</string>
 		<key>parent</key>
 		<string>habilitation-reception</string>
 		<key>swedish</key>
@@ -3978,7 +3945,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>تذكرة</string>
+		<string>تَذْكِرة</string>
 		<key>parent</key>
 		<string>habilitation-reception</string>
 		<key>swedish</key>
@@ -3994,7 +3961,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>إثبات الھویة</string>
+		<string>إِثْبات الھُوِیّة</string>
 		<key>parent</key>
 		<string>habilitation-reception</string>
 		<key>swedish</key>
@@ -4002,7 +3969,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يدفع</string>
+		<string>يدَفْع</string>
 		<key>parent</key>
 		<string>habilitation-reception</string>
 		<key>swedish</key>
@@ -4034,7 +4001,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>فريق رعاية طبية متنقل</string>
+		<string>فحص الحالة الصحية</string>
 		<key>child</key>
 		<string>medical-examination</string>
 		<key>english</key>
@@ -4070,7 +4037,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>حجز موعد</string>
+		<string>حَجْز مَوْعِد</string>
 		<key>parent</key>
 		<string>medical-examination</string>
 		<key>swedish</key>
@@ -4126,7 +4093,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مُتَرجِم شفوي</string>
+		<string>مُتَرجِم شَفَويّ</string>
 		<key>parent</key>
 		<string>medical-examination</string>
 		<key>swedish</key>
@@ -4158,7 +4125,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>بالغ</string>
+		<string>بالِغ</string>
 		<key>parent</key>
 		<string>medical-examination</string>
 		<key>swedish</key>
@@ -4190,7 +4157,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>بقيس</string>
+		<string>يزن</string>
 		<key>parent</key>
 		<string>medical-examination</string>
 		<key>swedish</key>
@@ -4214,7 +4181,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>اختبار دم من الإصبع</string>
+		<string>اختبار دم من الِإصبع</string>
 		<key>parent</key>
 		<string>medical-examination</string>
 		<key>swedish</key>
@@ -4222,7 +4189,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>سنتواصل معك إذا كان هناك شيء على غير ما يرام.</string>
+		<string>سَنَتَواصِل معك إِذا كان هناك شيء على غير ما يرام.</string>
 		<key>parent</key>
 		<string>medical-examination</string>
 		<key>swedish</key>
@@ -4254,7 +4221,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>هل تأخُد الأدوية بانتظام؟</string>
+		<string>هل تَأْخُد الأدوية بانتظام؟</string>
 		<key>parent</key>
 		<string>medical-examination</string>
 		<key>swedish</key>
@@ -4318,7 +4285,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مزدحم</string>
+		<string>مُزْدَحِم</string>
 		<key>parent</key>
 		<string>medical-examination</string>
 		<key>swedish</key>
@@ -4406,7 +4373,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يشعر بالغثيان</string>
+		<string>يشعر بالِغثيان</string>
 		<key>parent</key>
 		<string>medical-examination</string>
 		<key>swedish</key>
@@ -4478,7 +4445,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يأكل</string>
+		<string>يأكُل</string>
 		<key>parent</key>
 		<string>medical-examination</string>
 		<key>swedish</key>
@@ -4586,7 +4553,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أم / والدة</string>
+		<string>أم / وَالدة</string>
 		<key>parent</key>
 		<string>neonatal-communication-board</string>
 		<key>swedish</key>
@@ -4594,7 +4561,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>أب / والد</string>
+		<string>أب / وَالد</string>
 		<key>parent</key>
 		<string>neonatal-communication-board</string>
 		<key>swedish</key>
@@ -4610,7 +4577,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يصحي / يفيق</string>
+		<string>يُصْحي / يفيق</string>
 		<key>parent</key>
 		<string>neonatal-communication-board</string>
 		<key>swedish</key>
@@ -4634,7 +4601,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>لرضاعة الطبيعية</string>
+		<string>الرضاعة الطبيعية</string>
 		<key>parent</key>
 		<string>neonatal-communication-board</string>
 		<key>swedish</key>
@@ -4650,7 +4617,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>اغسل يديك</string>
+		<string>اَغْسِل يديك</string>
 		<key>parent</key>
 		<string>neonatal-communication-board</string>
 		<key>swedish</key>
@@ -4666,7 +4633,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يأكل</string>
+		<string>يأكُل</string>
 		<key>parent</key>
 		<string>neonatal-communication-board</string>
 		<key>swedish</key>
@@ -4730,7 +4697,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>قلق</string>
+		<string>قَلِق</string>
 		<key>parent</key>
 		<string>neonatal-communication-board</string>
 		<key>swedish</key>
@@ -4894,7 +4861,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مُتَرجِم شفوي</string>
+		<string>مُتَرجِم شَفَويّ</string>
 		<key>parent</key>
 		<string>health-declaration</string>
 		<key>swedish</key>
@@ -4910,7 +4877,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ممرضة طب الأسنان</string>
+		<string>مُمَرِّضة طب الأسنان</string>
 		<key>parent</key>
 		<string>health-declaration</string>
 		<key>swedish</key>
@@ -4958,7 +4925,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>یوم</string>
+		<string>َیوْم</string>
 		<key>parent</key>
 		<string>health-declaration</string>
 		<key>swedish</key>
@@ -5006,7 +4973,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>لیل</string>
+		<string>لَیْل</string>
 		<key>parent</key>
 		<string>health-declaration</string>
 		<key>swedish</key>
@@ -5014,7 +4981,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>احیانا</string>
+		<string>أحْیاناً</string>
 		<key>parent</key>
 		<string>health-declaration</string>
 		<key>swedish</key>
@@ -5022,7 +4989,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ثابت</string>
+		<string>ثابِت</string>
 		<key>parent</key>
 		<string>health-declaration</string>
 		<key>swedish</key>
@@ -5038,7 +5005,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ینبضق</string>
+		<string>یَنْبَضِق</string>
 		<key>parent</key>
 		<string>health-declaration</string>
 		<key>swedish</key>
@@ -5046,7 +5013,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>یشعر بالم البرد بالاسنان</string>
+		<string>یَشْعُر بِاَلَم البرد بالاسنان</string>
 		<key>parent</key>
 		<string>health-declaration</string>
 		<key>swedish</key>
@@ -5070,7 +5037,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ھل تأخذ الدواء بسبب الشكوي المؤقتة؟</string>
+		<string>ھَل تَأخُذ الدواء بسبب الشكوي المؤقتة؟</string>
 		<key>parent</key>
 		<string>health-declaration</string>
 		<key>swedish</key>
@@ -5078,7 +5045,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مرھم مخدر</string>
+		<string>مَرْهَم مخدر</string>
 		<key>parent</key>
 		<string>health-declaration</string>
 		<key>swedish</key>
@@ -5086,7 +5053,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>حقنة مخدرة</string>
+		<string>حُقْنة مخدرة</string>
 		<key>parent</key>
 		<string>health-declaration</string>
 		<key>swedish</key>
@@ -5138,11 +5105,11 @@
 		<key>parent</key>
 		<string>health-declaration</string>
 		<key>swedish</key>
-		<string>undersökning</string>
+		<string>tandundersökning</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>انظر</string>
+		<string>يَنظُر</string>
 		<key>parent</key>
 		<string>health-declaration</string>
 		<key>swedish</key>
@@ -5182,7 +5149,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يخرج الآخرون</string>
+		<string>يخرج الآخَرُون</string>
 		<key>parent</key>
 		<string>health-declaration</string>
 		<key>swedish</key>
@@ -5258,7 +5225,7 @@
 		<key>parent</key>
 		<string>health-declaration</string>
 		<key>swedish</key>
-		<string>لَذيذ</string>
+		<string>gott</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -5362,7 +5329,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مَريد</string>
+		<string>مَريض</string>
 		<key>parent</key>
 		<string>health-centre-reception</string>
 		<key>swedish</key>
@@ -5458,7 +5425,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ليل</string>
+		<string>لَيْل</string>
 		<key>parent</key>
 		<string>health-centre-reception</string>
 		<key>swedish</key>
@@ -5506,7 +5473,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مُتَرجِم شفوي</string>
+		<string>مُتَرجِم شَفَويّ</string>
 		<key>parent</key>
 		<string>health-centre-reception</string>
 		<key>swedish</key>
@@ -5870,7 +5837,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يَتَغَيِّر/تستبدل</string>
+		<string>يَتَغَيِّر/تَسْتَبدل</string>
 		<key>parent</key>
 		<string>basic</string>
 		<key>swedish</key>
@@ -5960,7 +5927,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ليل</string>
+		<string>لَيْل</string>
 		<key>parent</key>
 		<string>time</string>
 		<key>swedish</key>
@@ -6188,6 +6155,30 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
+		<string>أنا</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>jag</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>أَنْتَ</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>du</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>نَحْنُ</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>vi</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
 		<string>مَن</string>
 		<key>parent</key>
 		<string>people</string>
@@ -6236,6 +6227,14 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
+		<string>أخوة/أخوات</string>
+		<key>parent</key>
+		<string>people</string>
+		<key>swedish</key>
+		<string>syskon</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
 		<string>أطفال</string>
 		<key>parent</key>
 		<string>people</string>
@@ -6244,7 +6243,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>بالغ</string>
+		<string>بَالِغ</string>
 		<key>parent</key>
 		<string>people</string>
 		<key>swedish</key>
@@ -6316,7 +6315,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>معلم / مدرس</string>
+		<string>مُعَلِّم / مدرس</string>
 		<key>parent</key>
 		<string>people</string>
 		<key>swedish</key>
@@ -6332,7 +6331,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>مُتَرجِم شفوي</string>
+		<string>مُتَرجِم شَفَويّ</string>
 		<key>parent</key>
 		<string>people</string>
 		<key>swedish</key>
@@ -6356,7 +6355,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>ناطور / عامل / فني</string>
+		<string>ناطور / عامل / فَنّيّ</string>
 		<key>parent</key>
 		<string>people</string>
 		<key>swedish</key>
@@ -6422,7 +6421,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>َيقْرَأ</string>
+		<string>يَقْرَأ</string>
 		<key>parent</key>
 		<string>activities</string>
 		<key>swedish</key>
@@ -6512,7 +6511,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>إلى</string>
+		<string>إِلى</string>
 		<key>parent</key>
 		<string>places</string>
 		<key>swedish</key>
@@ -6576,6 +6575,14 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
+		<string>مِرْحاض</string>
+		<key>parent</key>
+		<string>places</string>
+		<key>swedish</key>
+		<string>toalett</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
 		<string>مستشفى</string>
 		<key>parent</key>
 		<string>places</string>
@@ -6592,7 +6599,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>محل تجاري</string>
+		<string>مَحَلّ تجاري</string>
 		<key>parent</key>
 		<string>places</string>
 		<key>swedish</key>
@@ -6632,7 +6639,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>دولة اخرى</string>
+		<string>دَوْلة اخرى</string>
 		<key>parent</key>
 		<string>places</string>
 		<key>swedish</key>
@@ -6657,6 +6664,22 @@
 		<string>feelings</string>
 		<key>swedish</key>
 		<string>Hur mår du?</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>قَليل</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>lite</string>
+	</dict>
+	<dict>
+		<key>arabic</key>
+		<string>كَثير</string>
+		<key>parent</key>
+		<string>feelings</string>
+		<key>swedish</key>
+		<string>mycket</string>
 	</dict>
 	<dict>
 		<key>arabic</key>
@@ -6732,7 +6755,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>يشعر بالغثيان</string>
+		<string>يشعر بالِغثيان</string>
 		<key>parent</key>
 		<string>feelings</string>
 		<key>swedish</key>
@@ -7092,7 +7115,7 @@
 	</dict>
 	<dict>
 		<key>arabic</key>
-		<string>لذیذ</string>
+		<string>لَذيذ</string>
 		<key>parent</key>
 		<string>food</string>
 		<key>swedish</key>

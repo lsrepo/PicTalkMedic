@@ -32,6 +32,22 @@ class WordCollectionViewCell: UICollectionViewCell {
         
     }
     
+    func tapped() {
+        
+
+        UIView.animate(withDuration: 0.3, animations: {
+            self.layer.borderColor = UIColor(red:0.97, green:0.65, blue:0.11, alpha:1.0).cgColor
+        })
+        
+        _ = Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false) { timer in
+            UIView.animate(withDuration: 0.3, animations: {
+                self.layer.borderColor = UIColor.black.cgColor
+            })
+        }
+        
+        
+    }
+    
 }
 
 

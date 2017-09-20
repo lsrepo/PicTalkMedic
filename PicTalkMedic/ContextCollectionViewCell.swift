@@ -33,8 +33,10 @@ class ContextCollectionViewCell: UICollectionViewCell {
         didSet{
             if isSelected{
                 self.layer.borderWidth = 3
+                self.layer.borderColor = UIColor(red:0.97, green:0.65, blue:0.11, alpha:1.0).cgColor
             }else{
                 self.layer.borderWidth = 2
+                self.layer.borderColor = UIColor.black.cgColor
             }
         }
     }

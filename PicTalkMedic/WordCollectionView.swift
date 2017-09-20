@@ -34,9 +34,13 @@ class WordCollectionView: PicTalkCollectionView {
         messageView.addItem(selectedItem)
         messageView.reloadData()
         
+        // visual effect
+        if let cell = collectionView.cellForItem(at: indexPath) as? WordCollectionViewCell {
+            cell.tapped()
+        }
         
+        // sound
         utter(selectedItem: selectedItem)
-      
     }
     
    
